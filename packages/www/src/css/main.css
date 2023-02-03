@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.leaflet-container {
+  width: 100wh;
+  height: 72vh;
+}
+
+.leaflet-popup-content {
+  margin: 14px 10px 14px 10px !important;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: #20222c !important;
+}

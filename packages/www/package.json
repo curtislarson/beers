@@ -1,0 +1,23 @@
+{
+  "name": "@curtislarson/daotw-www",
+  "type": "module",
+  "version": "0.0.0",
+  "dependencies": {
+    "dayjs": "1.11.7",
+    "leaflet": "^1.9.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-leaflet": "^4.2.0",
+    "react-router-dom": "6.7.0",
+    "react-window": "^1.8.8",
+    "tailwindcss": "3.2.4"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.0",
+    "@types/node": "18.11.18",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/react-leaflet": "^2.8.2",
+    "@types/react-window": "^1.8.5"
+  }
+}

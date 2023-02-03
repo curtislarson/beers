@@ -1,0 +1,12 @@
+{
+  "name": "@curtislarson/daotw-db",
+  "version": "0.0.1",
+  "dependencies": {
+    "prisma": "^4.9.0",
+    "@prisma/client": "^4.9.0"
+  },
+  "scripts": {
+    "push": "prisma db push",
+    "gen": "prisma generate"
+  }
+}

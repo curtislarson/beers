@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    "jsxFactory": "React.createElement",
+    "jsxFragmentFactory": "React.Fragment",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "strict": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "useUnknownInCatchVariables": true,
+    "noFallthroughCasesInSwitch": true,
+    "noStrictGenericChecks": true
+  },
+  "tasks": {
+    "fmt": "dprint fmt",
+    "deploy": "./tasks/deploy.ts",
+    "scrape-beer-labels": "./tasks/scrape-beer-labels.ts",
+    "fetch-recent-checkins": "./tasks/fetch-recent-checkins.ts"
+  }
+}

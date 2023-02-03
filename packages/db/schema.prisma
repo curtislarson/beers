@@ -1,0 +1,40 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "cockroachdb"
+  url      = env("BEER_SERVER_DATABASE_URL")
+}
+
+model checkin {
+  id BigInt @id @default(autoincrement())
+
+  checkin_id      Int
+  checkin_comment String
+  rating_score    String
+  created_at      String
+  beer_id         Int
+  beer_name       String
+  beer_label      String
+  beer_style      String
+  beer_abv        String
+  brewery_id      String
+  brewery_name    String
+  brewery_label   String
+  brewery_country String
+  venue_name      String
+  venue_lat       Int
+  venue_lng       Int
+  venue_city      String
+  venue_state     String
+  venue_img       String
+}
+
+model beer_label_image {
+  id BigInt @id @default(autoincrement())
+
+  beer_id           Int     @unique
+  untappd_image_url String
+  image_url         String?
+}
