@@ -16,10 +16,12 @@ export default function Home() {
     (newFilterData: Partial<FilterData>) => {
       if (newFilterData.trip != null && newFilterData.trip.trip_id !== filterData.trip?.trip_id) {
         setForceView(new LatLng(newFilterData.trip.latitude, newFilterData.trip.longitude));
+      } else {
+        setForceView(null);
       }
       setFilterData(newFilterData);
     },
-    [filterData]
+    [filterData.trip, setFilterData, setForceView]
   );
   const { checkins } = useCheckinState(filterData);
 
@@ -46,7 +48,6 @@ export default function Home() {
 
   const onFeedItemClicked = useCallback<FeedEventHandler>(
     (checkin) => {
-      console.log("onFeedItemClicked", checkin);
       setActiveCheckinId(checkin.checkin_id);
     },
     [setActiveCheckinId]
@@ -54,7 +55,6 @@ export default function Home() {
 
   const onPopupOpen = useCallback<PopupEventHandler>(
     (checkin) => {
-      console.log("onPopupOpen", checkin);
       setActiveCheckinId(checkin.checkin_id);
     },
     [setActiveCheckinId]

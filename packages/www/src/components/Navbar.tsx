@@ -1,7 +1,4 @@
-export interface NavbarItem {
-  text: string;
-  href: string;
-}
+import { NavbarItem } from "../navbar-items";
 
 export interface NavbarProps {
   href?: string;
@@ -23,7 +20,7 @@ export default function Navbar(props: NavbarProps) {
         {props.items && (
           <ul className="menu menu-horizontal px-1">
             {props.items.map((item) => (
-              <li key={item.href}>
+              <li key={item.href} className={`${item.active ? "active" : ""}`}>
                 <a href={item.href}>{item.text}</a>
               </li>
             ))}

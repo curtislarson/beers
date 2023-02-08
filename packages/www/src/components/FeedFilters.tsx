@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useState } from "react";
+import { Fragment, useCallback, useEffect, useState } from "react";
 import { Trip } from "../trip";
 import { relative } from "../dates";
 import TripDisplay from "./TripDisplay";
@@ -15,6 +15,14 @@ export interface FeedFiltersProps {
 export default function FeedFilters({ trips, onFilterUpdated }: FeedFiltersProps) {
   const [trip, setTrip] = useState<Trip | null>(null);
   const [tripDropdownVisible, setTripDropdownVisible] = useState(false);
+
+  const updateTrip = useCallback(
+    (trip: null | Trip) => {
+      setTripDropdownVisible(false);
+      setTrip(trip);
+    },
+    [setTripDropdownVisible, setTrip]
+  );
 
   useEffect(() => {
     const filterData: Partial<FilterData> = {};
@@ -41,24 +49,11 @@ export default function FeedFilters({ trips, onFilterUpdated }: FeedFiltersProps
         {tripDropdownVisible && (
           <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-300 rounded-box w-72 z-50">
             <div className="max-h-72 overflow-y-scroll">
-              <li
-                className="border-b-2 border-base-100"
-                onClick={() => {
-                  setTrip(null);
-                  setTripDropdownVisible(false);
-                }}
-              >
+              <li className="border-b-2 border-base-100" onClick={() => updateTrip(null)}>
                 <span className="text-secondary">All Trips</span>
               </li>
               {trips.map((t) => (
-                <li
-                  key={t.trip_id}
-                  className="border-b-2 border-base-100"
-                  onClick={() => {
-                    setTrip(t);
-                    setTripDropdownVisible(false);
-                  }}
-                >
+                <li key={t.trip_id} className="border-b-2 border-base-100" onClick={() => updateTrip(t)}>
                   <a className="flex flex-row">
                     <TripDisplay trip={t} />
                   </a>
