@@ -21,7 +21,11 @@ The GitHub action that hit the api would add any new entries to the json data fi
 
 ## Trip Data
 
-Fortunately i've been a member of [Nomad List](https://nomadlist.com/) for quite a few years and have kept my travel profile up to date. They allow you to export all your trips to a `.csv` file which just needed a bit of data cleaning before I could integrate it into the map. This wasn't completely necessary but it does give a nice overall view and separation of different parts of my travel that I otherwise would have had to construct manually from checkin data. The data only goes back 3 or so years though.
+Fortunately i've been a member of [Nomad List](https://nomadlist.com/) for quite a few years and have kept my travel profile up to date. They allow you to export all your trips to a `json` file which just needed a bit of data cleaning before I could integrate it.
+
+At the moment it's currently being used for the "Select A Trip" dropdown filter. You select a trip in the dropdown and it will filter all the currently displayed checkins on both the map and the list view to only the ones contained in that list. It also will set the map view to the `lat`/`lng` coordinates of that trip.
+
+The data only goes back 3 or so years though so I'll need to backfill some of the location ata at some point. Likely just in my nomadlist profile so I don't have to include any extra data handling logic.
 
 ## TODO
 
