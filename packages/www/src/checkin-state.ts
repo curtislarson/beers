@@ -3,7 +3,7 @@ import { useMemo } from "react";
 import Checkins from "../../data/checkins.json";
 import { CheckinData } from "../../data/types";
 import { FilterData } from "./components/FeedFilters";
-import { CHECKIN_DATE_FORMAT } from "./dates";
+import { CHECKIN_DATE_ORIGINAL_FORMAT } from "./dates";
 import { StatMap } from "./stat-map";
 
 export interface CheckinFilter {
@@ -13,11 +13,12 @@ export interface CheckinFilter {
 
 export type StatName =
   | "Total Checkins"
-  | "Total Filtered"
   | "Unique Beers"
   | "Unique Breweries"
   | "Unique Locations"
-  | "Unique Countries";
+  | "Unique Countries"
+  | "Favorite Style"
+  | "Favorite Venue";
 
 type Predicate = (checkin: CheckinData) => boolean;
 
@@ -39,11 +40,31 @@ export function useCheckinState(filter?: Partial<FilterData>) {
       }
     }
     return returnCheckins.sort((a, b) =>
-      dayjs(a.created_at, CHECKIN_DATE_FORMAT).isAfter(dayjs(b.created_at, CHECKIN_DATE_FORMAT)) ? -1 : 1
+      dayjs(a.created_at, CHECKIN_DATE_ORIGINAL_FORMAT).isAfter(dayjs(b.created_at, CHECKIN_DATE_ORIGINAL_FORMAT))
+        ? -1
+        : 1
     );
   }, [filter]);
 
-  const stats = useMemo(() => new StatMap<StatName>(), []);
+  const stats = useMemo(() => {
+    const statMap = new StatMap<StatName>();
+    checkins.forEach((c) => {
+      statMap.inc("Total Checkins");
+      statMap.uniq("Unique Beers", c.beer_name);
+      statMap.uniq("Unique Breweries", c.brewery_name);
+      if (c.venue_country) {
+        statMap.uniq("Unique Countries", c.venue_country);
+      }
+      if (c.venue_lat && c.venue_lng) {
+        statMap.uniq("Unique Locations", `${c.venue_lat},${c.venue_lng}`);
+      }
+      statMap.fave("Favorite Style", c.beer_style);
+      if (c.venue_name) {
+        statMap.fave("Favorite Venue", c.venue_name);
+      }
+    });
+    return statMap;
+  }, [checkins]);
 
   return {
     checkins,

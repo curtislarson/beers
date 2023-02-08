@@ -35,7 +35,9 @@ The data only goes back 3 or so years though so I'll need to backfill some of th
 - [x] Have filter for checkins based on the current trip
 - [x] Convert nomadlist trip data into select categories where checkins are partitioned based on the date range
 - [x] Filter right side list
-- [ ] When you select a trip filter the "Unique Countries" stats should be removed, or just remove that stat all together
+- [x] When you select a trip filter the "Unique Countries" stats should be removed, or just remove that stat all together
+- [x] Incorporate star ratings
+- [ ] Improve markers?
 - [ ] In general stats should update to be useful in the current context
 - [ ] Include "globe view"?
   - Would need to relearn `kml`

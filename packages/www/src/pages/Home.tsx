@@ -4,7 +4,6 @@ import { useCallback, useMemo, useState } from "react";
 import { FeedEventHandler, PopupEventHandler } from "../types";
 import Stats from "../components/Stats";
 import { useCheckinState } from "../checkin-state";
-import { StatMap } from "../stat-map";
 import FeedFilters, { FilterData } from "../components/FeedFilters";
 import { getTripData } from "../trip";
 import { LatLng } from "leaflet";
@@ -23,26 +22,9 @@ export default function Home() {
     },
     [filterData.trip, setFilterData, setForceView]
   );
-  const { checkins } = useCheckinState(filterData);
+  const { checkins, stats } = useCheckinState(filterData);
 
   const trips = useMemo(() => getTripData(), []);
-
-  const stats = useMemo(() => {
-    const statMap = new StatMap();
-    checkins.forEach((c) => {
-      statMap.inc("Total Checkins");
-      statMap.uniq("Unique Beers", c.beer_name);
-      statMap.uniq("Unique Breweries", c.brewery_name);
-      if (c.venue_country) {
-        statMap.uniq("Unique Countries", c.venue_country);
-      }
-      if (c.venue_lat && c.venue_lng) {
-        statMap.uniq("Unique Locations", `${c.venue_lat},${c.venue_lng}`);
-      }
-      statMap.inc("Total Filtered");
-    });
-    return statMap;
-  }, [checkins]);
 
   const [activeCheckinId, setActiveCheckinId] = useState<number | null>(null);
 
@@ -79,9 +61,9 @@ export default function Home() {
                 { name: "Unique Beers", stat: stats.getUniq("Unique Beers") },
                 { name: "Unique Locations", stat: stats.getUniq("Unique Locations") },
                 { name: "Unique Breweries", stat: stats.getUniq("Unique Breweries") },
-                { name: "Unique Countries", stat: stats.getUniq("Unique Countries") },
+                { name: "Favorite Style", stat: stats.getFave("Favorite Style") },
+                { name: "Favorite Venue", stat: stats.getFave("Favorite Venue") },
               ]}
-              summary="Checkin Stats"
             />
           </div>
           <div className="basis-3/12 ml-2 mt-5 self-end">

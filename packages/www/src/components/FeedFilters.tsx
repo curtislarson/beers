@@ -35,7 +35,7 @@ export default function FeedFilters({ trips, onFilterUpdated }: FeedFiltersProps
   return (
     <div>
       <div className="dropdown">
-        <label tabIndex={0} className="btn" onClick={() => setTripDropdownVisible(true)}>
+        <label tabIndex={0} className="btn bg-base-300" onClick={() => setTripDropdownVisible(true)}>
           {trip ? (
             <Fragment>
               <span className="text-secondary">{trip.place}</span>
@@ -43,11 +43,14 @@ export default function FeedFilters({ trips, onFilterUpdated }: FeedFiltersProps
               <span className="text-accent">{relative(trip.start)}</span>
             </Fragment>
           ) : (
-            "Select a Trip"
+            <span className="text-secondary">Select a Trip</span>
           )}
         </label>
         {tripDropdownVisible && (
-          <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-300 rounded-box w-72 z-50">
+          <ul
+            tabIndex={0}
+            className="dropdown-content menu p-2 shadow bg-base-300 border-secondary border-2 rounded-md w-72 z-50"
+          >
             <div className="max-h-72 overflow-y-scroll">
               <li className="border-b-2 border-base-100" onClick={() => updateTrip(null)}>
                 <span className="text-secondary">All Trips</span>

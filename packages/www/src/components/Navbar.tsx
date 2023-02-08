@@ -20,8 +20,13 @@ export default function Navbar(props: NavbarProps) {
         {props.items && (
           <ul className="menu menu-horizontal px-1">
             {props.items.map((item) => (
-              <li key={item.href} className={`${item.active ? "active" : ""}`}>
-                <a href={item.href}>{item.text}</a>
+              <li key={item.href}>
+                <a
+                  href={item.href}
+                  className={`btn normal-case ${item.active ? "btn-outline btn-primary" : "btn-ghost"}`}
+                >
+                  {item.text}
+                </a>
               </li>
             ))}
           </ul>
