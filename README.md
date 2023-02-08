@@ -1,10 +1,12 @@
 # 🍺 Beers - Drinkin' All Over the World
 
-An attempt to make a visualization from my years of travel & Untappd checkins. It's still a work in progress!
+A visualization of my Untappd checkins and travel history.
 
-## Architecture
+## Stack
 
 - SPA with React
+- Leaflet for map display
+- DaisyUI / TailwindCSS for styles
 - Deno for data scripts
 - GitHub actions for automation
 - Hosted on cloudflare pages
@@ -21,17 +23,24 @@ The GitHub action that hit the api would add any new entries to the json data fi
 
 ## Trip Data
 
-Fortunately i've been a member of [Nomad List](https://nomadlist.com/) for quite a few years and have kept my travel profile up to date. They allow you to export all your trips to a `.csv` file which just needed a bit of data cleaning before I could integrate it into the map. This wasn't completely necessary but it does give a nice overall view and separation of different parts of my travel that I otherwise would have had to construct manually from checkin data. The data only goes back 3 or so years though.
+Fortunately i've been a member of [Nomad List](https://nomadlist.com/) for quite a few years and have kept my travel profile up to date. They allow you to export all your trips to a `json` file which just needed a bit of data cleaning before I could integrate it.
+
+At the moment it's currently being used for the "Select A Trip" dropdown filter. You select a trip in the dropdown and it will filter all the currently displayed checkins on both the map and the list view to only the ones contained in that list. It also will set the map view to the `lat`/`lng` coordinates of that trip.
+
+The data only goes back 3 or so years though so I'll need to backfill some of the location ata at some point. Likely just in my nomadlist profile so I don't have to include any extra data handling logic.
 
 ## TODO
 
 - [x] Connect cloudflare pages to github and verify deployment
 - [x] Fetch images from urls and upload to blob store
 - [x] Deploy scheduled job to pull incrementally (default last 50 beers should be good enough)
-- [ ] Filter right side list
-- [ ] When you select an item on the map or the right sidebar we could adjust the stats above the map in some way?
-  - Could show basic stats, rating that I gave it, average overall rating, then maybe stats for beers that are similar to it?
+- [x] Have filter for checkins based on the current trip
+- [x] Convert nomadlist trip data into select categories where checkins are partitioned based on the date range
+- [x] Filter right side list
+- [x] When you select a trip filter the "Unique Countries" stats should be removed, or just remove that stat all together
+- [x] Incorporate star ratings
+- [ ] Improve markers?
+- [ ] In general stats should update to be useful in the current context
 - [ ] Include "globe view"?
   - Would need to relearn `kml`
 - [ ] Some sort of "navigation" or "auto driver" mode where it slowly goes from beer to beer and navigates around the map? Similar to my 1000 beer party.
-- [ ] Convert nomadlist trip data into select categories where checkins are partitioned based on the date range

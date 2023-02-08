@@ -1,7 +1,6 @@
 import { Outlet } from "react-router-dom";
-import Navbar, { NavbarItem } from "./components/Navbar";
-
-const NAVBAR_ITEMS: NavbarItem[] = [{ href: "/", text: "Home" }];
+import Navbar from "./components/Navbar";
+import { NAVBAR_ITEMS } from "./navbar-items";
 
 export default function Layout() {
   return (

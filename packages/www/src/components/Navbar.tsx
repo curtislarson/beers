@@ -1,7 +1,4 @@
-export interface NavbarItem {
-  text: string;
-  href: string;
-}
+import { NavbarItem } from "../navbar-items";
 
 export interface NavbarProps {
   href?: string;
@@ -12,11 +9,11 @@ export interface NavbarProps {
 
 export default function Navbar(props: NavbarProps) {
   return (
-    <div class="navbar bg-base-200">
-      <div class="flex-none">
-        <a href={props.href ?? "/"} class="btn btn-ghost normal-case text-xl">
-          <img src={props.logo} class="w-8 h-8" />
-          <span class="ml-5">{props.title}</span>
+    <div className="navbar bg-base-200">
+      <div className="flex-none">
+        <a href={props.href ?? "/"} className="btn btn-ghost normal-case text-xl">
+          <img src={props.logo} className="w-8 h-8" />
+          <span className="ml-5">{props.title}</span>
         </a>
       </div>
       <div className="flex-none">
@@ -24,7 +21,12 @@ export default function Navbar(props: NavbarProps) {
           <ul className="menu menu-horizontal px-1">
             {props.items.map((item) => (
               <li key={item.href}>
-                <a href={item.href}>{item.text}</a>
+                <a
+                  href={item.href}
+                  className={`btn normal-case ${item.active ? "btn-outline btn-primary" : "btn-ghost"}`}
+                >
+                  {item.text}
+                </a>
               </li>
             ))}
           </ul>
