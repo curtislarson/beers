@@ -1,10 +1,12 @@
 # 🍺 Beers - Drinkin' All Over the World
 
-An attempt to make a visualization from my years of travel & Untappd checkins. It's still a work in progress!
+A visualization of my Untappd checkins and travel history.
 
-## Architecture
+## Stack
 
 - SPA with React
+- Leaflet for map display
+- DaisyUI / TailwindCSS for styles
 - Deno for data scripts
 - GitHub actions for automation
 - Hosted on cloudflare pages
