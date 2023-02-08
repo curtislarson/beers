@@ -12,11 +12,11 @@ export interface NavbarProps {
 
 export default function Navbar(props: NavbarProps) {
   return (
-    <div class="navbar bg-base-200">
-      <div class="flex-none">
-        <a href={props.href ?? "/"} class="btn btn-ghost normal-case text-xl">
-          <img src={props.logo} class="w-8 h-8" />
-          <span class="ml-5">{props.title}</span>
+    <div className="navbar bg-base-200">
+      <div className="flex-none">
+        <a href={props.href ?? "/"} className="btn btn-ghost normal-case text-xl">
+          <img src={props.logo} className="w-8 h-8" />
+          <span className="ml-5">{props.title}</span>
         </a>
       </div>
       <div className="flex-none">

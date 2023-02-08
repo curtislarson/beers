@@ -1,7 +1,7 @@
 import { CheckinData } from "../../../data/types";
 import dayjs from "dayjs";
 import VenueAddress from "./VenueAddress";
-import { CHECKIN_DATE_FORMAT } from "../date-format";
+import { CHECKIN_DATE_FORMAT } from "../dates";
 
 export interface CheckinCardProps {
   checkin: CheckinData;

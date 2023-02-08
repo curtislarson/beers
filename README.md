@@ -28,10 +28,11 @@ Fortunately i've been a member of [Nomad List](https://nomadlist.com/) for quite
 - [x] Connect cloudflare pages to github and verify deployment
 - [x] Fetch images from urls and upload to blob store
 - [x] Deploy scheduled job to pull incrementally (default last 50 beers should be good enough)
-- [ ] Filter right side list
-- [ ] When you select an item on the map or the right sidebar we could adjust the stats above the map in some way?
-  - Could show basic stats, rating that I gave it, average overall rating, then maybe stats for beers that are similar to it?
+- [x] Have filter for checkins based on the current trip
+- [x] Convert nomadlist trip data into select categories where checkins are partitioned based on the date range
+- [x] Filter right side list
+- [ ] When you select a trip filter the "Unique Countries" stats should be removed, or just remove that stat all together
+- [ ] In general stats should update to be useful in the current context
 - [ ] Include "globe view"?
   - Would need to relearn `kml`
 - [ ] Some sort of "navigation" or "auto driver" mode where it slowly goes from beer to beer and navigates around the map? Similar to my 1000 beer party.
-- [ ] Convert nomadlist trip data into select categories where checkins are partitioned based on the date range
