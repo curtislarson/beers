@@ -1,6 +1,5 @@
-import { Fragment, useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Trip } from "../trip";
-import { relative } from "../dates";
 import TripDisplay from "./TripDisplay";
 
 export interface FilterData {
@@ -35,16 +34,8 @@ export default function FeedFilters({ trips, onFilterUpdated }: FeedFiltersProps
   return (
     <div>
       <div className="dropdown">
-        <label tabIndex={0} className="btn bg-base-300" onClick={() => setTripDropdownVisible(true)}>
-          {trip ? (
-            <Fragment>
-              <span className="text-secondary">{trip.place}</span>
-              <span className="mx-2">-</span>
-              <span className="text-accent">{relative(trip.start)}</span>
-            </Fragment>
-          ) : (
-            <span className="text-secondary">Select a Trip</span>
-          )}
+        <label tabIndex={0} className="btn bg-base-300 normal-case" onClick={() => setTripDropdownVisible(true)}>
+          {trip ? <TripDisplay trip={trip} /> : <span className="text-secondary">Select a Trip</span>}
         </label>
         {tripDropdownVisible && (
           <ul

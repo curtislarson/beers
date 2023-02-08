@@ -8,6 +8,8 @@ export const CHECKIN_DATE_ORIGINAL_FORMAT = "ddd, DD MMM YYYY HH:mm:ss ZZ";
 
 export const CHECKIN_DATE_DISPLAY_FORMAT = "MM/DD/YYYY h:mm A";
 
+export const BASIC_DATE_DISPLAY_FORMAT = "MM/DD/YY";
+
 export function relative(val: dayjs.Dayjs) {
   return val.fromNow();
 }
