@@ -50,7 +50,7 @@ export class Untappd {
       params.append("min_id", opts.min_id.toString());
     }
 
-    const res = await this.api(`/v4/user/checkins/${opts.username}`, params) as UserActivityFeedResponse;
+    const res = (await this.api(`/v4/user/checkins/${opts.username}`, params)) as UserActivityFeedResponse;
 
     if (res.meta.code !== 200) {
       throw new Error(JSON.stringify(res.meta));

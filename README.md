@@ -40,7 +40,10 @@ The data only goes back 3 or so years though so I'll need to backfill some of th
 - [x] When you select a trip filter the "Unique Countries" stats should be removed, or just remove that stat all together
 - [x] Incorporate star ratings
 - [ ] Improve markers?
-- [ ] In general stats should update to be useful in the current context
+- [x] Search filter (debounced)
+- [x] When navigating to a new trip, center on the closest marker to the trip center rather than the center of the trip itself
+- [ ] Sort fields
+- [ ] Keyword highlighting?
 - [ ] Include "globe view"?
   - Would need to relearn `kml`
 - [ ] Some sort of "navigation" or "auto driver" mode where it slowly goes from beer to beer and navigates around the map? Similar to my 1000 beer party.

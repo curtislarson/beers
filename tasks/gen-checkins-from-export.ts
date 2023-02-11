@@ -15,14 +15,12 @@ const BEER_IMAGE_PLACEHOLDER = "https://assets.untappd.com/site/assets/images/te
 async function genCheckinsFromExport() {
   const db = createBeerServerDb(Deno.env.get("BEER_SERVER_DATABASE_URL")!);
 
-  const beerIdToImageUrlMap =
-    (await db.selectFrom("beer_label_image").select(["beer_id", "image_url", "untappd_image_url"]).execute())
-      .reduce<
-        Map<number, string>
-      >((acc, curr) => {
-        acc.set(curr.beer_id, curr.image_url ?? curr.untappd_image_url);
-        return acc;
-      }, new Map());
+  const beerIdToImageUrlMap = (
+    await db.selectFrom("beer_label_image").select(["beer_id", "image_url", "untappd_image_url"]).execute()
+  ).reduce<Map<number, string>>((acc, curr) => {
+    acc.set(curr.beer_id, curr.image_url ?? curr.untappd_image_url);
+    return acc;
+  }, new Map());
 
   const normalized: CheckinData[] = EXPORT_DATA.map((exp) => {
     const norm = normalizeExportData(exp);

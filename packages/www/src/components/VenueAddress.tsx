@@ -30,7 +30,7 @@ export default function VenueAddress({ venue_city, venue_country, venue_state }:
   } else {
     // Just assume if we don't have venue information then it was an "Untappd at Home" checkin
     return (
-      <span className="float-right text-right flex flex-col">
+      <span className="float-right flex flex-col text-right">
         <label>Untappd at Home</label>
         <label>The World</label>
       </span>
