@@ -9,11 +9,11 @@ const db = createBeerServerDb(Deno.env.get("BEER_SERVER_DATABASE_URL")!);
 
 export async function fetchImageUrls() {
   const existingBeerIds = new Set(
-    (await db.selectFrom("beer_label_image").select(["beer_id"]).execute()).map((val) => val.beer_id),
+    (await db.selectFrom("beer_label_image").select(["beer_id"]).execute()).map((val) => val.beer_id)
   );
 
   const exportData = JSON.parse(
-    Deno.readTextFileSync(new URL("../packages/data/export.json", import.meta.url)),
+    Deno.readTextFileSync(new URL("../packages/data/export.json", import.meta.url))
   ) as ExportData[];
 
   let insertCount = 0;

@@ -1,45 +1,76 @@
-import CheckinMap from "../components/CheckinMap";
+import { LatLng, LatLngBounds, Map } from "leaflet";
+import { useCallback, useEffect, useRef, useState } from "react";
 import CheckinFeed from "../components/CheckinFeed";
-import { useCallback, useMemo, useState } from "react";
-import { FeedEventHandler, PopupEventHandler } from "../types";
+import CheckinMapContent from "../components/CheckinMapContent";
+import CheckinFacets from "../components/CheckinFacets";
 import Stats from "../components/Stats";
-import { useCheckinState } from "../checkin-state";
-import FeedFilters, { FilterData } from "../components/FeedFilters";
+import CheckinMapWrapper from "../containers/CheckinMapWrapper";
 import { getTripData } from "../trip";
-import { LatLng } from "leaflet";
+import { FeedEventHandler, PopupEventHandler } from "../types";
+import { useCheckinManager } from "../utils/checkin-manager";
+import { FixedSizeList } from "react-window";
+
+const trips = getTripData();
 
 export default function Home() {
-  const [filterData, setFilterData] = useState<Partial<FilterData>>({});
-  const [forceView, setForceView] = useState<LatLng | null>(null);
-  const onSetFilterData = useCallback(
-    (newFilterData: Partial<FilterData>) => {
-      if (newFilterData.trip != null && newFilterData.trip.trip_id !== filterData.trip?.trip_id) {
-        setForceView(new LatLng(newFilterData.trip.latitude, newFilterData.trip.longitude));
-      } else {
-        setForceView(null);
-      }
-      setFilterData(newFilterData);
-    },
-    [filterData.trip, setFilterData, setForceView]
-  );
-  const { checkins, stats } = useCheckinState(filterData);
+  const mapRef = useRef<Map | null>(null);
+  const listRef = useRef<FixedSizeList | null>(null);
 
-  const trips = useMemo(() => getTripData(), []);
-
+  const { checkins, stats, setActiveTrip, setSearchFilter, suggestedLatLng, filtered, bounds } = useCheckinManager();
   const [activeCheckinId, setActiveCheckinId] = useState<number | null>(null);
 
-  const onFeedItemClicked = useCallback<FeedEventHandler>(
-    (checkin) => {
-      setActiveCheckinId(checkin.checkin_id);
+  const flyTo = useCallback(
+    (latlng: LatLng | LatLngBounds) => {
+      if (latlng instanceof LatLng) {
+        mapRef.current?.flyTo(latlng, mapRef.current.getZoom(), { animate: true });
+      } else {
+        mapRef.current?.flyToBounds(latlng, { animate: true });
+      }
     },
-    [setActiveCheckinId]
+    [mapRef]
+  );
+
+  useEffect(() => {
+    // If we have filtered results
+    if (filtered) {
+      // If there is no active checkin
+      if (activeCheckinId == null) {
+        // fly to the suggested bounds
+        flyTo(bounds);
+      }
+      // If the active checkin does not exist in our filtered results
+      else if (!checkins.some((c) => c.checkin_id === activeCheckinId)) {
+        // Remove the active checkin
+        setActiveCheckinId(null);
+        // fly to the suggested bounds
+        flyTo(bounds);
+      }
+    } else if (!activeCheckinId && suggestedLatLng) {
+      // not filtered and no active checkin, just revert to suggested
+      flyTo(suggestedLatLng);
+    }
+  }, [flyTo, checkins, bounds, filtered, activeCheckinId, suggestedLatLng]);
+
+  const onFeedItemClicked = useCallback<FeedEventHandler>(
+    (checkinIndex) => {
+      const activeCheckin = checkins[checkinIndex];
+      if (mapRef.current) {
+        flyTo(new LatLng(activeCheckin.venue_lat, activeCheckin.venue_lng));
+      }
+      setActiveCheckinId(activeCheckin.checkin_id);
+    },
+    [setActiveCheckinId, flyTo, checkins]
   );
 
   const onPopupOpen = useCallback<PopupEventHandler>(
-    (checkin) => {
-      setActiveCheckinId(checkin.checkin_id);
+    (checkinIndex) => {
+      const activeCheckin = checkins[checkinIndex];
+      if (listRef.current) {
+        listRef.current.scrollToItem(checkinIndex, "start");
+      }
+      setActiveCheckinId(activeCheckin.checkin_id);
     },
-    [setActiveCheckinId]
+    [setActiveCheckinId, checkins]
   );
 
   const onPopupClose = useCallback<PopupEventHandler>(() => {
@@ -48,13 +79,13 @@ export default function Home() {
 
   return (
     <main className="relative w-full px-12">
-      <div className="flex flex-col mx-auto py-6">
-        <div className="flex flex-row pb-2 border-b-2">
-          <h1 className="text-4xl text-primary font-semibold leading-6">Drinkin' All Over the World</h1>
-          <h3 className="text-lg text-accent pt-2 ml-5">Beers and travels of a nomad</h3>
-        </div>
+      <div className="flex flex-col py-6">
         <div className="flex flex-row">
-          <div className="basis-9/12 mt-5">
+          <div className="flex basis-9/12 flex-col">
+            <div className="mb-2 flex flex-row">
+              <h1 className="text-4xl font-semibold leading-6 text-primary">Drinkin' All Over the World</h1>
+              <h3 className="ml-5 pt-2 text-lg text-accent">Beers and travels of a nomad</h3>
+            </div>
             <Stats
               stats={[
                 { name: "Total Checkins", stat: stats.get("Total Checkins") },
@@ -66,27 +97,35 @@ export default function Home() {
               ]}
             />
           </div>
-          <div className="basis-3/12 ml-2 mt-5 self-end">
-            <FeedFilters trips={trips} onFilterUpdated={onSetFilterData} />
+          <div className="ml-2 basis-3/12">
+            <CheckinFacets trips={trips} onSearchUpdated={setSearchFilter} onTripUpdated={setActiveTrip} />
           </div>
         </div>
-      </div>
-      <div className="flex flex-row mx-auto shadow-xl">
-        <div className="basis-9/12 shadow-xl sm:overflow-hidden">
-          <div className="inset-0">
-            <CheckinMap
-              center={[checkins?.[0]?.venue_lat, checkins?.[0]?.venue_lng]}
-              zoom={10}
-              checkins={checkins}
-              activeCheckinId={activeCheckinId}
-              onPopupClose={onPopupClose}
-              onPopupOpen={onPopupOpen}
-              forceView={forceView}
-            />
+        <div className="flex flex-row">
+          <div className="basis-9/12">
+            <div className="divider my-2 h-2" />
+            <div className="shadow-xl">
+              <CheckinMapWrapper center={[checkins?.[0]?.venue_lat, checkins?.[0]?.venue_lng]} zoom={10}>
+                <CheckinMapContent
+                  activeCheckinId={activeCheckinId}
+                  mapRef={mapRef}
+                  checkins={checkins}
+                  onPopupClose={onPopupClose}
+                  onPopupOpen={onPopupOpen}
+                />
+              </CheckinMapWrapper>
+            </div>
           </div>
-        </div>
-        <div className="basis-3/12 shadow-xl overflow-y-scroll ml-2">
-          <CheckinFeed checkins={checkins} activeCheckinId={activeCheckinId} onFeedItemClicked={onFeedItemClicked} />
+          <div className="basis-3/12">
+            <div className="mt-6 ml-2 overflow-y-scroll shadow-xl">
+              <CheckinFeed
+                checkins={checkins}
+                listRef={listRef}
+                activeCheckinId={activeCheckinId}
+                onFeedItemClicked={onFeedItemClicked}
+              />
+            </div>
+          </div>
         </div>
       </div>
     </main>

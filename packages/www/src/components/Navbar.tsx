@@ -11,8 +11,8 @@ export default function Navbar(props: NavbarProps) {
   return (
     <div className="navbar bg-base-200">
       <div className="flex-none">
-        <a href={props.href ?? "/"} className="btn btn-ghost normal-case text-xl">
-          <img src={props.logo} className="w-8 h-8" />
+        <a href={props.href ?? "/"} className="btn-ghost btn text-xl normal-case">
+          <img src={props.logo} className="h-8 w-8" />
           <span className="ml-5">{props.title}</span>
         </a>
       </div>

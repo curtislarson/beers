@@ -1,4 +1,4 @@
-export class StatMap<T extends string> extends Map<T, number> {
+export class StatTracker<T extends string> extends Map<T, number> {
   #uniqueCache = new Map<T, Set<string | number>>();
   #faveCache = new Map<T, Map<string, number>>();
   constructor() {

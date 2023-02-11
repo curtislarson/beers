@@ -5,9 +5,9 @@ export interface StatProps {
 
 export default function Stat({ name, stat }: StatProps) {
   return (
-    <div key={name} className="px-4 py-2 bg-base-300 shadow-xl rounded-md text-left">
-      <dt className="text-sm font-medium text-secondary truncate">{name}</dt>
-      <dd className="mt-1 text-md font-semibold text-white truncate">{stat}</dd>
+    <div key={name} className="rounded-md bg-base-300 px-4 py-2 text-left shadow-xl">
+      <dt className="truncate text-sm font-medium text-secondary">{name}</dt>
+      <dd className="text-md mt-1 max-w-xs truncate font-semibold text-white">{stat}</dd>
     </div>
   );
 }
