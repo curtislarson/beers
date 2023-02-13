@@ -12,13 +12,7 @@ export interface CheckinFeedProps {
   readonly onFeedItemClicked: FeedEventHandler;
 }
 
-export default function CheckinFeed({
-  checkins,
-  listRef,
-  listHeight,
-  onFeedItemClicked,
-  activeCheckinId,
-}: CheckinFeedProps) {
+export default function CheckinFeed({ checkins, listRef, onFeedItemClicked, activeCheckinId }: CheckinFeedProps) {
   const Row: ComponentType<ListChildComponentProps<number | null>> = ({ index, style, data }) => {
     const active = data === checkins[index].checkin_id;
     return (
@@ -32,8 +26,6 @@ export default function CheckinFeed({
       </div>
     );
   };
-
-  console.log(listHeight);
 
   return (
     <div className="flow-root">

@@ -56,9 +56,6 @@ export class Untappd {
       throw new Error(JSON.stringify(res.meta));
     }
 
-    console.log("Meta", res.meta);
-    console.log("Pagination", res.response.pagination);
-
     return res.response;
   }
 }

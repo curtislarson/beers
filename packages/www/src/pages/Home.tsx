@@ -78,53 +78,49 @@ export default function Home() {
   }, [setActiveCheckinId]);
 
   return (
-    <main className="relative w-full px-12">
-      <div className="flex flex-col py-6">
-        <div className="flex flex-row">
-          <div className="flex basis-9/12 flex-col">
-            <div className="mb-2 flex flex-row">
-              <h1 className="text-4xl font-semibold leading-6 text-primary">Drinkin' All Over the World</h1>
-              <h3 className="ml-5 pt-2 text-lg text-accent">Beers and travels of a nomad</h3>
-            </div>
-            <Stats
-              stats={[
-                { name: "Total Checkins", stat: stats.get("Total Checkins") },
-                { name: "Unique Beers", stat: stats.getUniq("Unique Beers") },
-                { name: "Unique Locations", stat: stats.getUniq("Unique Locations") },
-                { name: "Unique Breweries", stat: stats.getUniq("Unique Breweries") },
-                { name: "Favorite Style", stat: stats.getFave("Favorite Style") },
-                { name: "Favorite Venue", stat: stats.getFave("Favorite Venue") },
-              ]}
-            />
+    <main className="px-2 py-2 sm:px-12 sm:py-6">
+      <div className="sm:flex sm:flex-row">
+        <div className="flex flex-none flex-col sm:basis-9/12">
+          <div className="mb-2 flex w-full flex-col sm:flex-row">
+            <h1 className="text-lg font-semibold leading-6 text-primary sm:text-4xl">Drinkin' All Over the World</h1>
+            <h3 className="text-xs text-accent sm:ml-5 sm:pt-2 sm:text-lg">Beers and travels of a nomad</h3>
           </div>
-          <div className="ml-2 basis-3/12">
-            <CheckinFacets trips={trips} onSearchUpdated={setSearchFilter} onTripUpdated={setActiveTrip} />
-          </div>
+          <Stats
+            stats={[
+              { name: "Total Checkins", stat: stats.get("Total Checkins") },
+              { name: "Unique Beers", stat: stats.getUniq("Unique Beers") },
+              { name: "Unique Locations", stat: stats.getUniq("Unique Locations") },
+              { name: "Unique Breweries", stat: stats.getUniq("Unique Breweries") },
+              { name: "Favorite Style", stat: stats.getFave("Favorite Style") },
+              { name: "Favorite Venue", stat: stats.getFave("Favorite Venue") },
+            ]}
+          />
         </div>
-        <div className="flex flex-row">
-          <div className="basis-9/12">
-            <div className="divider my-2 h-2" />
-            <div className="shadow-xl">
-              <CheckinMapWrapper center={[checkins?.[0]?.venue_lat, checkins?.[0]?.venue_lng]} zoom={10}>
-                <CheckinMapContent
-                  activeCheckinId={activeCheckinId}
-                  mapRef={mapRef}
-                  checkins={checkins}
-                  onPopupClose={onPopupClose}
-                  onPopupOpen={onPopupOpen}
-                />
-              </CheckinMapWrapper>
-            </div>
-          </div>
-          <div className="basis-3/12">
-            <div className="mt-6 ml-2 overflow-y-scroll shadow-xl">
-              <CheckinFeed
-                checkins={checkins}
-                listRef={listRef}
-                activeCheckinId={activeCheckinId}
-                onFeedItemClicked={onFeedItemClicked}
-              />
-            </div>
+        <div className="ml-4 sm:basis-3/12">
+          <CheckinFacets trips={trips} onSearchUpdated={setSearchFilter} onTripUpdated={setActiveTrip} />
+        </div>
+      </div>
+      <div className="flex flex-1 flex-col sm:flex-row">
+        <div className="flex-none sm:basis-9/12">
+          <div className="divider my-2 h-2" />
+          <CheckinMapWrapper center={[checkins?.[0]?.venue_lat, checkins?.[0]?.venue_lng]} zoom={10}>
+            <CheckinMapContent
+              activeCheckinId={activeCheckinId}
+              mapRef={mapRef}
+              checkins={checkins}
+              onPopupClose={onPopupClose}
+              onPopupOpen={onPopupOpen}
+            />
+          </CheckinMapWrapper>
+        </div>
+        <div className="ml-2 flex-1 sm:basis-3/12">
+          <div className="mt-6 overflow-y-scroll shadow-xl">
+            <CheckinFeed
+              checkins={checkins}
+              listRef={listRef}
+              activeCheckinId={activeCheckinId}
+              onFeedItemClicked={onFeedItemClicked}
+            />
           </div>
         </div>
       </div>
