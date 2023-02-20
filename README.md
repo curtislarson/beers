@@ -31,15 +31,14 @@ The data only goes back 3 or so years though so I'll need to backfill some of th
 
 ## TODO
 
-- [ ] Fix mobile styles
+- [ ] Some sort of "navigation" or "auto driver" mode where it slowly goes from beer to beer and navigates around the map? Similar to the 1000 beer party.
 - [ ] Improve markers?
-- [ ] Fix mobile styles
 - [ ] Sort fields
 - [ ] Keyword highlighting?
 - [ ] Include "globe view"?
   - Would need to relearn `kml`
-- [ ] Some sort of "navigation" or "auto driver" mode where it slowly goes from beer to beer and navigates around the map? Similar to the 1000 beer party.
 
+- [x] Fix mobile styles
 - [x] Connect cloudflare pages to github and verify deployment
 - [x] Fetch images from urls and upload to blob store
 - [x] Deploy scheduled job to pull incrementally (default last 50 beers should be good enough)
