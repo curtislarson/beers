@@ -5,6 +5,7 @@ import CheckinCard from "./CheckinCard";
 import { memo, useEffect, useRef } from "react";
 import { LatLng, Marker as LeafletMarker } from "leaflet";
 import MarkerIconPath from "../imgs/marker-icon.png";
+import { isSmallScreen } from "../utils/display";
 
 export interface CheckinMarkerProps {
   readonly checkin: CheckinData;
@@ -30,7 +31,7 @@ function CheckinMarker({ checkin, openPopup, index }: CheckinMarkerProps) {
 
   return (
     <Marker position={[Number(checkin.venue_lat), Number(checkin.venue_lng)]} ref={markerRef} icon={MarkerIcon}>
-      <Popup minWidth={400} className="bg-base-300" checkinIndex={index}>
+      <Popup minWidth={isSmallScreen() ? 300 : 400} checkinIndex={index}>
         <CheckinCard checkin={checkin} />
       </Popup>
     </Marker>

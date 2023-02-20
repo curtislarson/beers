@@ -96,7 +96,7 @@ export default function Home() {
             ]}
           />
         </div>
-        <div className="ml-4 sm:basis-3/12">
+        <div className="ml-0 sm:ml-4 sm:basis-3/12">
           <CheckinFacets trips={trips} onSearchUpdated={setSearchFilter} onTripUpdated={setActiveTrip} />
         </div>
       </div>
