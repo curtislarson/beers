@@ -10,16 +10,14 @@ export interface CheckinMapWrapperProps {
 
 export default function CheckinMapWrapper({ center, zoom, children }: CheckinMapWrapperProps) {
   return (
-    <div className="basis-9/12 shadow-xl sm:overflow-hidden">
-      <div className="inset-0">
-        <MapContainer center={center} zoom={zoom} scrollWheelZoom={false}>
-          <TileLayer
-            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
-          {children}
-        </MapContainer>
-      </div>
+    <div className="overflow-hidden shadow-xl">
+      <MapContainer center={center} zoom={zoom} scrollWheelZoom={false}>
+        <TileLayer
+          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+        {children}
+      </MapContainer>
     </div>
   );
 }

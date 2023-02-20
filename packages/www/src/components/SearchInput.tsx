@@ -25,7 +25,7 @@ export default function SearchInput({ onChange, debounceMs, placeholder }: Searc
     <input
       type="text"
       placeholder={placeholder ?? "Search..."}
-      className="input-bordered input-secondary input w-full"
+      className="input-bordered input-secondary input input-xs w-full sm:input-md"
       value={value}
       onChange={onChangeCb}
     />

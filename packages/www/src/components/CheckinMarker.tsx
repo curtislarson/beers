@@ -30,7 +30,7 @@ function CheckinMarker({ checkin, openPopup, index }: CheckinMarkerProps) {
 
   return (
     <Marker position={[Number(checkin.venue_lat), Number(checkin.venue_lng)]} ref={markerRef} icon={MarkerIcon}>
-      <Popup minWidth={350} className="bg-base-300" checkinIndex={index}>
+      <Popup minWidth={400} className="bg-base-300" checkinIndex={index}>
         <CheckinCard checkin={checkin} />
       </Popup>
     </Marker>
