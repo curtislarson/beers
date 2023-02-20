@@ -20,7 +20,13 @@ body {
 }
 
 .leaflet-popup-content {
-  margin: 14px 10px 14px 10px !important;
+  margin: 7px 5px 7px 5px !important;
+}
+
+@media only screen and (min-width: 1280px) {
+  .leaflet-popup-content {
+    margin: 14px 10px 14px 10px !important;
+  }
 }
 
 .leaflet-popup-content-wrapper,

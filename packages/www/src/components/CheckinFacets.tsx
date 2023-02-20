@@ -32,10 +32,10 @@ export default function CheckinFacets({ trips, onTripUpdated, onSearchUpdated, s
           <SearchInput debounceMs={searchDebounceMs} onChange={onSearchUpdated} />
         </div>
         <div className="flex-1">
-          <div className="dropdown-left dropdown w-full">
+          <div className="dropdown-bottom dropdown w-full sm:dropdown-left">
             <button
               tabIndex={0}
-              className="sm:text-md btn-xs btn w-full bg-base-300 normal-case sm:btn-md"
+              className="btn-xs btn w-full bg-base-300 normal-case sm:btn-md"
               onClick={() => setTripDropdownVisible(!tripDropdownVisible)}
             >
               {trip ? (
@@ -49,11 +49,11 @@ export default function CheckinFacets({ trips, onTripUpdated, onSearchUpdated, s
             {tripDropdownVisible && (
               <ul
                 tabIndex={0}
-                className="dropdown-content menu !z-[401] w-72 rounded-md border-2 border-secondary bg-base-300 p-2 shadow"
+                className="dropdown-content menu right-10 !z-[401] w-52 rounded-md border-2 border-secondary bg-base-300 shadow sm:right-0 sm:w-72 sm:p-2"
               >
                 <div className="max-h-72 overflow-y-scroll">
                   <li className="border-b-2 border-base-100" onClick={() => updateTrip(null)}>
-                    <span className="text-secondary">All Trips</span>
+                    <span className="sm:text-md text-xs text-secondary">All Trips</span>
                   </li>
                   {trips.map((t) => (
                     <li key={t.trip_id} className="border-b-2 border-base-100" onClick={() => updateTrip(t)}>
