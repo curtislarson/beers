@@ -53,7 +53,7 @@ export default function CheckinFacets({ trips, onTripUpdated, onSearchUpdated, s
               >
                 <div className="max-h-72 overflow-y-scroll">
                   <li className="border-b-2 border-base-100" onClick={() => updateTrip(null)}>
-                    <span className="sm:text-md text-xs text-secondary">All Trips</span>
+                    <span className="sm:text-md text-sm text-secondary">All Trips</span>
                   </li>
                   {trips.map((t) => (
                     <li key={t.trip_id} className="border-b-2 border-base-100" onClick={() => updateTrip(t)}>
