@@ -1,33 +1,48 @@
-import { NavbarItem } from "../navbar-items";
+import Icon from "./Icon";
+import NavbarItem, { NavbarItemProps } from "./NavbarItem";
 
 export interface NavbarProps {
   href?: string;
   logo: string;
   title: string;
-  items?: NavbarItem[];
+  items?: NavbarItemProps[];
 }
 
 export default function Navbar(props: NavbarProps) {
+  const { left, right } = (props.items ?? []).reduce<{ left: NavbarItemProps[]; right: NavbarItemProps[] }>(
+    (acc, item) => {
+      if (item.align === "right") {
+        acc.right.push(item);
+      } else {
+        acc.left.push(item);
+      }
+      return acc;
+    },
+    { left: [], right: [] }
+  );
+
   return (
-    <div className="navbar hidden bg-base-200 sm:flex">
+    <div className="navbar hidden items-center bg-base-200 px-2 py-2 sm:flex sm:px-8">
       <div className="flex-none">
         <a href={props.href ?? "/"} className="btn-ghost btn-xs btn sm:btn-md">
-          <img src={props.logo} className="tooltip h-8 w-8" data-tip={props.title} />
+          <Icon src={props.logo} tooltip="Quack" />
           <span className="ml-5 text-xl normal-case">{props.title}</span>
         </a>
       </div>
-      <div className="flex-none">
-        {props.items && (
-          <ul className="menu menu-horizontal px-1">
-            {props.items.map((item) => (
-              <li key={item.href}>
-                <a
-                  href={item.href}
-                  className={`btn normal-case ${item.active ? "btn-outline btn-primary" : "btn-ghost"}`}
-                >
-                  {item.text}
-                </a>
-              </li>
+      <div className="flex-1">
+        {left.length > 0 && (
+          <ul className="menu menu-horizontal">
+            {left.map((item) => (
+              <NavbarItem {...item} key={item.href} />
+            ))}
+          </ul>
+        )}
+      </div>
+      <div className="h-full flex-1 justify-end">
+        {right.length > 0 && (
+          <ul className="menu menu-horizontal">
+            {right.map((item) => (
+              <NavbarItem {...item} key={item.href} />
             ))}
           </ul>
         )}

@@ -1,6 +1,22 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import { NAVBAR_ITEMS } from "./navbar-items";
+import { NavbarItemProps } from "./components/NavbarItem";
+import GithubIcon from "./icons/Github.svg";
+
+const NAVBAR_ITEMS: NavbarItemProps[] = [
+  { href: "https://curtislarson.dev/#/projects", text: "Projects" },
+  {
+    href: "https://beers.curtislarson.dev",
+    text: "Beers",
+    active: true,
+  },
+  {
+    href: "https://github.com/curtislarson/daotw",
+    image: GithubIcon,
+    align: "right",
+    tooltip: "View on GitHub",
+  },
+];
 
 export default function Layout() {
   return (

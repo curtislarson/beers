@@ -32,6 +32,8 @@ The data only goes back 3 or so years though so I'll need to backfill some of th
 ## TODO
 
 - [ ] Some sort of "navigation" or "auto driver" mode where it slowly goes from beer to beer and navigates around the map? Similar to the 1000 beer party.
+- [ ] Use purchased location if it exists and venue location does not exist or is untappd at home
+- [ ] Remove "X days ago" from location filter or think of better alternative
 - [ ] Improve markers?
 - [ ] Sort fields
 - [ ] Keyword highlighting?
