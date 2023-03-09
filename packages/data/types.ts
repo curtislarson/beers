@@ -26,3 +26,23 @@ export interface CheckinData {
 }
 
 export type CheckinDataWithoutBeerLabel = Omit<CheckinData, "beer_label">;
+
+export interface RawTrip {
+  epoch_start: number;
+  epoch_end: number;
+  date_start: string;
+  date_end: string;
+  length: string;
+  epoch_duration: number;
+  place: string;
+  place_slug: string;
+  place_long_slug: string;
+  place_url: string;
+  place_photo: string;
+  country: string;
+  country_code: string;
+  country_slug: string;
+  latitude: number;
+  longitude: number;
+  trip_id: string;
+}
