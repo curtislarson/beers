@@ -21,6 +21,7 @@
     "fmt": "dprint fmt",
     "deploy": "./tasks/deploy.ts",
     "scrape-beer-labels": "./tasks/scrape-beer-labels.ts",
-    "fetch-recent-checkins": "./tasks/fetch-recent-checkins.ts"
+    "fetch-recent-checkins": "./tasks/fetch-recent-checkins.ts",
+    "update-nomadlist-trips": "./tasks/update-nomadlist-trips.ts"
   }
 }

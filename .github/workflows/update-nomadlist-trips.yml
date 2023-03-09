@@ -1,4 +1,4 @@
-name: Fetch Beer Data
+name: Update NomadList Trips
 
 #            ┌───────────── minute (0 - 59)
 #            │ ┌───────────── hour (0 - 23)
@@ -33,12 +33,9 @@ jobs:
       - name: Install Deno
         uses: denoland/setup-deno@v1
 
-      - name: Fetch Recent Checkins
-        id: fetch_recent_checkins
-        run: deno task fetch-recent-checkins
-        env:
-          UNTAPPD_CLIENT_ID: ${{ secrets.UNTAPPD_CLIENT_ID }}
-          UNTAPPD_CLIENT_SECRET: ${{ secrets.UNTAPPD_CLIENT_SECRET }}
+      - name: Update NomadList Trips
+        id: update_nomadlist_trips
+        run: deno task update-nomadlist-trips
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
@@ -46,12 +43,12 @@ jobs:
         with:
           token: ${{ secrets.BEERS_CR_PAT }}
           commit-message: |
-            auto: [Beers] - Daily Beer Update
+            auto: [Beers] - New Trips Update
           committer: ${{ env.PR_BOT_AUTHOR }}
           author: ${{ env.PR_BOT_AUTHOR }}
-          title: "[Beers] - You Drank ${{ steps.fetch_recent_checkins.outputs.NEW_CHECKIN_COUNT }} new beers!"
+          title: "[Beers] - You added a new trip, update the website!"
           labels: "A:Auto Merge"
-          branch: "new-beers"
+          branch: "new-trips"
           branch-suffix: "short-commit-hash"
           delete-branch: true
           body: |

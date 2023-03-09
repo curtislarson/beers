@@ -27,6 +27,51 @@ export interface CheckinData {
 
 export type CheckinDataWithoutBeerLabel = Omit<CheckinData, "beer_label">;
 
+export interface NomadListUserResponse {
+  /** Must be removed if we want to detect if this response has actually changed */
+  cached?: string;
+  success: string;
+  legal: string;
+  photo: string;
+  username: string;
+  location: Location;
+  stats: Stats;
+  map: string;
+  trips: RawTrip[];
+  frequent_visits: { [key: string]: number };
+  longest_stays: { [key: string]: number };
+}
+
+export interface Location {
+  now: Next;
+  next: Next;
+  previous: Next;
+}
+
+export interface Next {
+  city: string;
+  country: string;
+  country_code: string;
+  latitude: number;
+  longitude: number;
+  epoch_start: number;
+  epoch_end: number;
+  date_start: string;
+  date_end: string;
+  place_photo?: string;
+}
+
+export interface Stats {
+  cities: number;
+  countries: number;
+  followers: number;
+  following: number;
+  distance_traveled_km: number;
+  distance_traveled_miles: number;
+  countries_visited_percentage: number;
+  cities_visited_percentage: number;
+}
+
 export interface RawTrip {
   epoch_start: number;
   epoch_end: number;
@@ -35,9 +80,9 @@ export interface RawTrip {
   length: string;
   epoch_duration: number;
   place: string;
-  place_slug: string;
-  place_long_slug: string;
-  place_url: string;
+  place_slug: null | string;
+  place_long_slug: null | string;
+  place_url: null | string;
   place_photo: string;
   country: string;
   country_code: string;
