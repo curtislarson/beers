@@ -1,5 +1,5 @@
 import dayjs from "dayjs";
-import RawTripData from "../../data/trips.json" assert { type: "json" };
+import { trips } from "../../data/nomadlist.json" assert { type: "json" };
 
 export interface Trip {
   trip_id: string;
@@ -12,7 +12,7 @@ export interface Trip {
   country: string;
 }
 
-const TRIP_DATA: Trip[] = RawTripData.map((d) => ({
+const TRIP_DATA: Trip[] = trips.map((d) => ({
   trip_id: d.trip_id,
   start: dayjs.unix(d.epoch_start),
   end: dayjs.unix(d.epoch_end),
