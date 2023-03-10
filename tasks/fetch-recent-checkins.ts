@@ -43,7 +43,7 @@ async function fetchRecentCheckins() {
   if (newCheckinCount === 0) {
     $.logStep("Skipping write", "due to no new checkins");
   } else {
-    Deno.writeTextFileSync(CHECKINS_DATA_FILE, JSON.stringify(EXISTING_CHECKINS_DATA), { append: false });
+    Deno.writeTextFileSync(CHECKINS_DATA_FILE, JSON.stringify(EXISTING_CHECKINS_DATA, null, 2), { append: false });
   }
 
   writeOutputIfCi(newCheckinCount);
