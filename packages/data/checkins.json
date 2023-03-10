@@ -54288,5 +54288,29 @@
     "venue_lat": 39.9598846,
     "venue_lng": -105.5092163,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_512.png"
+  },
+  {
+    "checkin_id": 1254298004,
+    "checkin_comment": "",
+    "rating_score": 4.2,
+    "created_at": "Fri, 10 Mar 2023 00:47:10 +0000",
+    "beer_id": 5248853,
+    "beer_name": "The Brewer's Dozen: Powdered",
+    "beer_label": "https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png",
+    "beer_style": "IPA - New England / Hazy",
+    "beer_abv": 7,
+    "brewery_id": 435395,
+    "brewery_name": "Knotted Root Brewing Company",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-435395_b4286.jpeg",
+    "brewery_country": "United States",
+    "brewery_city": "Nederland",
+    "brewery_state": "CO",
+    "venue_name": "Knotted Root Brewing Company",
+    "venue_city": "Nederland",
+    "venue_country": "United States",
+    "venue_state": "CO",
+    "venue_lat": 39.963604,
+    "venue_lng": -105.5151978,
+    "venue_img": "https://assets.untappd.com/venuelogos/venue_9109203_775852ce_bg_176.png?v=1"
   }
 ]
