@@ -39,7 +39,6 @@ jobs:
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
-        if: ${{ steps.fetch_recent_checkins.outputs.NEW_CHECKIN_COUNT != 0 }}
         with:
           token: ${{ secrets.BEERS_CR_PAT }}
           commit-message: |
