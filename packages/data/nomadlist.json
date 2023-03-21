@@ -5,18 +5,6 @@
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "Keystone",
-      "country": "United States",
-      "country_code": "US",
-      "latitude": 39.607277,
-      "longitude": -105.970087,
-      "epoch_start": 1678492800,
-      "epoch_end": 1679356800,
-      "date_start": "2023-03-11",
-      "date_end": "2023-03-21",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=600,height=300,quality=25/https://nomadlist.com/assets/img/places/united-states.jpg?1642529757.jpg?"
-    },
-    "next": {
       "city": "Maryland",
       "country": "United States",
       "country_code": "US",
@@ -28,16 +16,28 @@
       "date_end": "2023-03-29",
       "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=600,height=300,quality=25/https://nomadlist.com/assets/img/places/united-states.jpg?1642529757.jpg?"
     },
+    "next": {
+      "city": "Dublin",
+      "country": "Ireland",
+      "country_code": "IE",
+      "latitude": 53.3498053,
+      "longitude": -6.2603097,
+      "epoch_start": 1689638400,
+      "epoch_end": 1689724800,
+      "date_start": "2023-07-18",
+      "date_end": "2023-07-19",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/dublin-ireland.jpg?1675438603"
+    },
     "previous": {
-      "city": "Nederland",
+      "city": "Keystone",
       "country": "United States",
       "country_code": "US",
-      "latitude": 39.961376,
-      "longitude": -105.510831,
-      "epoch_start": 1678147200,
-      "epoch_end": 1678492800,
-      "date_start": "2023-03-07",
-      "date_end": "2023-03-11"
+      "latitude": 39.607277,
+      "longitude": -105.970087,
+      "epoch_start": 1678492800,
+      "epoch_end": 1679356800,
+      "date_start": "2023-03-11",
+      "date_end": "2023-03-21"
     }
   },
   "stats": {
@@ -45,8 +45,8 @@
     "countries": 25,
     "followers": 2,
     "following": 1,
-    "distance_traveled_km": 176333,
-    "distance_traveled_miles": 109568,
+    "distance_traveled_km": 178818,
+    "distance_traveled_miles": 111112,
     "countries_visited_percentage": 0.12953367875647667,
     "cities_visited_percentage": 0.047899778924097275
   },
@@ -823,7 +823,7 @@
       "place_slug": "sandpoint",
       "place_long_slug": "sandpoint-id-united-states",
       "place_url": "https://nomadlist.com/sandpoint-id-united-states",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/sandpoint-id-united-states.jpg?1669854653",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/sandpoint-id-united-states.jpg?1679099474",
       "country": "United States",
       "country_code": "US",
       "country_slug": "united-states",
@@ -975,7 +975,7 @@
       "place_slug": "vancouver",
       "place_long_slug": "vancouver-canada",
       "place_url": "https://nomadlist.com/vancouver-canada",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/vancouver-canada.jpg?1669939555",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/vancouver-canada.jpg?1679357156",
       "country": "Canada",
       "country_code": "CA",
       "country_slug": "canada",
@@ -1830,7 +1830,7 @@
       "place_slug": "dubrovnik",
       "place_long_slug": "dubrovnik-croatia",
       "place_url": "https://nomadlist.com/dubrovnik-croatia",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/dubrovnik-croatia.jpg?1642636963",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/dubrovnik-croatia.jpg?1679357268",
       "country": "Croatia",
       "country_code": "HR",
       "country_slug": "croatia",
