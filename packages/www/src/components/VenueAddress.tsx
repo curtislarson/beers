@@ -8,10 +8,7 @@ export default function VenueAddress({ venue_city, venue_country, venue_state }:
   const country = venue_country ? <label className="overflow-x-hidden">{venue_country}</label> : null;
   if (venue_city && venue_state) {
     const cityState = (
-      <label
-        className="tooltip max-w-[8rem] overflow-x-hidden whitespace-nowrap"
-        data-tip={`${venue_city}, ${venue_state}`}
-      >
+      <label className="tooltip overflow-x-hidden whitespace-nowrap" data-tip={`${venue_city}, ${venue_state}`}>
         {venue_city}, {venue_state}
       </label>
     );

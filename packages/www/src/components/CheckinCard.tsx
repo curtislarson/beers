@@ -20,7 +20,7 @@ function CheckinCard({ checkin }: CheckinCardProps) {
       </div>
       <div className="ml-2 flex flex-1 flex-col">
         <div className="flex flex-row">
-          <h3 className="sm:text-md flex-none text-sm font-semibold text-secondary"> {checkin.beer_name} </h3>
+          <h3 className="sm:text-md flex-none text-sm font-semibold text-secondary">{checkin.beer_name}</h3>
           <Rating className="flex-1 text-right text-xs font-bold sm:text-sm" rating_score={checkin.rating_score} />
         </div>
         <h4 className="text-xs font-normal text-accent sm:text-sm">{checkin.brewery_name}</h4>
@@ -31,7 +31,7 @@ function CheckinCard({ checkin }: CheckinCardProps) {
               {dayjs(checkin.created_at, CHECKIN_DATE_ORIGINAL_FORMAT).format(CHECKIN_DATE_DISPLAY_FORMAT)}
             </h5>
           </div>
-          <div className="hidden flex-1 flex-col sm:flex">
+          <div className="mt-1 hidden flex-initial flex-col sm:flex">
             <h5 className="text-xs font-normal text-white">
               <VenueAddress
                 venue_city={checkin.venue_city}
