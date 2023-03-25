@@ -23,6 +23,8 @@ const TRIP_DATA: Trip[] = trips.map((d) => ({
   country: d.country,
 }));
 
+/** Returns all trips that have started before the current date. */
 export function getTripData() {
-  return TRIP_DATA;
+  const now = dayjs();
+  return TRIP_DATA.filter((t) => t.start.isBefore(now));
 }
