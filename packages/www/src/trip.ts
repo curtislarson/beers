@@ -1,5 +1,6 @@
 import dayjs from "dayjs";
 import { trips } from "../../data/nomadlist.json" assert { type: "json" };
+import { NOW_DATE } from "./utils/dates";
 
 export interface Trip {
   trip_id: string;
@@ -25,6 +26,5 @@ const TRIP_DATA: Trip[] = trips.map((d) => ({
 
 /** Returns all trips that have started before the current date. */
 export function getTripData() {
-  const now = dayjs();
-  return TRIP_DATA.filter((t) => t.start.isBefore(now));
+  return TRIP_DATA.filter((t) => t.start.isBefore(NOW_DATE));
 }
