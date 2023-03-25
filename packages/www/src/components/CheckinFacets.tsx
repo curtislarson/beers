@@ -43,7 +43,7 @@ export default function CheckinFacets({ trips, onTripUpdated, onSearchUpdated, s
                   <TripDisplay trip={trip} />
                 </div>
               ) : (
-                <span className="text-secondary">Filter By Location</span>
+                <span className="text-secondary">Filter By Trip</span>
               )}
             </button>
             {tripDropdownVisible && (

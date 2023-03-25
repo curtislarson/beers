@@ -6,6 +6,10 @@ import GithubIcon from "./icons/Github.svg";
 const NAVBAR_ITEMS: NavbarItemProps[] = [
   { href: "https://curtislarson.dev/#/projects", text: "Projects" },
   {
+    href: "https://nomadlist.com/@curtis",
+    text: "Travel",
+  },
+  {
     href: "https://beers.curtislarson.dev",
     text: "Beers",
     active: true,
