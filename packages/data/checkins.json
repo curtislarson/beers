@@ -54648,5 +54648,29 @@
     "venue_lat": 39.863205,
     "venue_lng": -104.6738205,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_bg_512.png"
+  },
+  {
+    "checkin_id": 1259199736,
+    "checkin_comment": "",
+    "rating_score": 3.7,
+    "created_at": "Sat, 25 Mar 2023 22:41:50 +0000",
+    "beer_id": 3630473,
+    "beer_name": "Negative Octopus",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-3630473_63415_sm.jpeg",
+    "beer_style": "IPA - Imperial / Double Black",
+    "beer_abv": 8,
+    "brewery_id": 21694,
+    "brewery_name": "Mobtown Brewing Company",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-21694_e327c.jpeg",
+    "brewery_country": "United States",
+    "brewery_city": "Baltimore",
+    "brewery_state": "MD",
+    "venue_name": "Federal House Bar & Grille",
+    "venue_city": "Annapolis",
+    "venue_country": "United States",
+    "venue_state": "MD",
+    "venue_lat": 38.9781685,
+    "venue_lng": -76.487442,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/food/default_bg_512.png"
   }
 ]
