@@ -54744,5 +54744,29 @@
     "venue_lat": 38.7836647,
     "venue_lng": -76.223793,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/food/default_bg_512.png"
+  },
+  {
+    "checkin_id": 1259924725,
+    "checkin_comment": "",
+    "rating_score": 3.7,
+    "created_at": "Wed, 29 Mar 2023 00:28:55 +0000",
+    "beer_id": 1504047,
+    "beer_name": "Deep Brew",
+    "beer_label": "https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png",
+    "beer_style": "Pale Ale - American",
+    "beer_abv": 5.5,
+    "brewery_id": 68522,
+    "brewery_name": "RAR Brewing",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-68522_cfccb.jpeg",
+    "brewery_country": "United States",
+    "brewery_city": "Cambridge",
+    "brewery_state": "MD",
+    "venue_name": "Legal Assets",
+    "venue_city": "Easton",
+    "venue_country": "United States",
+    "venue_state": "MD",
+    "venue_lat": 38.7733078,
+    "venue_lng": -76.0745087,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/food/default_bg_512.png"
   }
 ]
