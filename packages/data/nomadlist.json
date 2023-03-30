@@ -5,18 +5,6 @@
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "Maryland",
-      "country": "United States",
-      "country_code": "US",
-      "latitude": 39.4780636707791,
-      "longitude": -76.8536374638244,
-      "epoch_start": 1679356800,
-      "epoch_end": 1680134400,
-      "date_start": "2023-03-21",
-      "date_end": "2023-03-30",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=600,height=300,quality=25/https://nomadlist.com/assets/img/places/united-states.jpg?1642529757.jpg?"
-    },
-    "next": {
       "city": "New York City",
       "country": "United States",
       "country_code": "US",
@@ -28,16 +16,28 @@
       "date_end": "2023-04-04",
       "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/new-york-city-ny-united-states.jpg?1646352061"
     },
+    "next": {
+      "city": "London",
+      "country": "United Kingdom",
+      "country_code": "UK",
+      "latitude": 51.5073509,
+      "longitude": -0.1277583,
+      "epoch_start": 1680566400,
+      "epoch_end": 1681776000,
+      "date_start": "2023-04-04",
+      "date_end": "2023-04-18",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/london-united-kingdom.jpg?1675438267"
+    },
     "previous": {
-      "city": "Keystone",
+      "city": "Maryland",
       "country": "United States",
       "country_code": "US",
-      "latitude": 39.607277,
-      "longitude": -105.970087,
-      "epoch_start": 1678492800,
-      "epoch_end": 1679356800,
-      "date_start": "2023-03-11",
-      "date_end": "2023-03-21"
+      "latitude": 39.4780636707791,
+      "longitude": -76.8536374638244,
+      "epoch_start": 1679356800,
+      "epoch_end": 1680134400,
+      "date_start": "2023-03-21",
+      "date_end": "2023-03-30"
     }
   },
   "stats": {
@@ -45,8 +45,8 @@
     "countries": 25,
     "followers": 2,
     "following": 1,
-    "distance_traveled_km": 178818,
-    "distance_traveled_miles": 111112,
+    "distance_traveled_km": 179097,
+    "distance_traveled_miles": 111285,
     "countries_visited_percentage": 0.12953367875647667,
     "cities_visited_percentage": 0.047899778924097275
   },
@@ -165,6 +165,63 @@
       "latitude": 37.5407246,
       "longitude": -77.4360481,
       "trip_id": "167983826622a79ab479bb34b019b7380c1652eb76c45007a7"
+    },
+    {
+      "epoch_start": 1684108800,
+      "epoch_end": 1685318400,
+      "date_start": "2023-05-15",
+      "date_end": "2023-05-29",
+      "length": "13 days",
+      "epoch_duration": 1209600,
+      "place": "Lisbon",
+      "place_slug": "lisbon",
+      "place_long_slug": "lisbon-portugal",
+      "place_url": "https://nomadlist.com/lisbon-portugal",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/lisbon-portugal.jpg?1676505730",
+      "country": "Portugal",
+      "country_code": "PT",
+      "country_slug": "portugal",
+      "latitude": 38.7222524,
+      "longitude": -9.1393366,
+      "trip_id": "16801122365c4cdbe5b26f3f7641fd0ad6c0b280e75a2fd3a5"
+    },
+    {
+      "epoch_start": 1683504000,
+      "epoch_end": 1684108800,
+      "date_start": "2023-05-08",
+      "date_end": "2023-05-15",
+      "length": "6 days",
+      "epoch_duration": 604800,
+      "place": "Vienna",
+      "place_slug": "vienna",
+      "place_long_slug": "vienna-austria",
+      "place_url": "https://nomadlist.com/vienna-austria",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/vienna-austria.jpg?1679790400",
+      "country": "Austria",
+      "country_code": "AT",
+      "country_slug": "austria",
+      "latitude": 48.2081743,
+      "longitude": 16.3738189,
+      "trip_id": "16801122039756db598c8d103a388e652cff1ed3655b02cdad"
+    },
+    {
+      "epoch_start": 1682294400,
+      "epoch_end": 1683504000,
+      "date_start": "2023-04-24",
+      "date_end": "2023-05-08",
+      "length": "13 days",
+      "epoch_duration": 1209600,
+      "place": "Amsterdam",
+      "place_slug": "amsterdam",
+      "place_long_slug": "amsterdam-netherlands",
+      "place_url": "https://nomadlist.com/amsterdam-netherlands",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/amsterdam-netherlands.jpg?1643155472",
+      "country": "Netherlands",
+      "country_code": "NL",
+      "country_slug": "netherlands",
+      "latitude": 52.376884,
+      "longitude": 4.907764,
+      "trip_id": "1680112185f6544ad256103566970cf002a51dd63d7208b5b9"
     },
     {
       "epoch_start": 1682035200,
@@ -956,7 +1013,7 @@
       "place_slug": "sandpoint",
       "place_long_slug": "sandpoint-id-united-states",
       "place_url": "https://nomadlist.com/sandpoint-id-united-states",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/sandpoint-id-united-states.jpg?1679099474",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/sandpoint-id-united-states.jpg?1680136995",
       "country": "United States",
       "country_code": "US",
       "country_slug": "united-states",
@@ -1992,7 +2049,7 @@
     }
   ],
   "frequent_visits": {
-    "new-york-city-ny-united-states": 6,
+    "new-york-city-ny-united-states": 7,
     "los-angeles-ca-united-states": 4,
     "london-united-kingdom": 3,
     "boston-ma-united-states": 3,
