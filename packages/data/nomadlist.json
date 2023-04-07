@@ -72,12 +72,12 @@
       "trip_id": "167848366384e2e8d91619106b8abb6f27a92f23d15ce42aaf"
     },
     {
-      "epoch_start": 1689724800,
+      "epoch_start": 1689552000,
       "epoch_end": 1690070400,
-      "date_start": "2023-07-19",
+      "date_start": "2023-07-17",
       "date_end": "2023-07-23",
-      "length": "3 days",
-      "epoch_duration": 345600,
+      "length": "5 days",
+      "epoch_duration": 518400,
       "place": "Kenmare",
       "place_slug": null,
       "place_long_slug": null,
@@ -88,26 +88,7 @@
       "country_slug": "ireland",
       "latitude": 51.879043,
       "longitude": -9.582638,
-      "trip_id": "16784836225736d2e3db07dcd0b2666a49034699ce379cd35f"
-    },
-    {
-      "epoch_start": 1689638400,
-      "epoch_end": 1689724800,
-      "date_start": "2023-07-18",
-      "date_end": "2023-07-19",
-      "length": "23 hours",
-      "epoch_duration": 86400,
-      "place": "Dublin",
-      "place_slug": "dublin",
-      "place_long_slug": "dublin-ireland",
-      "place_url": "https://nomadlist.com/dublin-ireland",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/dublin-ireland.jpg?1675438603",
-      "country": "Ireland",
-      "country_code": "IE",
-      "country_slug": "ireland",
-      "latitude": 53.3498053,
-      "longitude": -6.2603097,
-      "trip_id": "16784837375476b23b2c4fdfb7eac6f61a7790add0df39c9b1"
+      "trip_id": "1680778078eb2a6bbb24ef33fd3f2bd5935b377f270a938655"
     },
     {
       "epoch_start": 1686182400,
@@ -2097,7 +2078,7 @@
     "new-york-city-ny-united-states": 568,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
-    "london-united-kingdom": 32,
+    "london-united-kingdom": 35,
     "tokyo-japan": 29,
     "seoul-south-korea": 28,
     "munich-germany": 28,
