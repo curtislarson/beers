@@ -5,7 +5,7 @@ import {
   handleAll,
   retry,
   wrap,
-} from "https://esm.quack.id/cockatiel@3.0.0";
+} from "https://esm.quack.id/cockatiel@3.1.1";
 
 export function createPolicy() {
   const retryPolicy = retry(handleAll, { maxAttempts: 5, backoff: new ExponentialBackoff() });

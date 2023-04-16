@@ -1,6 +1,6 @@
 #!/usr/bin/env -S deno run -A --unstable --no-check --no-config
 
-import "https://deno.land/std@0.173.0/dotenv/load.ts";
+import "https://deno.land/std@0.183.0/dotenv/load.ts";
 import { $ } from "https://deno.land/x/dax@0.28.0/mod.ts";
 import { CheckinData } from "../packages/data/types.ts";
 import { normalizeCheckinsData } from "./helpers/normalize-data.ts";

@@ -1,7 +1,7 @@
 import dayjs from "dayjs";
 import { LatLng, latLngBounds } from "leaflet";
 import { useMemo, useState } from "react";
-import Checkins from "../../../data/checkins.json";
+import { default as _CD } from "../../../data/checkins.json";
 import { CheckinData } from "../../../data/types";
 import { Trip } from "../trip";
 import { CHECKIN_DATE_ORIGINAL_FORMAT } from "./dates";
@@ -43,6 +43,15 @@ type Predicate = (checkin: CheckinData) => boolean;
 
 const sortFn = (a: CheckinData, b: CheckinData) =>
   dayjs(a.created_at, CHECKIN_DATE_ORIGINAL_FORMAT).isAfter(dayjs(b.created_at, CHECKIN_DATE_ORIGINAL_FORMAT)) ? -1 : 1;
+
+const AT_HOME_CHECKIN_VENUE_NAME = "Untappd at Home";
+
+/** Used to filter out "problematic" checkins that dont view well on the website, such as 'Untappd at Home' checkins */
+function filterCheckinFn(checkin: CheckinData) {
+  return checkin.venue_name !== AT_HOME_CHECKIN_VENUE_NAME;
+}
+
+const Checkins = (_CD as CheckinData[]).slice().filter(filterCheckinFn);
 
 export function useCheckinManager() {
   const [activeTrip, setActiveTrip] = useState<Trip | null>(null);

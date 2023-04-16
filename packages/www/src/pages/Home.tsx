@@ -81,9 +81,8 @@ export default function Home() {
     <main className="px-2 py-2 sm:px-12 sm:py-6">
       <div className="sm:flex sm:flex-row">
         <div className="flex flex-none flex-col sm:basis-9/12">
-          <div className="mb-2 flex w-full flex-col sm:flex-row">
-            <h1 className="text-lg font-semibold leading-6 text-primary sm:text-4xl">Drinkin' All Over the World</h1>
-            <h3 className="text-xs text-accent sm:ml-5 sm:pt-2 sm:text-lg">Beers and travels of a nomad</h3>
+          <div className="mb-4 flex w-full flex-col sm:flex-row">
+            <h1 className="text-lg font-semibold leading-6 text-primary sm:text-4xl">Beers and Travels</h1>
           </div>
           <Stats
             stats={[
@@ -91,8 +90,6 @@ export default function Home() {
               { name: "Unique Beers", stat: stats.getUniq("Unique Beers") },
               { name: "Unique Locations", stat: stats.getUniq("Unique Locations") },
               { name: "Unique Breweries", stat: stats.getUniq("Unique Breweries") },
-              { name: "Favorite Style", stat: stats.getFave("Favorite Style") },
-              { name: "Favorite Venue", stat: stats.getFave("Favorite Venue") },
             ]}
           />
         </div>

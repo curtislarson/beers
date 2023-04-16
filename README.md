@@ -31,10 +31,11 @@ The data only goes back 3 or so years though so I'll need to backfill some of th
 
 ## TODO
 
+- [ ] New header format
+  - "Hello, my name is Curtis. I'm currently in $LOCATION and the last beer I had was $BEER_NAME at $VENUE_LOCATION
+- [ ] Or some sort of embedable widget
 - [ ] Some sort of "navigation" or "auto driver" mode where it slowly goes from beer to beer and navigates around the map? Similar to the 1000 beer party.
 - [ ] Use purchased location if it exists and venue location does not exist or is untappd at home
 - [ ] Improve markers?
 - [ ] Sort fields
 - [ ] Keyword highlighting?
-- [ ] Include "globe view"?
-  - Would need to relearn `kml`
