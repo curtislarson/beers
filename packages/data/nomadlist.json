@@ -167,12 +167,12 @@
       "trip_id": "1681543240faa1401cf2a659d7388b4be236e1c3c2b22778a5"
     },
     {
-      "epoch_start": 1684108800,
+      "epoch_start": 1684368000,
       "epoch_end": 1685318400,
-      "date_start": "2023-05-15",
+      "date_start": "2023-05-18",
       "date_end": "2023-05-29",
-      "length": "13 days",
-      "epoch_duration": 1209600,
+      "length": "10 days",
+      "epoch_duration": 950400,
       "place": "Lisbon",
       "place_slug": "lisbon",
       "place_long_slug": "lisbon-portugal",
@@ -183,13 +183,13 @@
       "country_slug": "portugal",
       "latitude": 38.7222524,
       "longitude": -9.1393366,
-      "trip_id": "16801122365c4cdbe5b26f3f7641fd0ad6c0b280e75a2fd3a5"
+      "trip_id": "16816634872446d0a45ac6c9128add4518a4172ef4a6c133a9"
     },
     {
-      "epoch_start": 1683504000,
-      "epoch_end": 1684108800,
-      "date_start": "2023-05-08",
-      "date_end": "2023-05-15",
+      "epoch_start": 1683763200,
+      "epoch_end": 1684368000,
+      "date_start": "2023-05-11",
+      "date_end": "2023-05-18",
       "length": "6 days",
       "epoch_duration": 604800,
       "place": "Vienna",
@@ -202,13 +202,13 @@
       "country_slug": "austria",
       "latitude": 48.2081743,
       "longitude": 16.3738189,
-      "trip_id": "16801122039756db598c8d103a388e652cff1ed3655b02cdad"
+      "trip_id": "16816634764a4d5e32b49471d62ef226121648817012a7f535"
     },
     {
-      "epoch_start": 1682294400,
-      "epoch_end": 1683504000,
-      "date_start": "2023-04-24",
-      "date_end": "2023-05-08",
+      "epoch_start": 1682553600,
+      "epoch_end": 1683763200,
+      "date_start": "2023-04-27",
+      "date_end": "2023-05-11",
       "length": "13 days",
       "epoch_duration": 1209600,
       "place": "Amsterdam",
@@ -221,7 +221,26 @@
       "country_slug": "netherlands",
       "latitude": 52.376884,
       "longitude": 4.907764,
-      "trip_id": "1680112185f6544ad256103566970cf002a51dd63d7208b5b9"
+      "trip_id": "16816634646e5dfc9297238422aca852c3d94fad684fecb845"
+    },
+    {
+      "epoch_start": 1682294400,
+      "epoch_end": 1682553600,
+      "date_start": "2023-04-24",
+      "date_end": "2023-04-27",
+      "length": "2 days",
+      "epoch_duration": 259200,
+      "place": "Antwerp",
+      "place_slug": "antwerp",
+      "place_long_slug": "antwerp-belgium",
+      "place_url": "https://nomadlist.com/antwerp-belgium",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/antwerp-belgium.jpg?1679791662",
+      "country": "Belgium",
+      "country_code": "BE",
+      "country_slug": "belgium",
+      "latitude": 51.2194475,
+      "longitude": 4.4024643,
+      "trip_id": "1681663427f166a29c5c2efd92d1baa46e073e305cf7706457"
     },
     {
       "epoch_start": 1682035200,
@@ -2097,7 +2116,7 @@
     "new-york-city-ny-united-states": 568,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
-    "london-united-kingdom": 44,
+    "london-united-kingdom": 45,
     "tokyo-japan": 29,
     "seoul-south-korea": 28,
     "munich-germany": 28,
