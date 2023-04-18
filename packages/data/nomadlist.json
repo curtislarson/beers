@@ -5,18 +5,6 @@
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "London",
-      "country": "United Kingdom",
-      "country_code": "UK",
-      "latitude": 51.5073509,
-      "longitude": -0.1277583,
-      "epoch_start": 1680566400,
-      "epoch_end": 1681776000,
-      "date_start": "2023-04-04",
-      "date_end": "2023-04-18",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/london-united-kingdom.jpg?1675438267"
-    },
-    "next": {
       "city": "Brussels",
       "country": "Belgium",
       "country_code": "BE",
@@ -28,27 +16,39 @@
       "date_end": "2023-04-21",
       "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/brussels-belgium.jpg?1675438763"
     },
+    "next": {
+      "city": "Luxembourg",
+      "country": "Luxembourg",
+      "country_code": "LU",
+      "latitude": 49.611621,
+      "longitude": 6.1319346,
+      "epoch_start": 1682035200,
+      "epoch_end": 1682294400,
+      "date_start": "2023-04-21",
+      "date_end": "2023-04-24",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/luxembourg-luxembourg.jpg?1679619683"
+    },
     "previous": {
-      "city": "New York City, NY",
-      "country": "United States",
-      "country_code": "US",
-      "latitude": 40.7127837,
-      "longitude": -74.0059413,
-      "epoch_start": 1680134400,
-      "epoch_end": 1680566400,
-      "date_start": "2023-03-30",
-      "date_end": "2023-04-04"
+      "city": "London",
+      "country": "United Kingdom",
+      "country_code": "UK",
+      "latitude": 51.5073509,
+      "longitude": -0.1277583,
+      "epoch_start": 1680566400,
+      "epoch_end": 1681776000,
+      "date_start": "2023-04-04",
+      "date_end": "2023-04-18"
     }
   },
   "stats": {
-    "cities": 65,
+    "cities": 66,
     "countries": 25,
     "followers": 2,
     "following": 1,
-    "distance_traveled_km": 184666,
-    "distance_traveled_miles": 114746,
+    "distance_traveled_km": 184987,
+    "distance_traveled_miles": 114945,
     "countries_visited_percentage": 0.12953367875647667,
-    "cities_visited_percentage": 0.047899778924097275
+    "cities_visited_percentage": 0.04863669859985262
   },
   "map": "https://nomadlist.com/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2023-04",
   "trips": [
@@ -2020,7 +2020,7 @@
       "place_slug": "venice",
       "place_long_slug": "venice-italy",
       "place_url": "https://nomadlist.com/venice-italy",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/venice-italy.jpg?1644451760",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/venice-italy.jpg?1681777122",
       "country": "Italy",
       "country_code": "IT",
       "country_slug": "italy",
@@ -2110,13 +2110,14 @@
     "oslo-norway": 1,
     "tromso-norway": 1,
     "copenhagen-denmark": 1,
-    "prague-czechia": 1
+    "prague-czechia": 1,
+    "brussels-belgium": 1
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 568,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
-    "london-united-kingdom": 45,
+    "london-united-kingdom": 46,
     "tokyo-japan": 29,
     "seoul-south-korea": 28,
     "munich-germany": 28,
@@ -2155,6 +2156,7 @@
     "queenstown-new-zealand": 2,
     "sandpoint-id-united-states": 2,
     "missoula-mt-united-states": 2,
-    "christchurch-new-zealand": 1
+    "christchurch-new-zealand": 1,
+    "brussels-belgium": 0
   }
 }
