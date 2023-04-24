@@ -5,18 +5,30 @@
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "Brussels",
+      "city": "Antwerp",
       "country": "Belgium",
       "country_code": "BE",
-      "latitude": 50.8503396,
-      "longitude": 4.3517103,
-      "epoch_start": 1681776000,
-      "epoch_end": 1682035200,
-      "date_start": "2023-04-18",
-      "date_end": "2023-04-21",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/brussels-belgium.jpg?1675438763"
+      "latitude": 51.2194475,
+      "longitude": 4.4024643,
+      "epoch_start": 1682294400,
+      "epoch_end": 1682553600,
+      "date_start": "2023-04-24",
+      "date_end": "2023-04-27",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/antwerp-belgium.jpg?1679791662"
     },
     "next": {
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "country_code": "NL",
+      "latitude": 52.376884,
+      "longitude": 4.907764,
+      "epoch_start": 1682553600,
+      "epoch_end": 1683158400,
+      "date_start": "2023-04-27",
+      "date_end": "2023-05-04",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/amsterdam-netherlands.jpg?1643155472"
+    },
+    "previous": {
       "city": "Luxembourg",
       "country": "Luxembourg",
       "country_code": "LU",
@@ -25,30 +37,18 @@
       "epoch_start": 1682035200,
       "epoch_end": 1682294400,
       "date_start": "2023-04-21",
-      "date_end": "2023-04-24",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/luxembourg-luxembourg.jpg?1679619683"
-    },
-    "previous": {
-      "city": "London",
-      "country": "United Kingdom",
-      "country_code": "UK",
-      "latitude": 51.5073509,
-      "longitude": -0.1277583,
-      "epoch_start": 1680566400,
-      "epoch_end": 1681776000,
-      "date_start": "2023-04-04",
-      "date_end": "2023-04-18"
+      "date_end": "2023-04-24"
     }
   },
   "stats": {
-    "cities": 66,
-    "countries": 25,
+    "cities": 67,
+    "countries": 26,
     "followers": 2,
     "following": 1,
-    "distance_traveled_km": 184987,
-    "distance_traveled_miles": 114945,
-    "countries_visited_percentage": 0.12953367875647667,
-    "cities_visited_percentage": 0.04863669859985262
+    "distance_traveled_km": 185390,
+    "distance_traveled_miles": 115196,
+    "countries_visited_percentage": 0.13471502590673576,
+    "cities_visited_percentage": 0.04937361827560796
   },
   "map": "https://nomadlist.com/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2023-04",
   "trips": [
@@ -168,11 +168,11 @@
     },
     {
       "epoch_start": 1684368000,
-      "epoch_end": 1685318400,
+      "epoch_end": 1684972800,
       "date_start": "2023-05-18",
-      "date_end": "2023-05-29",
-      "length": "10 days",
-      "epoch_duration": 950400,
+      "date_end": "2023-05-25",
+      "length": "6 days",
+      "epoch_duration": 604800,
       "place": "Lisbon",
       "place_slug": "lisbon",
       "place_long_slug": "lisbon-portugal",
@@ -183,13 +183,32 @@
       "country_slug": "portugal",
       "latitude": 38.7222524,
       "longitude": -9.1393366,
-      "trip_id": "16816634872446d0a45ac6c9128add4518a4172ef4a6c133a9"
+      "trip_id": "1682003909b9d43212bd1c924b1c712e0b5631a522288eea0c"
     },
     {
       "epoch_start": 1683763200,
       "epoch_end": 1684368000,
       "date_start": "2023-05-11",
       "date_end": "2023-05-18",
+      "length": "6 days",
+      "epoch_duration": 604800,
+      "place": "Sofia",
+      "place_slug": "sofia",
+      "place_long_slug": "sofia-bulgaria",
+      "place_url": "https://nomadlist.com/sofia-bulgaria",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/sofia-bulgaria.jpg?1675438234",
+      "country": "Bulgaria",
+      "country_code": "BG",
+      "country_slug": "bulgaria",
+      "latitude": 42.6977082,
+      "longitude": 23.3218675,
+      "trip_id": "1682003880a731773cd4990fc070aa20a4fc127e1b5ac89f7e"
+    },
+    {
+      "epoch_start": 1683158400,
+      "epoch_end": 1683763200,
+      "date_start": "2023-05-04",
+      "date_end": "2023-05-11",
       "length": "6 days",
       "epoch_duration": 604800,
       "place": "Vienna",
@@ -202,15 +221,15 @@
       "country_slug": "austria",
       "latitude": 48.2081743,
       "longitude": 16.3738189,
-      "trip_id": "16816634764a4d5e32b49471d62ef226121648817012a7f535"
+      "trip_id": "1682003833522e1bb99f5cc0c237dcf150c800910715a2f103"
     },
     {
       "epoch_start": 1682553600,
-      "epoch_end": 1683763200,
+      "epoch_end": 1683158400,
       "date_start": "2023-04-27",
-      "date_end": "2023-05-11",
-      "length": "13 days",
-      "epoch_duration": 1209600,
+      "date_end": "2023-05-04",
+      "length": "6 days",
+      "epoch_duration": 604800,
       "place": "Amsterdam",
       "place_slug": "amsterdam",
       "place_long_slug": "amsterdam-netherlands",
@@ -221,7 +240,7 @@
       "country_slug": "netherlands",
       "latitude": 52.376884,
       "longitude": 4.907764,
-      "trip_id": "16816634646e5dfc9297238422aca852c3d94fad684fecb845"
+      "trip_id": "1682003816b5ef0023b926486c438dfa8caa1e92a89fb67487"
     },
     {
       "epoch_start": 1682294400,
@@ -2077,6 +2096,7 @@
     "denver-co-united-states": 2,
     "playa-del-carmen-mexico": 2,
     "salt-lake-city-ut-united-states": 2,
+    "antwerp-belgium": 2,
     "dublin-ireland": 1,
     "dubrovnik-croatia": 1,
     "venice-italy": 1,
@@ -2090,7 +2110,6 @@
     "split-croatia": 1,
     "budapest-hungary": 1,
     "cluj-romania": 1,
-    "antwerp-belgium": 1,
     "berlin-germany": 1,
     "munich-germany": 1,
     "istanbul-turkey": 1,
@@ -2111,7 +2130,8 @@
     "tromso-norway": 1,
     "copenhagen-denmark": 1,
     "prague-czechia": 1,
-    "brussels-belgium": 1
+    "brussels-belgium": 1,
+    "luxembourg-luxembourg": 1
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 568,
@@ -2140,8 +2160,8 @@
     "istanbul-turkey": 11,
     "boston-ma-united-states": 10,
     "oslo-norway": 9,
-    "antwerp-belgium": 8,
     "park-city-ut-united-states": 8,
+    "antwerp-belgium": 8,
     "berlin-germany": 7,
     "antalya-turkey": 7,
     "rapid-city-sd-united-states": 7,
@@ -2153,10 +2173,11 @@
     "granada-spain": 4,
     "cody-wy-united-states": 4,
     "dubrovnik-croatia": 3,
+    "brussels-belgium": 3,
+    "luxembourg-luxembourg": 3,
     "queenstown-new-zealand": 2,
     "sandpoint-id-united-states": 2,
     "missoula-mt-united-states": 2,
-    "christchurch-new-zealand": 1,
-    "brussels-belgium": 0
+    "christchurch-new-zealand": 1
   }
 }
