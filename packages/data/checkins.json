@@ -55536,5 +55536,29 @@
     "venue_lat": 51.2184181,
     "venue_lng": 4.4002843,
     "venue_img": "https://assets.untappd.com/venuelogos/venue_1333310_3373ddbf_bg_176.png?v=1"
+  },
+  {
+    "checkin_id": 1268333627,
+    "checkin_comment": "",
+    "rating_score": 3.9,
+    "created_at": "Tue, 25 Apr 2023 19:33:45 +0000",
+    "beer_id": 3986134,
+    "beer_name": "Trappistes Rochefort Triple Extra",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-3986134_a0807_sm.jpeg",
+    "beer_style": "Belgian Tripel",
+    "beer_abv": 8.1,
+    "brewery_id": 1650,
+    "brewery_name": "Abbaye Notre-Dame de Saint-Rémy",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-1650_bfb34.jpeg",
+    "brewery_country": "Belgium",
+    "brewery_city": "Rochefort",
+    "brewery_state": "Wallonie",
+    "venue_name": "The Northerner",
+    "venue_city": "Antwerpen",
+    "venue_country": "België",
+    "venue_state": "Antwerpen",
+    "venue_lat": 51.2211494,
+    "venue_lng": 4.4030485,
+    "venue_img": "https://assets.untappd.com/venuelogos/venue_9022820_3aecaf12_bg_176.png?v=1"
   }
 ]
