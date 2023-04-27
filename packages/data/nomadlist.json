@@ -5,18 +5,6 @@
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "Antwerp",
-      "country": "Belgium",
-      "country_code": "BE",
-      "latitude": 51.2194475,
-      "longitude": 4.4024643,
-      "epoch_start": 1682294400,
-      "epoch_end": 1682553600,
-      "date_start": "2023-04-24",
-      "date_end": "2023-04-27",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/antwerp-belgium.jpg?1679791662"
-    },
-    "next": {
       "city": "Amsterdam",
       "country": "Netherlands",
       "country_code": "NL",
@@ -28,16 +16,28 @@
       "date_end": "2023-05-04",
       "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/amsterdam-netherlands.jpg?1643155472"
     },
+    "next": {
+      "city": "Vienna",
+      "country": "Austria",
+      "country_code": "AT",
+      "latitude": 48.2081743,
+      "longitude": 16.3738189,
+      "epoch_start": 1683158400,
+      "epoch_end": 1683763200,
+      "date_start": "2023-05-04",
+      "date_end": "2023-05-11",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/vienna-austria.jpg?1679790400"
+    },
     "previous": {
-      "city": "Luxembourg",
-      "country": "Luxembourg",
-      "country_code": "LU",
-      "latitude": 49.611621,
-      "longitude": 6.1319346,
-      "epoch_start": 1682035200,
-      "epoch_end": 1682294400,
-      "date_start": "2023-04-21",
-      "date_end": "2023-04-24"
+      "city": "Antwerp",
+      "country": "Belgium",
+      "country_code": "BE",
+      "latitude": 51.2194475,
+      "longitude": 4.4024643,
+      "epoch_start": 1682294400,
+      "epoch_end": 1682553600,
+      "date_start": "2023-04-24",
+      "date_end": "2023-04-27"
     }
   },
   "stats": {
@@ -45,8 +45,8 @@
     "countries": 26,
     "followers": 2,
     "following": 1,
-    "distance_traveled_km": 185390,
-    "distance_traveled_miles": 115196,
+    "distance_traveled_km": 185524,
+    "distance_traveled_miles": 115279,
     "countries_visited_percentage": 0.13471502590673576,
     "cities_visited_percentage": 0.04937361827560796
   },
@@ -1146,7 +1146,7 @@
       "place_slug": "cody",
       "place_long_slug": "cody-wy-united-states",
       "place_url": "https://nomadlist.com/cody-wy-united-states",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/cody-wy-united-states.jpg?1679619185",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/cody-wy-united-states.jpg?1682555652",
       "country": "United States",
       "country_code": "US",
       "country_slug": "united-states",
@@ -2110,7 +2110,7 @@
     "los-angeles-ca-united-states": 4,
     "london-united-kingdom": 4,
     "boston-ma-united-states": 3,
-    "amsterdam-netherlands": 2,
+    "amsterdam-netherlands": 3,
     "auckland-new-zealand": 2,
     "denver-co-united-states": 2,
     "playa-del-carmen-mexico": 2,
@@ -2177,9 +2177,9 @@
     "prague-czechia": 14,
     "salt-lake-city-ut-united-states": 13,
     "istanbul-turkey": 11,
+    "antwerp-belgium": 11,
     "boston-ma-united-states": 10,
     "oslo-norway": 9,
-    "antwerp-belgium": 9,
     "park-city-ut-united-states": 8,
     "berlin-germany": 7,
     "antalya-turkey": 7,
