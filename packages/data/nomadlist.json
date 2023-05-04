@@ -5,18 +5,6 @@
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "Amsterdam",
-      "country": "Netherlands",
-      "country_code": "NL",
-      "latitude": 52.376884,
-      "longitude": 4.907764,
-      "epoch_start": 1682553600,
-      "epoch_end": 1683158400,
-      "date_start": "2023-04-27",
-      "date_end": "2023-05-04",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/amsterdam-netherlands.jpg?1643155472"
-    },
-    "next": {
       "city": "Vienna",
       "country": "Austria",
       "country_code": "AT",
@@ -28,27 +16,39 @@
       "date_end": "2023-05-11",
       "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/vienna-austria.jpg?1679790400"
     },
+    "next": {
+      "city": "Sofia",
+      "country": "Bulgaria",
+      "country_code": "BG",
+      "latitude": 42.6977082,
+      "longitude": 23.3218675,
+      "epoch_start": 1683763200,
+      "epoch_end": 1684195200,
+      "date_start": "2023-05-11",
+      "date_end": "2023-05-16",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/sofia-bulgaria.jpg?1675438234"
+    },
     "previous": {
-      "city": "Antwerp",
-      "country": "Belgium",
-      "country_code": "BE",
-      "latitude": 51.2194475,
-      "longitude": 4.4024643,
-      "epoch_start": 1682294400,
-      "epoch_end": 1682553600,
-      "date_start": "2023-04-24",
-      "date_end": "2023-04-27"
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "country_code": "NL",
+      "latitude": 52.376884,
+      "longitude": 4.907764,
+      "epoch_start": 1682553600,
+      "epoch_end": 1683158400,
+      "date_start": "2023-04-27",
+      "date_end": "2023-05-04"
     }
   },
   "stats": {
-    "cities": 67,
-    "countries": 26,
+    "cities": 68,
+    "countries": 27,
     "followers": 2,
     "following": 1,
-    "distance_traveled_km": 185524,
-    "distance_traveled_miles": 115279,
-    "countries_visited_percentage": 0.13471502590673576,
-    "cities_visited_percentage": 0.04937361827560796
+    "distance_traveled_km": 186459,
+    "distance_traveled_miles": 115860,
+    "countries_visited_percentage": 0.13989637305699482,
+    "cities_visited_percentage": 0.050110537951363304
   },
   "map": "https://nomadlist.com/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2023-05",
   "trips": [
@@ -2169,7 +2169,8 @@
     "copenhagen-denmark": 1,
     "prague-czechia": 1,
     "brussels-belgium": 1,
-    "luxembourg-luxembourg": 1
+    "luxembourg-luxembourg": 1,
+    "vienna-austria": 1
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 568,
@@ -2181,10 +2182,10 @@
     "munich-germany": 28,
     "melbourne-australia": 28,
     "los-angeles-ca-united-states": 23,
+    "amsterdam-netherlands": 23,
     "stockholm-sweden": 21,
     "cluj-romania": 20,
     "puerto-vallarta-mexico": 20,
-    "amsterdam-netherlands": 20,
     "tel-aviv-israel": 18,
     "bangkok-thailand": 15,
     "split-croatia": 15,
@@ -2216,6 +2217,7 @@
     "queenstown-new-zealand": 2,
     "sandpoint-id-united-states": 2,
     "missoula-mt-united-states": 2,
-    "christchurch-new-zealand": 1
+    "christchurch-new-zealand": 1,
+    "vienna-austria": 0
   }
 }
