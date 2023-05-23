@@ -5,18 +5,6 @@
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "Athens",
-      "country": "Greece",
-      "country_code": "GR",
-      "latitude": 37.983917,
-      "longitude": 23.7293599,
-      "epoch_start": 1684195200,
-      "epoch_end": 1684800000,
-      "date_start": "2023-05-16",
-      "date_end": "2023-05-23",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/athens-greece.jpg?1679357121"
-    },
-    "next": {
       "city": "Rome",
       "country": "Italy",
       "country_code": "IT",
@@ -28,27 +16,39 @@
       "date_end": "2023-05-30",
       "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/rome-italy.jpg?1675438815"
     },
+    "next": {
+      "city": "New York City",
+      "country": "United States",
+      "country_code": "US",
+      "latitude": 40.7127837,
+      "longitude": -74.0059413,
+      "epoch_start": 1685404800,
+      "epoch_end": 1685577600,
+      "date_start": "2023-05-30",
+      "date_end": "2023-06-01",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/new-york-city-ny-united-states.jpg?1646352061"
+    },
     "previous": {
-      "city": "Sofia",
-      "country": "Bulgaria",
-      "country_code": "BG",
-      "latitude": 42.6977082,
-      "longitude": 23.3218675,
-      "epoch_start": 1683763200,
-      "epoch_end": 1684195200,
-      "date_start": "2023-05-11",
-      "date_end": "2023-05-16"
+      "city": "Athens",
+      "country": "Greece",
+      "country_code": "GR",
+      "latitude": 37.983917,
+      "longitude": 23.7293599,
+      "epoch_start": 1684195200,
+      "epoch_end": 1684800000,
+      "date_start": "2023-05-16",
+      "date_end": "2023-05-23"
     }
   },
   "stats": {
-    "cities": 72,
+    "cities": 73,
     "countries": 31,
     "followers": 2,
     "following": 1,
-    "distance_traveled_km": 194677,
-    "distance_traveled_miles": 120967,
+    "distance_traveled_km": 195728,
+    "distance_traveled_miles": 121620,
     "countries_visited_percentage": 0.16062176165803108,
-    "cities_visited_percentage": 0.05274725274725275
+    "cities_visited_percentage": 0.05347985347985348
   },
   "map": "https://nomadlist.com/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2023-05",
   "trips": [
@@ -1165,7 +1165,7 @@
       "place_slug": "sandpoint",
       "place_long_slug": "sandpoint-id-united-states",
       "place_url": "https://nomadlist.com/sandpoint-id-united-states",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/sandpoint-id-united-states.jpg?1684282341",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/sandpoint-id-united-states.jpg?1684800657",
       "country": "United States",
       "country_code": "US",
       "country_slug": "united-states",
@@ -2286,7 +2286,8 @@
     "luxembourg-luxembourg": 1,
     "vienna-austria": 1,
     "sofia-bulgaria": 1,
-    "athens-greece": 1
+    "athens-greece": 1,
+    "rome-italy": 1
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 568,
@@ -2322,6 +2323,7 @@
     "rapid-city-sd-united-states": 7,
     "tromso-norway": 7,
     "vienna-austria": 7,
+    "athens-greece": 7,
     "denver-co-united-states": 6,
     "grand-junction-co-united-states": 5,
     "sofia-bulgaria": 5,
@@ -2335,7 +2337,7 @@
     "queenstown-new-zealand": 2,
     "sandpoint-id-united-states": 2,
     "missoula-mt-united-states": 2,
-    "athens-greece": 2,
-    "christchurch-new-zealand": 1
+    "christchurch-new-zealand": 1,
+    "rome-italy": 0
   }
 }
