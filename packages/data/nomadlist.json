@@ -5,19 +5,31 @@
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "Rome",
-      "country": "Italy",
-      "country_code": "IT",
-      "latitude": 41.8723889,
-      "longitude": 12.4801802,
-      "epoch_start": 1684800000,
-      "epoch_end": 1685404800,
-      "date_start": "2023-05-23",
-      "date_end": "2023-05-30",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/rome-italy.jpg?1675438815"
+      "city": "Richmond",
+      "country": "United States",
+      "country_code": "US",
+      "latitude": 37.5407246,
+      "longitude": -77.4360481,
+      "epoch_start": 1685577600,
+      "epoch_end": 1685836800,
+      "date_start": "2023-06-01",
+      "date_end": "2023-06-04",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/richmond-va-united-states.jpg?1679617235"
     },
     "next": {
-      "city": "New York City",
+      "city": "Maryland",
+      "country": "United States",
+      "country_code": "US",
+      "latitude": 39.4780636707791,
+      "longitude": -76.8536374638244,
+      "epoch_start": 1685836800,
+      "epoch_end": 1686182400,
+      "date_start": "2023-06-04",
+      "date_end": "2023-06-08",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=600,height=300,quality=25/https://nomadlist.com/assets/img/places/united-states.jpg?1642529757.jpg?"
+    },
+    "previous": {
+      "city": "New York City, NY",
       "country": "United States",
       "country_code": "US",
       "latitude": 40.7127837,
@@ -25,32 +37,20 @@
       "epoch_start": 1685404800,
       "epoch_end": 1685577600,
       "date_start": "2023-05-30",
-      "date_end": "2023-06-01",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/new-york-city-ny-united-states.jpg?1646352061"
-    },
-    "previous": {
-      "city": "Athens",
-      "country": "Greece",
-      "country_code": "GR",
-      "latitude": 37.983917,
-      "longitude": 23.7293599,
-      "epoch_start": 1684195200,
-      "epoch_end": 1684800000,
-      "date_start": "2023-05-16",
-      "date_end": "2023-05-23"
+      "date_end": "2023-06-01"
     }
   },
   "stats": {
-    "cities": 73,
+    "cities": 74,
     "countries": 31,
     "followers": 2,
     "following": 1,
-    "distance_traveled_km": 195728,
-    "distance_traveled_miles": 121620,
+    "distance_traveled_km": 203078,
+    "distance_traveled_miles": 126187,
     "countries_visited_percentage": 0.16062176165803108,
-    "cities_visited_percentage": 0.05347985347985348
+    "cities_visited_percentage": 0.054212454212454214
   },
-  "map": "https://nomadlist.com/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2023-05",
+  "map": "https://nomadlist.com/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2023-06",
   "trips": [
     {
       "epoch_start": 1690502400,
@@ -1317,7 +1317,7 @@
       "place_slug": "vancouver",
       "place_long_slug": "vancouver-canada",
       "place_url": "https://nomadlist.com/vancouver-canada",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/vancouver-canada.jpg?1679357156",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/vancouver-canada.jpg?1685405024",
       "country": "Canada",
       "country_code": "CA",
       "country_slug": "canada",
@@ -2239,7 +2239,7 @@
     }
   ],
   "frequent_visits": {
-    "new-york-city-ny-united-states": 7,
+    "new-york-city-ny-united-states": 8,
     "los-angeles-ca-united-states": 4,
     "london-united-kingdom": 4,
     "boston-ma-united-states": 3,
@@ -2287,10 +2287,11 @@
     "vienna-austria": 1,
     "sofia-bulgaria": 1,
     "athens-greece": 1,
-    "rome-italy": 1
+    "rome-italy": 1,
+    "richmond-va-united-states": 1
   },
   "longest_stays": {
-    "new-york-city-ny-united-states": 568,
+    "new-york-city-ny-united-states": 570,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
     "london-united-kingdom": 46,
@@ -2324,6 +2325,7 @@
     "tromso-norway": 7,
     "vienna-austria": 7,
     "athens-greece": 7,
+    "rome-italy": 7,
     "denver-co-united-states": 6,
     "grand-junction-co-united-states": 5,
     "sofia-bulgaria": 5,
@@ -2334,10 +2336,10 @@
     "dubrovnik-croatia": 3,
     "brussels-belgium": 3,
     "luxembourg-luxembourg": 3,
-    "rome-italy": 3,
     "queenstown-new-zealand": 2,
     "sandpoint-id-united-states": 2,
     "missoula-mt-united-states": 2,
-    "christchurch-new-zealand": 1
+    "christchurch-new-zealand": 1,
+    "richmond-va-united-states": 0
   }
 }
