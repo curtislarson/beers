@@ -57734,5 +57734,29 @@
     "venue_lat": 41.893486,
     "venue_lng": 12.4746265,
     "venue_img": "https://assets.untappd.com/venuelogos/venue_97227_81ca2854_bg_176.png?v=1"
+  },
+  {
+    "checkin_id": 1280405127,
+    "checkin_comment": "",
+    "rating_score": 4,
+    "created_at": "Sat, 03 Jun 2023 01:15:34 +0000",
+    "beer_id": 510047,
+    "beer_name": "Surf Wax",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-510047_e42d6_sm.jpeg",
+    "beer_style": "IPA - American",
+    "beer_abv": 6.8,
+    "brewery_id": 62675,
+    "brewery_name": "Burial Beer Co.",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-burial_62675.jpeg",
+    "brewery_country": "United States",
+    "brewery_city": "Asheville",
+    "brewery_state": "NC",
+    "venue_name": "Westhampton Green",
+    "venue_city": "Richmond",
+    "venue_country": "United States",
+    "venue_state": "VA",
+    "venue_lat": 37.5747566,
+    "venue_lng": -77.5431061,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/park_bg_512.png"
   }
 ]
