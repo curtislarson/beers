@@ -5,18 +5,6 @@
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "Richmond",
-      "country": "United States",
-      "country_code": "US",
-      "latitude": 37.5407246,
-      "longitude": -77.4360481,
-      "epoch_start": 1685577600,
-      "epoch_end": 1685836800,
-      "date_start": "2023-06-01",
-      "date_end": "2023-06-04",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/richmond-va-united-states.jpg?1679617235"
-    },
-    "next": {
       "city": "Maryland",
       "country": "United States",
       "country_code": "US",
@@ -28,16 +16,28 @@
       "date_end": "2023-06-08",
       "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=600,height=300,quality=25/https://nomadlist.com/assets/img/places/united-states.jpg?1642529757.jpg?"
     },
-    "previous": {
-      "city": "New York City, NY",
+    "next": {
+      "city": "Boston",
       "country": "United States",
       "country_code": "US",
-      "latitude": 40.7127837,
-      "longitude": -74.0059413,
-      "epoch_start": 1685404800,
-      "epoch_end": 1685577600,
-      "date_start": "2023-05-30",
-      "date_end": "2023-06-01"
+      "latitude": 42.3600825,
+      "longitude": -71.0588801,
+      "epoch_start": 1686182400,
+      "epoch_end": 1686355200,
+      "date_start": "2023-06-08",
+      "date_end": "2023-06-10",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/boston-ma-united-states.jpg?1679616978"
+    },
+    "previous": {
+      "city": "Richmond, VA",
+      "country": "United States",
+      "country_code": "US",
+      "latitude": 37.5407246,
+      "longitude": -77.4360481,
+      "epoch_start": 1685577600,
+      "epoch_end": 1685836800,
+      "date_start": "2023-06-01",
+      "date_end": "2023-06-04"
     }
   },
   "stats": {
@@ -45,8 +45,8 @@
     "countries": 31,
     "followers": 2,
     "following": 1,
-    "distance_traveled_km": 203078,
-    "distance_traveled_miles": 126187,
+    "distance_traveled_km": 203299,
+    "distance_traveled_miles": 126324,
     "countries_visited_percentage": 0.16062176165803108,
     "cities_visited_percentage": 0.054212454212454214
   },
@@ -2336,10 +2336,10 @@
     "dubrovnik-croatia": 3,
     "brussels-belgium": 3,
     "luxembourg-luxembourg": 3,
+    "richmond-va-united-states": 3,
     "queenstown-new-zealand": 2,
     "sandpoint-id-united-states": 2,
     "missoula-mt-united-states": 2,
-    "christchurch-new-zealand": 1,
-    "richmond-va-united-states": 0
+    "christchurch-new-zealand": 1
   }
 }
