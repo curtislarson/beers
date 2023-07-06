@@ -57998,5 +57998,29 @@
     "venue_lat": 38.7738419,
     "venue_lng": -76.0712585,
     "venue_img": "https://assets.untappd.com/site/assets/images/temp/verfied-venue_bg_176.png?v=1"
+  },
+  {
+    "checkin_id": 1290903490,
+    "checkin_comment": "",
+    "rating_score": 3.5,
+    "created_at": "Wed, 05 Jul 2023 17:01:52 +0000",
+    "beer_id": 4149175,
+    "beer_name": "Island Dew",
+    "beer_label": "https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png",
+    "beer_style": "Hard Seltzer",
+    "beer_abv": 5,
+    "brewery_id": 401656,
+    "brewery_name": "Cult Classic Brewing Co.",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-401656_307d5.jpeg",
+    "brewery_country": "United States",
+    "brewery_city": "Stevensville",
+    "brewery_state": "MD",
+    "venue_name": "Cult Classic Brewing",
+    "venue_city": "Stevensville",
+    "venue_country": "United States",
+    "venue_state": "MD",
+    "venue_lat": 38.975029,
+    "venue_lng": -76.2982788,
+    "venue_img": "https://assets.untappd.com/venuelogos/venue_8042033_bc82a349_bg_176.png?v=1"
   }
 ]
