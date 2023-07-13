@@ -5,18 +5,6 @@
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "Maryland",
-      "country": "United States",
-      "country_code": "US",
-      "latitude": 39.4780636707791,
-      "longitude": -76.8536374638244,
-      "epoch_start": 1686355200,
-      "epoch_end": 1689206400,
-      "date_start": "2023-06-10",
-      "date_end": "2023-07-13",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=600,height=300,quality=25/https://nomadlist.com/assets/img/places/united-states.jpg?1642529757.jpg?"
-    },
-    "next": {
       "city": "New York City",
       "country": "United States",
       "country_code": "US",
@@ -28,16 +16,28 @@
       "date_end": "2023-07-16",
       "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/new-york-city-ny-united-states.jpg?1688256130"
     },
+    "next": {
+      "city": "Tralee",
+      "country": "Ireland",
+      "country_code": "IE",
+      "latitude": 52.269284,
+      "longitude": -9.705409,
+      "epoch_start": 1689552000,
+      "epoch_end": 1689811200,
+      "date_start": "2023-07-17",
+      "date_end": "2023-07-20",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=600,height=300,quality=25/https://nomadlist.com/assets/img/places/ireland.jpg?1679620488.jpg?"
+    },
     "previous": {
-      "city": "Boston, MA",
+      "city": "Maryland",
       "country": "United States",
       "country_code": "US",
-      "latitude": 42.3600825,
-      "longitude": -71.0588801,
-      "epoch_start": 1686096000,
-      "epoch_end": 1686355200,
-      "date_start": "2023-06-07",
-      "date_end": "2023-06-10"
+      "latitude": 39.4780636707791,
+      "longitude": -76.8536374638244,
+      "epoch_start": 1686355200,
+      "epoch_end": 1689206400,
+      "date_start": "2023-06-10",
+      "date_end": "2023-07-13"
     }
   },
   "stats": {
@@ -45,8 +45,8 @@
     "countries": 31,
     "followers": 2,
     "following": 1,
-    "distance_traveled_km": 204465,
-    "distance_traveled_miles": 127048,
+    "distance_traveled_km": 204743,
+    "distance_traveled_miles": 127221,
     "countries_visited_percentage": 0.16062176165803108,
     "cities_visited_percentage": 0.054212454212454214
   },
@@ -1450,7 +1450,7 @@
       "place_slug": "queenstown",
       "place_long_slug": "queenstown-new-zealand",
       "place_url": "https://nomadlist.com/queenstown-new-zealand",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/queenstown-new-zealand.jpg?1688170287",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/queenstown-new-zealand.jpg?1689120285",
       "country": "New Zealand",
       "country_code": "NZ",
       "country_slug": "new-zealand",
@@ -2296,7 +2296,7 @@
     }
   ],
   "frequent_visits": {
-    "new-york-city-ny-united-states": 8,
+    "new-york-city-ny-united-states": 9,
     "los-angeles-ca-united-states": 4,
     "london-united-kingdom": 4,
     "boston-ma-united-states": 4,
