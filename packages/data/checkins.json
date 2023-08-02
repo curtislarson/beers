@@ -59006,5 +59006,29 @@
     "venue_lat": 46.2105942,
     "venue_lng": 6.1389332,
     "venue_img": "https://assets.untappd.com/venuelogos/venue_9652930_198b9e8b_bg_176.png?v=1"
+  },
+  {
+    "checkin_id": 1300030604,
+    "checkin_comment": "",
+    "rating_score": 3.8,
+    "created_at": "Tue, 01 Aug 2023 18:09:39 +0000",
+    "beer_id": 1284852,
+    "beer_name": "IPAnema",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-1284852_a5e8a_sm.jpeg",
+    "beer_style": "IPA - American",
+    "beer_abv": 6,
+    "brewery_id": 24460,
+    "brewery_name": "Brasserie Docteur Gab's",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-24460_cf63a.jpeg",
+    "brewery_country": "Switzerland",
+    "brewery_city": "Puidoux",
+    "brewery_state": "Vaud",
+    "venue_name": "SMOK'ED",
+    "venue_city": "",
+    "venue_country": "Schweiz",
+    "venue_state": "",
+    "venue_lat": 46.2023697,
+    "venue_lng": 6.1485419,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/food/bbqalt_bg_512.png"
   }
 ]
