@@ -23,9 +23,9 @@
       "latitude": 44.837789,
       "longitude": -0.57918,
       "epoch_start": 1691020800,
-      "epoch_end": 1691798400,
+      "epoch_end": 1691884800,
       "date_start": "2023-08-03",
-      "date_end": "2023-08-12",
+      "date_end": "2023-08-13",
       "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/bordeaux-france.jpg?1679619477"
     },
     "previous": {
@@ -53,12 +53,31 @@
   "map": "https://nomadlist.com/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2023-08",
   "trips": [
     {
+      "epoch_start": 1691884800,
+      "epoch_end": 1693267200,
+      "date_start": "2023-08-13",
+      "date_end": "2023-08-29",
+      "length": "15 days",
+      "epoch_duration": 1382400,
+      "place": "Istanbul",
+      "place_slug": "istanbul",
+      "place_long_slug": "istanbul-turkey",
+      "place_url": "https://nomadlist.com/istanbul-turkey",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/istanbul-turkey.jpg?1679875361",
+      "country": "Turkey",
+      "country_code": "TR",
+      "country_slug": "turkey",
+      "latitude": 41.00527,
+      "longitude": 28.97696,
+      "trip_id": "1690923104bfbf9e320492efed6f6e068a3c686ed83c4b0b51"
+    },
+    {
       "epoch_start": 1691020800,
-      "epoch_end": 1691798400,
+      "epoch_end": 1691884800,
       "date_start": "2023-08-03",
-      "date_end": "2023-08-12",
-      "length": "8 days",
-      "epoch_duration": 777600,
+      "date_end": "2023-08-13",
+      "length": "9 days",
+      "epoch_duration": 864000,
       "place": "Bordeaux",
       "place_slug": "bordeaux",
       "place_long_slug": "bordeaux-france",
@@ -69,7 +88,7 @@
       "country_slug": "france",
       "latitude": 44.837789,
       "longitude": -0.57918,
-      "trip_id": "169049146397c734ee0bd4a9ad086a1457ef974f620214f128"
+      "trip_id": "1690922223ed68fe4d5280462395453247e6a2e6ea7991c546"
     },
     {
       "epoch_start": 1690416000,
@@ -2388,9 +2407,9 @@
     "athens-greece": 7,
     "rome-italy": 7,
     "denver-co-united-states": 6,
+    "geneva-switzerland": 6,
     "grand-junction-co-united-states": 5,
     "sofia-bulgaria": 5,
-    "geneva-switzerland": 5,
     "dublin-ireland": 4,
     "venice-italy": 4,
     "granada-spain": 4,
