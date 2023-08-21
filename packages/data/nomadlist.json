@@ -23,9 +23,9 @@
       "latitude": 13.7566968,
       "longitude": 100.5019493,
       "epoch_start": 1693267200,
-      "epoch_end": 1694476800,
+      "epoch_end": 1694304000,
       "date_start": "2023-08-29",
-      "date_end": "2023-09-12",
+      "date_end": "2023-09-10",
       "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/bangkok-thailand.jpg?1675438153"
     },
     "previous": {
@@ -48,17 +48,36 @@
     "distance_traveled_km": 214670,
     "distance_traveled_miles": 133390,
     "countries_visited_percentage": 0.17098445595854922,
-    "cities_visited_percentage": 0.06067251461988304
+    "cities_visited_percentage": 0.0606281957633309
   },
   "map": "https://nomadlist.com/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2023-08",
   "trips": [
     {
+      "epoch_start": 1694304000,
+      "epoch_end": 1694649600,
+      "date_start": "2023-09-10",
+      "date_end": "2023-09-14",
+      "length": "3 days",
+      "epoch_duration": 345600,
+      "place": "Tokyo",
+      "place_slug": "tokyo",
+      "place_long_slug": "tokyo-japan",
+      "place_url": "https://nomadlist.com/tokyo-japan",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/tokyo-japan.jpg?1679875806",
+      "country": "Japan",
+      "country_code": "JP",
+      "country_slug": "japan",
+      "latitude": 35.6894875,
+      "longitude": 139.6917064,
+      "trip_id": "16923643017dec9543e521f2abf7e4beccdb0eaf7492aa92ee"
+    },
+    {
       "epoch_start": 1693267200,
-      "epoch_end": 1694476800,
+      "epoch_end": 1694304000,
       "date_start": "2023-08-29",
-      "date_end": "2023-09-12",
-      "length": "13 days",
-      "epoch_duration": 1209600,
+      "date_end": "2023-09-10",
+      "length": "11 days",
+      "epoch_duration": 1036800,
       "place": "Bangkok",
       "place_slug": "bangkok",
       "place_long_slug": "bangkok-thailand",
@@ -69,7 +88,7 @@
       "country_slug": "thailand",
       "latitude": 13.7566968,
       "longitude": 100.5019493,
-      "trip_id": "16917595398b88b5af6b7abf940788ce416f2880179b91d3ac"
+      "trip_id": "1692364286178102f11f0babae33235a5e2a3adb16bb9bdfce"
     },
     {
       "epoch_start": 1691884800,
@@ -1431,7 +1450,7 @@
       "place_slug": "vancouver",
       "place_long_slug": "vancouver-canada",
       "place_url": "https://nomadlist.com/vancouver-canada",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/vancouver-canada.jpg?1685405024",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/vancouver-canada.jpg?1692230643",
       "country": "Canada",
       "country_code": "CA",
       "country_slug": "canada",
@@ -2424,6 +2443,7 @@
     "stockholm-sweden": 21,
     "cluj-romania": 20,
     "puerto-vallarta-mexico": 20,
+    "istanbul-turkey": 19,
     "tel-aviv-israel": 18,
     "bangkok-thailand": 15,
     "split-croatia": 15,
@@ -2433,7 +2453,6 @@
     "budapest-hungary": 14,
     "copenhagen-denmark": 14,
     "prague-czechia": 14,
-    "istanbul-turkey": 14,
     "salt-lake-city-ut-united-states": 13,
     "boston-ma-united-states": 13,
     "antwerp-belgium": 11,
