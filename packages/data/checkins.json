@@ -59774,5 +59774,29 @@
     "venue_lat": 41.0425148,
     "venue_lng": 29.0031357,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/beergarden_bg_512.png"
+  },
+  {
+    "checkin_id": 1308687344,
+    "checkin_comment": "",
+    "rating_score": 2.9,
+    "created_at": "Sun, 27 Aug 2023 17:00:35 +0000",
+    "beer_id": 3624773,
+    "beer_name": "Buğu",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-3624773_bf246_sm.jpeg",
+    "beer_style": "Wheat Beer - Witbier / Blanche",
+    "beer_abv": 5.3,
+    "brewery_id": 455610,
+    "brewery_name": "Trokya",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-455610_77633.jpeg",
+    "brewery_country": "Turkey",
+    "brewery_city": "Edirne",
+    "brewery_state": "Edirne",
+    "venue_name": "Craft Beer Lab",
+    "venue_city": "Beşiktaş",
+    "venue_country": "Türkiye",
+    "venue_state": "İstanbul",
+    "venue_lat": 41.0425148,
+    "venue_lng": 29.0031357,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/beergarden_bg_512.png"
   }
 ]
