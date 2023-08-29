@@ -15,6 +15,8 @@ export interface CheckinMarkerProps {
 
 const MarkerIcon = new Icon({
   iconUrl: MarkerIconPath,
+  iconSize: [25, 41],
+  iconAnchor: [13, 41],
 });
 
 function CheckinMarker({ checkin, openPopup, index }: CheckinMarkerProps) {
