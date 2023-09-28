@@ -23,9 +23,9 @@
       "latitude": 13.7566968,
       "longitude": 100.5019493,
       "epoch_start": 1696809600,
-      "epoch_end": 1698105600,
+      "epoch_end": 1699315200,
       "date_start": "2023-10-09",
-      "date_end": "2023-10-24",
+      "date_end": "2023-11-07",
       "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/bangkok-thailand.jpg?1675438153"
     },
     "previous": {
@@ -53,50 +53,12 @@
   "map": "https://nomadlist.com/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2023-09",
   "trips": [
     {
-      "epoch_start": 1698710400,
-      "epoch_end": 1700092800,
-      "date_start": "2023-10-31",
-      "date_end": "2023-11-16",
-      "length": "15 days",
-      "epoch_duration": 1382400,
-      "place": "Kampot",
-      "place_slug": null,
-      "place_long_slug": null,
-      "place_url": null,
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/cambodia.jpg?1679792796",
-      "country": "Cambodia",
-      "country_code": "KH",
-      "country_slug": "cambodia",
-      "latitude": 10.6183061,
-      "longitude": 104.1797339,
-      "trip_id": "16950413948cba797a88978df2e20760b96883ceca43d30a8a"
-    },
-    {
-      "epoch_start": 1698105600,
-      "epoch_end": 1698710400,
-      "date_start": "2023-10-24",
-      "date_end": "2023-10-31",
-      "length": "6 days",
-      "epoch_duration": 604800,
-      "place": "Phnom Penh",
-      "place_slug": "phnom-penh",
-      "place_long_slug": "phnom-penh-cambodia",
-      "place_url": "https://nomadlist.com/phnom-penh-cambodia",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/phnom-penh-cambodia.jpg?1690070519",
-      "country": "Cambodia",
-      "country_code": "KH",
-      "country_slug": "cambodia",
-      "latitude": 11.5448729,
-      "longitude": 104.8921668,
-      "trip_id": "16950407908f29cccc0d3ced43653649e2cc76916d44907831"
-    },
-    {
       "epoch_start": 1696809600,
-      "epoch_end": 1698105600,
+      "epoch_end": 1699315200,
       "date_start": "2023-10-09",
-      "date_end": "2023-10-24",
-      "length": "14 days",
-      "epoch_duration": 1296000,
+      "date_end": "2023-11-07",
+      "length": "28 days",
+      "epoch_duration": 2505600,
       "place": "Bangkok",
       "place_slug": "bangkok",
       "place_long_slug": "bangkok-thailand",
@@ -107,7 +69,7 @@
       "country_slug": "thailand",
       "latitude": 13.7566968,
       "longitude": 100.5019493,
-      "trip_id": "1695040749ab96b4882e77ce00fd8ada978fd7821572553c09"
+      "trip_id": "169572319629bce27a92c0ffcc242e26af96e9011f2d6b3662"
     },
     {
       "epoch_start": 1695081600,
@@ -1583,7 +1545,7 @@
       "place_slug": "melbourne",
       "place_long_slug": "melbourne-australia",
       "place_url": "https://nomadlist.com/melbourne-australia",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/melbourne-australia.jpg?1686268874",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/melbourne-australia.jpg?1695686448",
       "country": "Australia",
       "country_code": "AU",
       "country_slug": "australia",
@@ -1640,7 +1602,7 @@
       "place_slug": "queenstown",
       "place_long_slug": "queenstown-new-zealand",
       "place_url": "https://nomadlist.com/queenstown-new-zealand",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/queenstown-new-zealand.jpg?1689120285",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/queenstown-new-zealand.jpg?1695168294",
       "country": "New Zealand",
       "country_code": "NZ",
       "country_slug": "new-zealand",
@@ -2573,6 +2535,7 @@
     "antwerp-belgium": 11,
     "oslo-norway": 9,
     "park-city-ut-united-states": 8,
+    "da-nang-vietnam": 8,
     "berlin-germany": 7,
     "antalya-turkey": 7,
     "rapid-city-sd-united-states": 7,
@@ -2600,7 +2563,6 @@
     "christchurch-new-zealand": 1,
     "paris-france": 1,
     "strasbourg-france": 1,
-    "bern-switzerland": 1,
-    "da-nang-vietnam": 0
+    "bern-switzerland": 1
   }
 }
