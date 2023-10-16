@@ -61646,5 +61646,29 @@
     "venue_lat": 13.7124147,
     "venue_lng": 100.5934753,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
+  },
+  {
+    "checkin_id": 1322964432,
+    "checkin_comment": "",
+    "rating_score": 3.7,
+    "created_at": "Sun, 15 Oct 2023 13:12:27 +0000",
+    "beer_id": 4415636,
+    "beer_name": "Inception IPA",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-4415636_d7274_sm.jpeg",
+    "beer_style": "IPA - American",
+    "beer_abv": 6,
+    "brewery_id": 260447,
+    "brewery_name": "Brewlander (Singapore)",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-260447_de77f.jpeg",
+    "brewery_country": "Singapore",
+    "brewery_city": "Singapore",
+    "brewery_state": "Central Singapore",
+    "venue_name": "Arcadia Barcade",
+    "venue_city": "พระนคร",
+    "venue_country": "ประเทศไทย",
+    "venue_state": "กรุงเทพมหานคร",
+    "venue_lat": 13.7124147,
+    "venue_lng": 100.5934753,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
   }
 ]
