@@ -61742,5 +61742,29 @@
     "venue_lat": 13.7324743,
     "venue_lng": 100.5681763,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
+  },
+  {
+    "checkin_id": 1323394164,
+    "checkin_comment": "",
+    "rating_score": 2.6,
+    "created_at": "Tue, 17 Oct 2023 11:38:15 +0000",
+    "beer_id": 65020,
+    "beer_name": "Beerlao Lager",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-65020_58f33_sm.jpeg",
+    "beer_style": "Lager - Pale",
+    "beer_abv": 5,
+    "brewery_id": 1558,
+    "brewery_name": "Lao Brewery Co., Ltd",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-1558_f25c8.jpeg",
+    "brewery_country": "Laos",
+    "brewery_city": "Hatxayfong",
+    "brewery_state": "ຄໍາມ່ວນ",
+    "venue_name": "Arcadia Barcade",
+    "venue_city": "พระนคร",
+    "venue_country": "ประเทศไทย",
+    "venue_state": "กรุงเทพมหานคร",
+    "venue_lat": 13.7124147,
+    "venue_lng": 100.5934753,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
   }
 ]
