@@ -5,18 +5,6 @@
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "Taipei",
-      "country": "Taiwan",
-      "country_code": "TW",
-      "latitude": 25.042405,
-      "longitude": 121.532772,
-      "epoch_start": 1699315200,
-      "epoch_end": 1699833600,
-      "date_start": "2023-11-07",
-      "date_end": "2023-11-13",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/taipei-taiwan.jpg?1699747323"
-    },
-    "next": {
       "city": "Bangkok",
       "country": "Thailand",
       "country_code": "TH",
@@ -28,16 +16,28 @@
       "date_end": "2023-12-12",
       "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/bangkok-thailand.jpg?1698624018"
     },
+    "next": {
+      "city": "New York City",
+      "country": "United States",
+      "country_code": "US",
+      "latitude": 40.7127837,
+      "longitude": -74.0059413,
+      "epoch_start": 1702339200,
+      "epoch_end": 1702944000,
+      "date_start": "2023-12-12",
+      "date_end": "2023-12-19",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/new-york-city-ny-united-states.jpg?1699574477"
+    },
     "previous": {
-      "city": "Bangkok",
-      "country": "Thailand",
-      "country_code": "TH",
-      "latitude": 13.7566968,
-      "longitude": 100.5019493,
-      "epoch_start": 1696809600,
-      "epoch_end": 1699315200,
-      "date_start": "2023-10-09",
-      "date_end": "2023-11-07"
+      "city": "Taipei",
+      "country": "Taiwan",
+      "country_code": "TW",
+      "latitude": 25.042405,
+      "longitude": 121.532772,
+      "epoch_start": 1699315200,
+      "epoch_end": 1699833600,
+      "date_start": "2023-11-07",
+      "date_end": "2023-11-13"
     }
   },
   "stats": {
@@ -45,8 +45,8 @@
     "countries": 35,
     "followers": 2,
     "following": 1,
-    "distance_traveled_km": 240705,
-    "distance_traveled_miles": 149567,
+    "distance_traveled_km": 243237,
+    "distance_traveled_miles": 151140,
     "countries_visited_percentage": 0.18134715025906736,
     "cities_visited_percentage": 0.06428049671292914
   },
@@ -652,7 +652,7 @@
       "place_slug": "luxembourg",
       "place_long_slug": "luxembourg-luxembourg",
       "place_url": "https://nomadlist.com/luxembourg-luxembourg",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/luxembourg-luxembourg.jpg?1699402965",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/luxembourg-luxembourg.jpg?1699834392",
       "country": "Luxembourg",
       "country_code": "LU",
       "country_slug": "luxembourg",
@@ -2582,7 +2582,7 @@
   ],
   "frequent_visits": {
     "new-york-city-ny-united-states": 9,
-    "bangkok-thailand": 5,
+    "bangkok-thailand": 6,
     "los-angeles-ca-united-states": 4,
     "london-united-kingdom": 4,
     "boston-ma-united-states": 4,
@@ -2682,9 +2682,9 @@
     "geneva-switzerland": 7,
     "bordeaux-france": 7,
     "denver-co-united-states": 6,
+    "taipei-taiwan": 6,
     "grand-junction-co-united-states": 5,
     "sofia-bulgaria": 5,
-    "taipei-taiwan": 5,
     "dublin-ireland": 4,
     "venice-italy": 4,
     "granada-spain": 4,
