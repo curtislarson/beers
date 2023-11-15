@@ -62630,5 +62630,29 @@
     "venue_lat": 25.0536823,
     "venue_lng": 121.5101624,
     "venue_img": "https://assets.untappd.com/venuelogos/venue_5102457_4c294c99_bg_176.png?v=1"
+  },
+  {
+    "checkin_id": 1331148977,
+    "checkin_comment": "",
+    "rating_score": 3.8,
+    "created_at": "Tue, 14 Nov 2023 13:51:48 +0000",
+    "beer_id": 3699933,
+    "beer_name": "Mo Mo IPA",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-3699933_8cd8d_sm.jpeg",
+    "beer_style": "IPA - American",
+    "beer_abv": 6.6,
+    "brewery_id": 355283,
+    "brewery_name": "Hop Hog",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-355283_e9224.jpeg",
+    "brewery_country": "Thailand",
+    "brewery_city": "Bangkok",
+    "brewery_state": "กรุงเทพมหานคร",
+    "venue_name": "Arcadia Barcade",
+    "venue_city": "พระนคร",
+    "venue_country": "ประเทศไทย",
+    "venue_state": "กรุงเทพมหานคร",
+    "venue_lat": 13.7124147,
+    "venue_lng": 100.5934753,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
   }
 ]
