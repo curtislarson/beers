@@ -63086,5 +63086,29 @@
     "venue_lat": 13.7324743,
     "venue_lng": 100.5681763,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
+  },
+  {
+    "checkin_id": 1334929513,
+    "checkin_comment": "",
+    "rating_score": 2.5,
+    "created_at": "Tue, 28 Nov 2023 12:58:37 +0000",
+    "beer_id": 19579,
+    "beer_name": "Mahou Cinco Estrellas",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-19579_4914a_sm.jpeg",
+    "beer_style": "Lager - Pale",
+    "beer_abv": 5.5,
+    "brewery_id": 4726,
+    "brewery_name": "Grupo Mahou-San Miguel",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-4726_a8a40.jpeg",
+    "brewery_country": "Spain",
+    "brewery_city": "Madrid",
+    "brewery_state": "Comunidad de Madrid",
+    "venue_name": "Arcadia Barcade",
+    "venue_city": "พระนคร",
+    "venue_country": "ประเทศไทย",
+    "venue_state": "กรุงเทพมหานคร",
+    "venue_lat": 13.7124147,
+    "venue_lng": 100.5934753,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
   }
 ]
