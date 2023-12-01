@@ -63158,5 +63158,29 @@
     "venue_lat": 13.7324743,
     "venue_lng": 100.5681763,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
+  },
+  {
+    "checkin_id": 1335233475,
+    "checkin_comment": "",
+    "rating_score": 3.2,
+    "created_at": "Thu, 30 Nov 2023 16:05:58 +0000",
+    "beer_id": 2322396,
+    "beer_name": "Somali Pirate Hog",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-2322396_5fc59_sm.jpeg",
+    "beer_style": "IPA - New England / Hazy",
+    "beer_abv": 7.5,
+    "brewery_id": 355283,
+    "brewery_name": "Hop Hog",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-355283_e9224.jpeg",
+    "brewery_country": "Thailand",
+    "brewery_city": "Bangkok",
+    "brewery_state": "กรุงเทพมหานคร",
+    "venue_name": "Arcadia Barcade",
+    "venue_city": "พระนคร",
+    "venue_country": "ประเทศไทย",
+    "venue_state": "กรุงเทพมหานคร",
+    "venue_lat": 13.7124147,
+    "venue_lng": 100.5934753,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
   }
 ]
