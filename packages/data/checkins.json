@@ -63182,5 +63182,29 @@
     "venue_lat": 13.7124147,
     "venue_lng": 100.5934753,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
+  },
+  {
+    "checkin_id": 1335843699,
+    "checkin_comment": "",
+    "rating_score": 3.4,
+    "created_at": "Sat, 02 Dec 2023 14:47:58 +0000",
+    "beer_id": 3784427,
+    "beer_name": "Hazy Hog Citra",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-3784427_e80c9_sm.jpeg",
+    "beer_style": "IPA - New England / Hazy",
+    "beer_abv": 7.6,
+    "brewery_id": 355283,
+    "brewery_name": "Hop Hog",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-355283_e9224.jpeg",
+    "brewery_country": "Thailand",
+    "brewery_city": "Bangkok",
+    "brewery_state": "กรุงเทพมหานคร",
+    "venue_name": "Arcadia Barcade",
+    "venue_city": "พระนคร",
+    "venue_country": "ประเทศไทย",
+    "venue_state": "กรุงเทพมหานคร",
+    "venue_lat": 13.7124147,
+    "venue_lng": 100.5934753,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
   }
 ]
