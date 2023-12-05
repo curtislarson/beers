@@ -45,7 +45,7 @@ jobs:
             auto: [Beers] - New Trips Update
           committer: ${{ env.PR_BOT_AUTHOR }}
           author: ${{ env.PR_BOT_AUTHOR }}
-          title: "[Beers] - You added a new trip, update the website!"
+          title: "[Beers] - Trip Schedule Updated!"
           labels: "A:Auto Merge"
           branch: "new-trips"
           branch-suffix: "short-commit-hash"
