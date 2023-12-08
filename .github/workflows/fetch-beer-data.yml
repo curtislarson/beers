@@ -49,7 +49,7 @@ jobs:
             auto: [Beers] - Daily Beer Update
           committer: ${{ env.PR_BOT_AUTHOR }}
           author: ${{ env.PR_BOT_AUTHOR }}
-          title: "[Beers] - You Drank ${{ steps.fetch_recent_checkins.outputs.NEW_CHECKIN_COUNT }} new beer${{ steps.fetch_recent_checkins.outputs.NEW_CHECKIN_COUNT == 1 && '' || 's' }}!"
+          title: "[Beers] - You Drank ${{ steps.fetch_recent_checkins.outputs.NEW_CHECKIN_COUNT }} new beer${{ steps.fetch_recent_checkins.outputs.NEW_CHECKIN_COUNT != 1 && 's' || '' }}!"
           labels: "A:Auto Merge"
           branch: "new-beers"
           branch-suffix: "short-commit-hash"
