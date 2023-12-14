@@ -63326,5 +63326,29 @@
     "venue_lat": 13.7124147,
     "venue_lng": 100.5934753,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
+  },
+  {
+    "checkin_id": 1338820165,
+    "checkin_comment": "tasty",
+    "rating_score": 4,
+    "created_at": "Wed, 13 Dec 2023 04:23:41 +0000",
+    "beer_id": 3387939,
+    "beer_name": "Seven Izzup",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-3387939_5d656_sm.jpeg",
+    "beer_style": "IPA - Imperial / Double",
+    "beer_abv": 7.7,
+    "brewery_id": 198789,
+    "brewery_name": "Equilibrium Brewery",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-198789_9cb30.jpeg",
+    "brewery_country": "United States",
+    "brewery_city": "Middletown",
+    "brewery_state": "NY",
+    "venue_name": "12th Street Ale House",
+    "venue_city": "New York",
+    "venue_country": "United States",
+    "venue_state": "NY",
+    "venue_lat": 40.7310333,
+    "venue_lng": -73.9856415,
+    "venue_img": "https://assets.untappd.com/venuelogos/venue_45766_00a9e747_bg_176.png?v=1"
   }
 ]
