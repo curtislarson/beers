@@ -22,17 +22,17 @@ export default function CheckinFacets({ trips, onTripUpdated, onSearchUpdated, s
       setTrip(trip);
       onTripUpdated(trip);
     },
-    [setTripDropdownVisible, onTripUpdated, setTrip]
+    [setTripDropdownVisible, onTripUpdated, setTrip],
   );
 
   return (
-    <div className="flex w-full flex-col gap-2">
+    <div className="mb-2 flex w-full flex-col gap-2">
       <div className="mt-2 flex flex-row gap-2 sm:mt-0">
         <div className="flex-1">
           <SearchInput debounceMs={searchDebounceMs} onChange={onSearchUpdated} />
         </div>
         <div className="flex-1">
-          <div className="dropdown-bottom dropdown w-full sm:dropdown-left">
+          <div className="dropdown-bottom dropdown w-full">
             <button
               tabIndex={0}
               className="btn-xs btn w-full bg-base-300 normal-case sm:btn-md"
@@ -43,13 +43,13 @@ export default function CheckinFacets({ trips, onTripUpdated, onSearchUpdated, s
                   <TripDisplay trip={trip} />
                 </div>
               ) : (
-                <span className="text-secondary">Filter By Trip</span>
+                <span className="text-secondary">Select Trip</span>
               )}
             </button>
             {tripDropdownVisible && (
               <ul
                 tabIndex={0}
-                className="dropdown-content menu right-10 !z-[401] w-52 rounded-md border-2 border-secondary bg-base-300 shadow sm:right-0 sm:w-72 sm:p-2"
+                className="dropdown-content menu right-10 z-20 w-52 rounded-md border-2 border-secondary bg-base-300 shadow sm:right-0 sm:w-72 sm:p-2"
               >
                 <div className="max-h-72 overflow-y-scroll">
                   <li className="border-b-2 border-base-100" onClick={() => updateTrip(null)}>
