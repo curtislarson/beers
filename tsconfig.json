@@ -24,8 +24,6 @@
     "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
     "noImplicitThis": true,
-    "noStrictGenericChecks": true,
-    "noUncheckedIndexedAccess": false,
     "noUnusedLocals": false,
     "noUnusedParameters": true,
     "resolveJsonModule": true,
@@ -33,10 +31,6 @@
     "strictBindCallApply": true,
     "strictFunctionTypes": true,
     "strictNullChecks": true,
-    "suppressExcessPropertyErrors": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "target": "ESNext",
-    "useDefineForClassFields": true,
-    "useUnknownInCatchVariables": true
+    "target": "ESNext"
   }
 }

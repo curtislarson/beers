@@ -1,10 +1,10 @@
 import dayjs from "dayjs";
 import { LatLng, latLngBounds } from "leaflet";
 import { useMemo, useState } from "react";
-import { default as _CD } from "../../../data/checkins.json";
 import { CheckinData } from "../../../data/types";
 import { Trip } from "../trip";
 import { CHECKIN_DATE_ORIGINAL_FORMAT } from "./dates";
+import { getNormalizedCheckins } from "./normalized-checkins";
 import { StatTracker } from "./stat-tracker";
 
 export interface CheckinFilter {
@@ -28,7 +28,8 @@ export type StatName =
 
 type KeysWithStringVals<Base> = NonNullable<
   {
-    [Key in keyof Base]: Base[Key] extends string | null | undefined ? Key : never;
+    [Key in keyof Base]: Base[Key] extends string | null | undefined ? Key
+      : never;
   }[keyof Base]
 >;
 
@@ -42,16 +43,13 @@ const FILTERABLE_PROPERTY_NAMES: KeysWithStringVals<CheckinData>[] = [
 type Predicate = (checkin: CheckinData) => boolean;
 
 const sortFn = (a: CheckinData, b: CheckinData) =>
-  dayjs(a.created_at, CHECKIN_DATE_ORIGINAL_FORMAT).isAfter(dayjs(b.created_at, CHECKIN_DATE_ORIGINAL_FORMAT)) ? -1 : 1;
+  dayjs(a.created_at, CHECKIN_DATE_ORIGINAL_FORMAT).isAfter(
+      dayjs(b.created_at, CHECKIN_DATE_ORIGINAL_FORMAT),
+    )
+    ? -1
+    : 1;
 
-const AT_HOME_CHECKIN_VENUE_NAME = "Untappd at Home";
-
-/** Used to filter out "problematic" checkins that dont view well on the website, such as 'Untappd at Home' checkins */
-function filterCheckinFn(checkin: CheckinData) {
-  return checkin.venue_name !== AT_HOME_CHECKIN_VENUE_NAME;
-}
-
-const Checkins = (_CD as CheckinData[]).slice().filter(filterCheckinFn);
+const Checkins = getNormalizedCheckins();
 
 export function useCheckinManager() {
   const [activeTrip, setActiveTrip] = useState<Trip | null>(null);
@@ -63,7 +61,8 @@ export function useCheckinManager() {
     if (activeTrip) {
       predicates.push(
         (checkin) =>
-          dayjs(checkin.created_at).isAfter(activeTrip.start) && dayjs(checkin.created_at).isBefore(activeTrip.end),
+          dayjs(checkin.created_at).isAfter(activeTrip.start) &&
+          dayjs(checkin.created_at).isBefore(activeTrip.end),
       );
     }
     if (searchFilter) {
@@ -85,8 +84,8 @@ export function useCheckinManager() {
     const latLngs: LatLng[] = [];
     checkins.forEach((c) => {
       tracker.inc("Total Checkins");
-      tracker.uniq("Unique Beers", c.beer_name);
-      tracker.uniq("Unique Breweries", c.brewery_name);
+      tracker.uniq("Unique Beers", c.beer_id);
+      tracker.uniq("Unique Breweries", c.brewery_id);
       if (c.venue_country) {
         tracker.uniq("Unique Countries", c.venue_country);
       }
