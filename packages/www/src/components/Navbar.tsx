@@ -24,12 +24,12 @@ export default function Navbar(props: NavbarProps) {
   return (
     <div className="navbar bg-base-200">
       <div className="flex-none">
-        <a href={props.href ?? "/"} className="btn-ghost btn-xs btn sm:btn-md">
+        <a href={props.href ?? "/"} className="btn btn-ghost btn-xs sm:btn-md">
           <Icon src={props.logo} tooltip="Quack" />
           <span className="ml-5 text-xl normal-case">{props.title}</span>
         </a>
       </div>
-      <div className="flex-1">
+      <div className="mt-1 flex-1">
         {left.length > 0 && (
           <ul className="menu menu-horizontal px-1">
             {left.map((item) => (
