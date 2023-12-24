@@ -18,11 +18,11 @@ export default function Navbar(props: NavbarProps) {
       }
       return acc;
     },
-    { left: [], right: [] }
+    { left: [], right: [] },
   );
 
   return (
-    <div className="navbar hidden items-center bg-base-200 px-2 py-2 sm:flex sm:px-8">
+    <div className="navbar bg-base-200">
       <div className="flex-none">
         <a href={props.href ?? "/"} className="btn-ghost btn-xs btn sm:btn-md">
           <Icon src={props.logo} tooltip="Quack" />
@@ -31,14 +31,14 @@ export default function Navbar(props: NavbarProps) {
       </div>
       <div className="flex-1">
         {left.length > 0 && (
-          <ul className="menu menu-horizontal">
+          <ul className="menu menu-horizontal px-1">
             {left.map((item) => (
               <NavbarItem {...item} key={item.href} />
             ))}
           </ul>
         )}
       </div>
-      <div className="h-full flex-1 justify-end">
+      <div className="flex-1 justify-end">
         {right.length > 0 && (
           <ul className="menu menu-horizontal">
             {right.map((item) => (

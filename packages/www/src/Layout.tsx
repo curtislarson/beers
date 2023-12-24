@@ -15,7 +15,7 @@ const NAVBAR_ITEMS: NavbarItemProps[] = [
     active: true,
   },
   {
-    href: "https://github.com/curtislarson/daotw",
+    href: "https://github.com/curtislarson/beers",
     image: GithubIcon,
     align: "right",
     tooltip: "View on GitHub",
@@ -24,18 +24,14 @@ const NAVBAR_ITEMS: NavbarItemProps[] = [
 
 export default function Layout() {
   return (
-    <div className="flex flex-col">
-      <div className="flex-none">
-        <Navbar
-          logo={new URL("../public/quack.png", import.meta.url).pathname}
-          title="curtislarson.dev"
-          href="https://curtislarson.dev"
-          items={NAVBAR_ITEMS}
-        />
-      </div>
-      <div className="min-h-0 w-screen grow">
-        <Outlet />
-      </div>
+    <div>
+      <Navbar
+        logo={new URL("../public/quack.png", import.meta.url).pathname}
+        title="curtislarson.dev"
+        href="https://curtislarson.dev"
+        items={NAVBAR_ITEMS}
+      />
+      <Outlet />
     </div>
   );
 }
