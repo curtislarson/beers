@@ -24,7 +24,10 @@ export default function NavbarItem(props: NavbarItemProps) {
   } else {
     return (
       <li>
-        <a href={props.href} className={`btn normal-case ${props.active ? "btn-outline btn-primary" : "btn-ghost"}`}>
+        <a
+          href={props.href}
+          className={`btn rounded-md normal-case ${props.active ? "btn-outline btn-primary" : "btn-ghost"}`}
+        >
           {props.text}
         </a>
       </li>
