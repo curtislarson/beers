@@ -33,6 +33,9 @@ function CheckinMarker({ checkin, openPopup, index }: CheckinMarkerProps) {
 
   return (
     <Marker position={[Number(checkin.venue_lat), Number(checkin.venue_lng)]} ref={markerRef} icon={MarkerIcon}>
+      {/**
+       * eslint-disable-next-line @typescript-eslint/ban-ts-comment
+       * @ts-ignore*/}
       <Popup minWidth={isSmallScreen() ? 300 : 400} checkinIndex={index}>
         <CheckinCard checkin={checkin} />
       </Popup>

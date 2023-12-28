@@ -4,21 +4,28 @@ import { NavbarItemProps } from "./components/NavbarItem";
 import GithubIcon from "./icons/Github.svg";
 
 const NAVBAR_ITEMS: NavbarItemProps[] = [
-  { href: "https://curtislarson.dev/projects", text: "Projects", active: window.location.pathname === "/projects" },
   {
+    id: "projects",
+    href: "https://curtislarson.dev/projects",
+    text: "Projects",
+    active: window.location.pathname === "/projects",
+  },
+  {
+    id: "travel",
     href: "https://nomadlist.com/@curtis",
     text: "Travel",
   },
   {
+    id: "beers",
     href: "https://beers.curtislarson.dev",
     text: "Beers",
-    active: true,
   },
   {
-    href: "https://github.com/curtislarson/beers",
+    id: "github",
+    href: "https://github.com/curtislarson",
     image: GithubIcon,
     align: "right",
-    tooltip: "View on GitHub",
+    tooltip: "GitHub",
   },
 ];
 
