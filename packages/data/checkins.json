@@ -63518,5 +63518,29 @@
     "venue_lat": 42.3521729,
     "venue_lng": -71.0473709,
     "venue_img": "https://assets.untappd.com/venuelogos/venue_8286468_1f2b6185_bg_176.png?v=1"
+  },
+  {
+    "checkin_id": 1346579752,
+    "checkin_comment": "Makes you warm!",
+    "rating_score": 3.8,
+    "created_at": "Fri, 05 Jan 2024 18:42:47 +0000",
+    "beer_id": 5088941,
+    "beer_name": "Winter Is Warmer",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-5088941_81f8e_sm.jpeg",
+    "beer_style": "Winter Warmer",
+    "beer_abv": 7.8,
+    "brewery_id": 104234,
+    "brewery_name": "Proclamation Ale Company",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-104234_6a623.jpeg",
+    "brewery_country": "United States",
+    "brewery_city": "Warwick",
+    "brewery_state": "RI",
+    "venue_name": "Russell House Tavern",
+    "venue_city": "Cambridge",
+    "venue_country": "United States",
+    "venue_state": "MA",
+    "venue_lat": 42.3732224,
+    "venue_lng": -71.119545,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/food/gastropub_bg_512.png"
   }
 ]
