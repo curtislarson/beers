@@ -63542,5 +63542,29 @@
     "venue_lat": 42.3732224,
     "venue_lng": -71.119545,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/food/gastropub_bg_512.png"
+  },
+  {
+    "checkin_id": 1347627484,
+    "checkin_comment": "",
+    "rating_score": 3.8,
+    "created_at": "Tue, 09 Jan 2024 23:20:53 +0000",
+    "beer_id": 5423100,
+    "beer_name": "Hoptank",
+    "beer_label": "https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png",
+    "beer_style": "IPA - New England / Hazy",
+    "beer_abv": 6.9,
+    "brewery_id": 544097,
+    "brewery_name": "4 Dogs Brewing Co. & Pub",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-544097_2504a.jpeg",
+    "brewery_country": "United States",
+    "brewery_city": "Easton",
+    "brewery_state": "MD",
+    "venue_name": "4 Dogs Brewing Co. & Pub",
+    "venue_city": "Easton",
+    "venue_country": "United States",
+    "venue_state": "MD",
+    "venue_lat": 38.7830811,
+    "venue_lng": -76.0808334,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
   }
 ]
