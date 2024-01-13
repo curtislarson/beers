@@ -63614,5 +63614,29 @@
     "venue_lat": 40.7310333,
     "venue_lng": -73.9856415,
     "venue_img": "https://assets.untappd.com/venuelogos/venue_45766_00a9e747_bg_176.png?v=1"
+  },
+  {
+    "checkin_id": 1347959623,
+    "checkin_comment": "",
+    "rating_score": 3.8,
+    "created_at": "Fri, 12 Jan 2024 04:33:12 +0000",
+    "beer_id": 4458196,
+    "beer_name": "Elderberry Gose",
+    "beer_label": "https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png",
+    "beer_style": "Sour - Fruited Gose",
+    "beer_abv": 5.5,
+    "brewery_id": 3758,
+    "brewery_name": "Lawson's Finest Liquids",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-3758_41738.jpeg",
+    "brewery_country": "United States",
+    "brewery_city": "Waitsfield",
+    "brewery_state": "VT",
+    "venue_name": "12th Street Ale House",
+    "venue_city": "New York",
+    "venue_country": "United States",
+    "venue_state": "NY",
+    "venue_lat": 40.7310333,
+    "venue_lng": -73.9856415,
+    "venue_img": "https://assets.untappd.com/venuelogos/venue_45766_00a9e747_bg_176.png?v=1"
   }
 ]
