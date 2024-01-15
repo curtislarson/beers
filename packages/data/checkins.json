@@ -63638,5 +63638,29 @@
     "venue_lat": 40.7310333,
     "venue_lng": -73.9856415,
     "venue_img": "https://assets.untappd.com/venuelogos/venue_45766_00a9e747_bg_176.png?v=1"
+  },
+  {
+    "checkin_id": 1348728476,
+    "checkin_comment": "",
+    "rating_score": 4,
+    "created_at": "Sun, 14 Jan 2024 05:12:27 +0000",
+    "beer_id": 99558,
+    "beer_name": "Kiwi Rising",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-99558_a7d43_sm.jpeg",
+    "beer_style": "Lager - IPL (India Pale Lager)",
+    "beer_abv": 8.5,
+    "brewery_id": 14088,
+    "brewery_name": "Jack's Abby Craft Lagers",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-14088_b7757.jpeg",
+    "brewery_country": "United States",
+    "brewery_city": "Framingham",
+    "brewery_state": "MA",
+    "venue_name": "12th Street Ale House",
+    "venue_city": "New York",
+    "venue_country": "United States",
+    "venue_state": "NY",
+    "venue_lat": 40.7310333,
+    "venue_lng": -73.9856415,
+    "venue_img": "https://assets.untappd.com/venuelogos/venue_45766_00a9e747_bg_176.png?v=1"
   }
 ]
