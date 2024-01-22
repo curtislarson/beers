@@ -11,9 +11,9 @@
       "latitude": 13.7566968,
       "longitude": 100.5019493,
       "epoch_start": 1705449600,
-      "epoch_end": 1707868800,
+      "epoch_end": 1707955200,
       "date_start": "2024-01-17",
-      "date_end": "2024-02-14",
+      "date_end": "2024-02-15",
       "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/bangkok-thailand.jpg?1705449619"
     },
     "next": {
@@ -22,10 +22,10 @@
       "country_code": "KH",
       "latitude": 11.5448729,
       "longitude": 104.8921668,
-      "epoch_start": 1707868800,
-      "epoch_end": 1708473600,
-      "date_start": "2024-02-14",
-      "date_end": "2024-02-21",
+      "epoch_start": 1707955200,
+      "epoch_end": 1708560000,
+      "date_start": "2024-02-15",
+      "date_end": "2024-02-22",
       "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/phnom-penh-cambodia.jpg?1705536073"
     },
     "previous": {
@@ -53,10 +53,10 @@
   "map": "https://nomadlist.com/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2024-01",
   "trips": [
     {
-      "epoch_start": 1707868800,
-      "epoch_end": 1708473600,
-      "date_start": "2024-02-14",
-      "date_end": "2024-02-21",
+      "epoch_start": 1707955200,
+      "epoch_end": 1708560000,
+      "date_start": "2024-02-15",
+      "date_end": "2024-02-22",
       "length": "7 days",
       "epoch_duration": 604800,
       "place": "Phnom Penh",
@@ -69,15 +69,15 @@
       "country_slug": "cambodia",
       "latitude": 11.5448729,
       "longitude": 104.8921668,
-      "trip_id": "170473715053d820e7e33f68a1a8a799a32ad9d7ec35919e2c"
+      "trip_id": "1705807627e462237781f9cde07a635671f8ae3608ce44d5b6"
     },
     {
       "epoch_start": 1705449600,
-      "epoch_end": 1707868800,
+      "epoch_end": 1707955200,
       "date_start": "2024-01-17",
-      "date_end": "2024-02-14",
-      "length": "28 days",
-      "epoch_duration": 2419200,
+      "date_end": "2024-02-15",
+      "length": "29 days",
+      "epoch_duration": 2505600,
       "place": "Bangkok",
       "place_slug": "bangkok",
       "place_long_slug": "bangkok-thailand",
@@ -88,7 +88,7 @@
       "country_slug": "thailand",
       "latitude": 13.7566968,
       "longitude": 100.5019493,
-      "trip_id": "17044669252e763bf95ef18faf00b5f15cb5b43f79de1fc6da"
+      "trip_id": "170580762186e8e9d15a7af3980915194596cc5ee3722c6a23"
     },
     {
       "epoch_start": 1704931200,
@@ -1336,7 +1336,7 @@
       "place_slug": "puerto-vallarta",
       "place_long_slug": "puerto-vallarta-mexico",
       "place_url": "https://nomadlist.com/puerto-vallarta-mexico",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/puerto-vallarta-mexico.jpg?1677285111",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/puerto-vallarta-mexico.jpg?1705882234",
       "country": "Mexico",
       "country_code": "MX",
       "country_slug": "mexico",
@@ -2191,7 +2191,7 @@
       "place_slug": "berlin",
       "place_long_slug": "berlin-germany",
       "place_url": "https://nomadlist.com/berlin-germany",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/berlin-germany.jpg?1704067227",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/berlin-germany.jpg?1705881640",
       "country": "Germany",
       "country_code": "DE",
       "country_slug": "germany",
@@ -2758,7 +2758,7 @@
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 582,
-    "bangkok-thailand": 92,
+    "bangkok-thailand": 93,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
     "london-united-kingdom": 46,
