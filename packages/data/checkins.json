@@ -64430,5 +64430,29 @@
     "venue_lat": 11.5600863,
     "venue_lng": 104.929985,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
+  },
+  {
+    "checkin_id": 1357836459,
+    "checkin_comment": "",
+    "rating_score": 2.5,
+    "created_at": "Thu, 22 Feb 2024 08:30:11 +0000",
+    "beer_id": 7014,
+    "beer_name": "Angkor Beer",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-7014_156cf_sm.jpeg",
+    "beer_style": "Lager - American",
+    "beer_abv": 5,
+    "brewery_id": 5770,
+    "brewery_name": "Cambrew",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-5770_f5873.jpeg",
+    "brewery_country": "Cambodia",
+    "brewery_city": "Sihanoukville",
+    "brewery_state": "ខេត្តព្រះសីហនុ",
+    "venue_name": "Plaza Premium Lounge",
+    "venue_city": "Phnum Pénh",
+    "venue_country": "កម្ពុជា",
+    "venue_state": "Phnom Penh",
+    "venue_lat": 11.5523052,
+    "venue_lng": 104.8439941,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/default_bg_512.png"
   }
 ]
