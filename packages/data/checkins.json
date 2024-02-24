@@ -64454,5 +64454,29 @@
     "venue_lat": 11.5523052,
     "venue_lng": 104.8439941,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/default_bg_512.png"
+  },
+  {
+    "checkin_id": 1358047569,
+    "checkin_comment": "Hi Brian!",
+    "rating_score": 4.1,
+    "created_at": "Fri, 23 Feb 2024 11:14:24 +0000",
+    "beer_id": 5533269,
+    "beer_name": "Universal Momentum",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-5533269_6c10f_sm.jpeg",
+    "beer_style": "IPA - New England / Hazy",
+    "beer_abv": 7,
+    "brewery_id": 251907,
+    "brewery_name": "Widowmaker Brewing",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-251907_c4351.jpeg",
+    "brewery_country": "United States",
+    "brewery_city": "Braintree",
+    "brewery_state": "MA",
+    "venue_name": "Hair Of The Dog",
+    "venue_city": "ปทุมวัน",
+    "venue_country": "ประเทศไทย",
+    "venue_state": "กรุงเทพมหานคร",
+    "venue_lat": 13.7418737,
+    "venue_lng": 100.5491791,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
   }
 ]
