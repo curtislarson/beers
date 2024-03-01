@@ -64478,5 +64478,29 @@
     "venue_lat": 13.7418737,
     "venue_lng": 100.5491791,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
+  },
+  {
+    "checkin_id": 1359614493,
+    "checkin_comment": "",
+    "rating_score": 2.9,
+    "created_at": "Thu, 29 Feb 2024 12:20:30 +0000",
+    "beer_id": 3619293,
+    "beer_name": "Chang Cold Brew Lager",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-3619293_ae0b0_sm.jpeg",
+    "beer_style": "Lager - Pale",
+    "beer_abv": 4.6,
+    "brewery_id": 1520,
+    "brewery_name": "Thai Beverage PLC",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-ThaiBev_1520.jpeg",
+    "brewery_country": "Thailand",
+    "brewery_city": "Krung Thep Maha Nakhon",
+    "brewery_state": "Krung Thep Maha Nakhon",
+    "venue_name": "Wyndham Garden Bangkok Sukhumvit 42",
+    "venue_city": "คลองเตย",
+    "venue_country": "ประเทศไทย",
+    "venue_state": "กรุงเทพมหานคร",
+    "venue_lat": 13.7167273,
+    "venue_lng": 100.584877,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/travel/hotel_bg_512.png"
   }
 ]
