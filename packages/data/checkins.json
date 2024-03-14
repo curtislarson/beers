@@ -64622,5 +64622,29 @@
     "venue_lat": 13.7162046,
     "venue_lng": 100.5896301,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
+  },
+  {
+    "checkin_id": 1362931835,
+    "checkin_comment": "Hoppy Hrs Bangkok!",
+    "rating_score": 3.9,
+    "created_at": "Tue, 12 Mar 2024 17:48:11 +0000",
+    "beer_id": 4031181,
+    "beer_name": "Sawasdee IPA",
+    "beer_label": "https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png",
+    "beer_style": "IPA - American",
+    "beer_abv": 5.8,
+    "brewery_id": 180819,
+    "brewery_name": "Pheebok Beer ",
+    "brewery_label": "https://assets.untappd.com/site/assets/images/temp/badge-brewery-default.png",
+    "brewery_country": "Thailand",
+    "brewery_city": "Mae Hong Son",
+    "brewery_state": "จังหวัดแม่ฮ่องสอน",
+    "venue_name": "Hoppy Hrs.",
+    "venue_city": "พระนคร",
+    "venue_country": "ประเทศไทย",
+    "venue_state": "กรุงเทพมหานคร",
+    "venue_lat": 13.7162046,
+    "venue_lng": 100.5896301,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
   }
 ]
