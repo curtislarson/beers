@@ -5,18 +5,6 @@
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "Bangkok",
-      "country": "Thailand",
-      "country_code": "TH",
-      "latitude": 13.7566968,
-      "longitude": 100.5019493,
-      "epoch_start": 1708560000,
-      "epoch_end": 1710979200,
-      "date_start": "2024-02-22",
-      "date_end": "2024-03-21",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/bangkok-thailand.jpg?1705449619"
-    },
-    "next": {
       "city": "Kuala Lumpur",
       "country": "Malaysia",
       "country_code": "MY",
@@ -28,27 +16,39 @@
       "date_end": "2024-04-16",
       "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/kuala-lumpur-malaysia.jpg?1705622423"
     },
+    "next": {
+      "city": "Singapore",
+      "country": "Singapore",
+      "country_code": "SG",
+      "latitude": 1.2800945,
+      "longitude": 103.8509491,
+      "epoch_start": 1713225600,
+      "epoch_end": 1713830400,
+      "date_start": "2024-04-16",
+      "date_end": "2024-04-23",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/singapore-singapore.jpg?1705708879"
+    },
     "previous": {
-      "city": "Phnom Penh",
-      "country": "Cambodia",
-      "country_code": "KH",
-      "latitude": 11.5448729,
-      "longitude": 104.8921668,
-      "epoch_start": 1707955200,
-      "epoch_end": 1708560000,
-      "date_start": "2024-02-15",
-      "date_end": "2024-02-22"
+      "city": "Bangkok",
+      "country": "Thailand",
+      "country_code": "TH",
+      "latitude": 13.7566968,
+      "longitude": 100.5019493,
+      "epoch_start": 1708560000,
+      "epoch_end": 1710979200,
+      "date_start": "2024-02-22",
+      "date_end": "2024-03-21"
     }
   },
   "stats": {
-    "cities": 89,
-    "countries": 36,
+    "cities": 90,
+    "countries": 37,
     "followers": 2,
     "following": 1,
-    "distance_traveled_km": 273891,
-    "distance_traveled_miles": 170188,
-    "countries_visited_percentage": 0.18652849740932642,
-    "cities_visited_percentage": 0.06496350364963503
+    "distance_traveled_km": 275078,
+    "distance_traveled_miles": 170926,
+    "countries_visited_percentage": 0.19170984455958548,
+    "cities_visited_percentage": 0.06569343065693431
   },
   "map": "https://nomadlist.com/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2024-03",
   "trips": [
@@ -120,7 +120,7 @@
       "place_slug": "phnom-penh",
       "place_long_slug": "phnom-penh-cambodia",
       "place_url": "https://nomadlist.com/phnom-penh-cambodia",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/phnom-penh-cambodia.jpg?1705536073",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/phnom-penh-cambodia.jpg?1710979248",
       "country": "Cambodia",
       "country_code": "KH",
       "country_slug": "cambodia",
@@ -2812,11 +2812,12 @@
     "bordeaux-france": 1,
     "da-nang-vietnam": 1,
     "taipei-taiwan": 1,
-    "phnom-penh-cambodia": 1
+    "phnom-penh-cambodia": 1,
+    "kuala-lumpur-malaysia": 1
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 582,
-    "bangkok-thailand": 141,
+    "bangkok-thailand": 145,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
     "london-united-kingdom": 46,
@@ -2875,6 +2876,7 @@
     "christchurch-new-zealand": 1,
     "paris-france": 1,
     "strasbourg-france": 1,
-    "bern-switzerland": 1
+    "bern-switzerland": 1,
+    "kuala-lumpur-malaysia": 0
   }
 }
