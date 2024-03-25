@@ -48,7 +48,7 @@
     "distance_traveled_km": 275078,
     "distance_traveled_miles": 170926,
     "countries_visited_percentage": 0.19170984455958548,
-    "cities_visited_percentage": 0.06569343065693431
+    "cities_visited_percentage": 0.06564551422319474
   },
   "map": "https://nomadlist.com/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2024-03",
   "trips": [
@@ -1773,7 +1773,7 @@
       "place_slug": "melbourne",
       "place_long_slug": "melbourne-australia",
       "place_url": "https://nomadlist.com/melbourne-australia",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/melbourne-australia.jpg?1710288065",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/melbourne-australia.jpg?1711238465",
       "country": "Australia",
       "country_code": "AU",
       "country_slug": "australia",
@@ -2400,7 +2400,7 @@
       "place_slug": null,
       "place_long_slug": null,
       "place_url": null,
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/sweden.jpg?1709165661",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/sweden.jpg?1711152965",
       "country": "Sweden",
       "country_code": "SE",
       "country_slug": "sweden",
@@ -2419,7 +2419,7 @@
       "place_slug": "stockholm",
       "place_long_slug": "stockholm-sweden",
       "place_url": "https://nomadlist.com/stockholm-sweden",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/stockholm-sweden.jpg?1709164852",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/stockholm-sweden.jpg?1711152043",
       "country": "Sweden",
       "country_code": "SE",
       "country_slug": "sweden",
@@ -2870,13 +2870,13 @@
     "luxembourg-luxembourg": 3,
     "richmond-va-united-states": 3,
     "nice-france": 3,
+    "kuala-lumpur-malaysia": 3,
     "queenstown-new-zealand": 2,
     "sandpoint-id-united-states": 2,
     "missoula-mt-united-states": 2,
     "christchurch-new-zealand": 1,
     "paris-france": 1,
     "strasbourg-france": 1,
-    "bern-switzerland": 1,
-    "kuala-lumpur-malaysia": 0
+    "bern-switzerland": 1
   }
 }
