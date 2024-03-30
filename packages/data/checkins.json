@@ -64718,5 +64718,29 @@
     "venue_lat": 13.7124147,
     "venue_lng": 100.5934753,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
+  },
+  {
+    "checkin_id": 1367372925,
+    "checkin_comment": "",
+    "rating_score": 3.5,
+    "created_at": "Fri, 29 Mar 2024 13:30:49 +0000",
+    "beer_id": 4231965,
+    "beer_name": "Lil' Bangin Session IPA",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-4231965_159c1_sm.jpeg",
+    "beer_style": "IPA - Session",
+    "beer_abv": 3.8,
+    "brewery_id": 165790,
+    "brewery_name": "Rye River Brewing Company",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-165790_60b68.jpeg",
+    "brewery_country": "Ireland",
+    "brewery_city": "Celbridge",
+    "brewery_state": "County Kildare",
+    "venue_name": "Da Bao",
+    "venue_city": "Kuala Lumpur",
+    "venue_country": "Malaysia",
+    "venue_state": "KL",
+    "venue_lat": 3.1415091,
+    "venue_lng": 101.6979218,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/food/asian_bg_512.png"
   }
 ]
