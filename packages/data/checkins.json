@@ -64910,5 +64910,29 @@
     "venue_lat": 1.2986711,
     "venue_lng": 103.8520584,
     "venue_img": "https://assets.untappd.com/venuelogos/venue_7480946_359ae944_bg_176.png?v=1"
+  },
+  {
+    "checkin_id": 1373730821,
+    "checkin_comment": "",
+    "rating_score": 3.5,
+    "created_at": "Sat, 20 Apr 2024 14:51:07 +0000",
+    "beer_id": 3588302,
+    "beer_name": "Idahog",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-3588302_4db3e_sm.jpeg",
+    "beer_style": "IPA - New England / Hazy",
+    "beer_abv": 7.2,
+    "brewery_id": 355283,
+    "brewery_name": "Hop Hog",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-355283_e9224.jpeg",
+    "brewery_country": "Thailand",
+    "brewery_city": "Bangkok",
+    "brewery_state": "กรุงเทพมหานคร",
+    "venue_name": "Arcadia Barcade",
+    "venue_city": "พระนคร",
+    "venue_country": "ประเทศไทย",
+    "venue_state": "กรุงเทพมหานคร",
+    "venue_lat": 13.7124147,
+    "venue_lng": 100.5934753,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
   }
 ]
