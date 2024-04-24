@@ -64934,5 +64934,29 @@
     "venue_lat": 13.7124147,
     "venue_lng": 100.5934753,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
+  },
+  {
+    "checkin_id": 1374626968,
+    "checkin_comment": "",
+    "rating_score": 3.4,
+    "created_at": "Tue, 23 Apr 2024 14:09:32 +0000",
+    "beer_id": 4888011,
+    "beer_name": "Crispy Boy",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-4888011_659f1_sm.jpeg",
+    "beer_style": "Lager - Helles",
+    "beer_abv": 5,
+    "brewery_id": 373060,
+    "brewery_name": "The Brewing Project",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-373060_02746.jpeg",
+    "brewery_country": "Thailand",
+    "brewery_city": "",
+    "brewery_state": "",
+    "venue_name": "Beer Force Asia (BFA)",
+    "venue_city": "พระนคร",
+    "venue_country": "ประเทศไทย",
+    "venue_state": "กรุงเทพมหานคร",
+    "venue_lat": 13.7142305,
+    "venue_lng": 100.5933533,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
   }
 ]
