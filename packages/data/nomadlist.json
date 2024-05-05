@@ -39,7 +39,7 @@
     "countries_visited_percentage": 0.19689119170984457,
     "cities_visited_percentage": 0.06637490882567469
   },
-  "map": "https://nomadlist.com/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2024-04",
+  "map": "https://nomadlist.com/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2024-05",
   "trips": [
     {
       "epoch_start": 1713571200,
@@ -1458,7 +1458,7 @@
       "place_slug": "denver",
       "place_long_slug": "denver-co-united-states",
       "place_url": "https://nomadlist.com/denver-co-united-states",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/denver-co-united-states.jpg?1705795238",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/denver-co-united-states.jpg?1714435226",
       "country": "United States",
       "country_code": "US",
       "country_slug": "united-states",
@@ -1724,7 +1724,7 @@
       "place_slug": "denver",
       "place_long_slug": "denver-co-united-states",
       "place_url": "https://nomadlist.com/denver-co-united-states",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/denver-co-united-states.jpg?1705795238",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/denver-co-united-states.jpg?1714435226",
       "country": "United States",
       "country_code": "US",
       "country_slug": "united-states",
@@ -2826,7 +2826,7 @@
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 582,
-    "bangkok-thailand": 153,
+    "bangkok-thailand": 160,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
     "london-united-kingdom": 46,
