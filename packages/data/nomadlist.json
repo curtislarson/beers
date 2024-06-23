@@ -2919,6 +2919,7 @@
     "taipei-taiwan": 6,
     "grand-junction-co-united-states": 5,
     "sofia-bulgaria": 5,
+    "seattle-wa-united-states": 5,
     "dublin-ireland": 4,
     "venice-italy": 4,
     "granada-spain": 4,
@@ -2937,7 +2938,6 @@
     "christchurch-new-zealand": 1,
     "paris-france": 1,
     "strasbourg-france": 1,
-    "bern-switzerland": 1,
-    "seattle-wa-united-states": 0
+    "bern-switzerland": 1
   }
 }
