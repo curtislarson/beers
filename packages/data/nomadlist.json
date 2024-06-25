@@ -5,18 +5,6 @@
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "Seattle",
-      "country": "United States",
-      "country_code": "US",
-      "latitude": 47.6062095,
-      "longitude": -122.3320708,
-      "epoch_start": 1718668800,
-      "epoch_end": 1719273600,
-      "date_start": "2024-06-18",
-      "date_end": "2024-06-25",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/seattle-wa-united-states.jpg?1705536509"
-    },
-    "next": {
       "city": "Maryland",
       "country": "United States",
       "country_code": "US",
@@ -28,16 +16,17 @@
       "date_end": "2024-07-25",
       "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=600,height=300,quality=25/https://nomadlist.com/assets/img/places/united-states.jpg?1705709744.jpg?"
     },
+    "next": [],
     "previous": {
-      "city": "Bangkok",
-      "country": "Thailand",
-      "country_code": "TH",
-      "latitude": 13.7566968,
-      "longitude": 100.5019493,
-      "epoch_start": 1713571200,
-      "epoch_end": 1718668800,
-      "date_start": "2024-04-20",
-      "date_end": "2024-06-18"
+      "city": "Seattle, WA",
+      "country": "United States",
+      "country_code": "US",
+      "latitude": 47.6062095,
+      "longitude": -122.3320708,
+      "epoch_start": 1718668800,
+      "epoch_end": 1719273600,
+      "date_start": "2024-06-18",
+      "date_end": "2024-06-25"
     }
   },
   "stats": {
@@ -45,8 +34,8 @@
     "countries": 38,
     "followers": 2,
     "following": 1,
-    "distance_traveled_km": 288809,
-    "distance_traveled_miles": 179457,
+    "distance_traveled_km": 292527,
+    "distance_traveled_miles": 181768,
     "countries_visited_percentage": 0.19689119170984457,
     "cities_visited_percentage": 0.06710430342815463
   },
@@ -2457,7 +2446,7 @@
       "place_slug": null,
       "place_long_slug": null,
       "place_url": null,
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/sweden.jpg?1711152965",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/sweden.jpg?1719274558",
       "country": "Sweden",
       "country_code": "SE",
       "country_slug": "sweden",
@@ -2476,7 +2465,7 @@
       "place_slug": "stockholm",
       "place_long_slug": "stockholm-sweden",
       "place_url": "https://nomadlist.com/stockholm-sweden",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/stockholm-sweden.jpg?1711152043",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/stockholm-sweden.jpg?1719273646",
       "country": "Sweden",
       "country_code": "SE",
       "country_slug": "sweden",
@@ -2915,11 +2904,11 @@
     "geneva-switzerland": 7,
     "bordeaux-france": 7,
     "phnom-penh-cambodia": 7,
+    "seattle-wa-united-states": 7,
     "denver-co-united-states": 6,
     "taipei-taiwan": 6,
     "grand-junction-co-united-states": 5,
     "sofia-bulgaria": 5,
-    "seattle-wa-united-states": 5,
     "dublin-ireland": 4,
     "venice-italy": 4,
     "granada-spain": 4,
