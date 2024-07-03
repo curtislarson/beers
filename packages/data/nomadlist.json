@@ -16,7 +16,18 @@
       "date_end": "2024-07-23",
       "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=600,height=300,quality=25/https://nomadlist.com/assets/img/places/united-states.jpg?1705709744.jpg?"
     },
-    "next": [],
+    "next": {
+      "city": "Helsinki",
+      "country": "Finland",
+      "country_code": "FI",
+      "latitude": 60.1733244,
+      "longitude": 24.9410248,
+      "epoch_start": 1721692800,
+      "epoch_end": 1722902400,
+      "date_start": "2024-07-23",
+      "date_end": "2024-08-06",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/helsinki-finland.jpg?1706140831"
+    },
     "previous": {
       "city": "Seattle, WA",
       "country": "United States",
@@ -41,6 +52,25 @@
   },
   "map": "https://nomadlist.com/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2024-07",
   "trips": [
+    {
+      "epoch_start": 1721692800,
+      "epoch_end": 1722902400,
+      "date_start": "2024-07-23",
+      "date_end": "2024-08-06",
+      "length": "14 days",
+      "epoch_duration": 1209600,
+      "place": "Helsinki",
+      "place_slug": "helsinki",
+      "place_long_slug": "helsinki-finland",
+      "place_url": "https://nomadlist.com/helsinki-finland",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/helsinki-finland.jpg?1706140831",
+      "country": "Finland",
+      "country_code": "FI",
+      "country_slug": "finland",
+      "latitude": 60.1733244,
+      "longitude": 24.9410248,
+      "trip_id": "1719931187e2e597f3f8df4bb8794cda8e064be051560d962b"
+    },
     {
       "epoch_start": 1719273600,
       "epoch_end": 1721692800,
