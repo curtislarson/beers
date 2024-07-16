@@ -23,9 +23,9 @@
       "latitude": 60.1733244,
       "longitude": 24.9410248,
       "epoch_start": 1721865600,
-      "epoch_end": 1722902400,
+      "epoch_end": 1723075200,
       "date_start": "2024-07-25",
-      "date_end": "2024-08-06",
+      "date_end": "2024-08-08",
       "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/helsinki-finland.jpg?1706140831"
     },
     "previous": {
@@ -48,17 +48,36 @@
     "distance_traveled_km": 292527,
     "distance_traveled_miles": 181768,
     "countries_visited_percentage": 0.19689119170984457,
-    "cities_visited_percentage": 0.06695778748180495
+    "cities_visited_percentage": 0.0669090909090909
   },
   "map": "https://nomadlist.com/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2024-07",
   "trips": [
     {
+      "epoch_start": 1723075200,
+      "epoch_end": 1723680000,
+      "date_start": "2024-08-08",
+      "date_end": "2024-08-15",
+      "length": "7 days",
+      "epoch_duration": 604800,
+      "place": "Tallinn",
+      "place_slug": "tallinn",
+      "place_long_slug": "tallinn-estonia",
+      "place_url": "https://nomadlist.com/tallinn-estonia",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/tallinn-estonia.jpg?1705968094",
+      "country": "Estonia",
+      "country_code": "EE",
+      "country_slug": "estonia",
+      "latitude": 59.4369608,
+      "longitude": 24.7535746,
+      "trip_id": "1721056205427f2d80677024488ff6ccdc48e8d805bab02fbe"
+    },
+    {
       "epoch_start": 1721865600,
-      "epoch_end": 1722902400,
+      "epoch_end": 1723075200,
       "date_start": "2024-07-25",
-      "date_end": "2024-08-06",
-      "length": "12 days",
-      "epoch_duration": 1036800,
+      "date_end": "2024-08-08",
+      "length": "14 days",
+      "epoch_duration": 1209600,
       "place": "Helsinki",
       "place_slug": "helsinki",
       "place_long_slug": "helsinki-finland",
@@ -69,7 +88,7 @@
       "country_slug": "finland",
       "latitude": 60.1733244,
       "longitude": 24.9410248,
-      "trip_id": "17209216463b0d848acd68f9f39fc94e87a9fb7b0ba35def16"
+      "trip_id": "1721055967887c376192c4dcffba647c7cbc79971deaf23c88"
     },
     {
       "epoch_start": 1719273600,
