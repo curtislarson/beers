@@ -4,18 +4,7 @@
   "photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=500,height=500/https://nomadlist.com/assets/img/users/878e76f55c16be3b4b9c2fcaa2b50d74.jpg?1619384585",
   "username": "@curtis",
   "location": {
-    "now": {
-      "city": "Maryland",
-      "country": "United States",
-      "country_code": "US",
-      "latitude": 39.4780636707791,
-      "longitude": -76.8536374638244,
-      "epoch_start": 1719273600,
-      "epoch_end": 1721779200,
-      "date_start": "2024-06-25",
-      "date_end": "2024-07-24",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=600,height=300,quality=25/https://nomadlist.com/assets/img/places/united-states.jpg?1705709744.jpg?"
-    },
+    "now": [],
     "next": {
       "city": "Helsinki",
       "country": "Finland",
@@ -28,17 +17,7 @@
       "date_end": "2024-08-08",
       "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/helsinki-finland.jpg?1706140831"
     },
-    "previous": {
-      "city": "Seattle, WA",
-      "country": "United States",
-      "country_code": "US",
-      "latitude": 47.6062095,
-      "longitude": -122.3320708,
-      "epoch_start": 1718668800,
-      "epoch_end": 1719273600,
-      "date_start": "2024-06-18",
-      "date_end": "2024-06-25"
-    }
+    "previous": []
   },
   "stats": {
     "cities": 92,
@@ -291,7 +270,7 @@
       "place_slug": "boston",
       "place_long_slug": "boston-ma-united-states",
       "place_url": "https://nomadlist.com/boston-ma-united-states",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/boston-ma-united-states.jpg?1712189215",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/boston-ma-united-states.jpg?1721779534",
       "country": "United States",
       "country_code": "US",
       "country_slug": "united-states",
@@ -728,7 +707,7 @@
       "place_slug": "boston",
       "place_long_slug": "boston-ma-united-states",
       "place_url": "https://nomadlist.com/boston-ma-united-states",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/boston-ma-united-states.jpg?1712189215",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/boston-ma-united-states.jpg?1721779534",
       "country": "United States",
       "country_code": "US",
       "country_slug": "united-states",
@@ -1070,7 +1049,7 @@
       "place_slug": "boston",
       "place_long_slug": "boston-ma-united-states",
       "place_url": "https://nomadlist.com/boston-ma-united-states",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/boston-ma-united-states.jpg?1712189215",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/boston-ma-united-states.jpg?1721779534",
       "country": "United States",
       "country_code": "US",
       "country_slug": "united-states",
@@ -1108,7 +1087,7 @@
       "place_slug": "boston",
       "place_long_slug": "boston-ma-united-states",
       "place_url": "https://nomadlist.com/boston-ma-united-states",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/boston-ma-united-states.jpg?1712189215",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/boston-ma-united-states.jpg?1721779534",
       "country": "United States",
       "country_code": "US",
       "country_slug": "united-states",
@@ -1165,7 +1144,7 @@
       "place_slug": "boston",
       "place_long_slug": "boston-ma-united-states",
       "place_url": "https://nomadlist.com/boston-ma-united-states",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/boston-ma-united-states.jpg?1712189215",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/boston-ma-united-states.jpg?1721779534",
       "country": "United States",
       "country_code": "US",
       "country_slug": "united-states",
