@@ -26,7 +26,7 @@
       "epoch_end": 1723680000,
       "date_start": "2024-08-08",
       "date_end": "2024-08-15",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/tallinn-estonia.jpg?1705968094"
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/tallinn-estonia.jpg?1722038420"
     },
     "previous": {
       "city": "Maryland",
@@ -63,7 +63,7 @@
       "place_slug": "tallinn",
       "place_long_slug": "tallinn-estonia",
       "place_url": "https://nomadlist.com/tallinn-estonia",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/tallinn-estonia.jpg?1705968094",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/tallinn-estonia.jpg?1722038420",
       "country": "Estonia",
       "country_code": "EE",
       "country_slug": "estonia",
@@ -1868,7 +1868,7 @@
       "place_slug": "melbourne",
       "place_long_slug": "melbourne-australia",
       "place_url": "https://nomadlist.com/melbourne-australia",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/melbourne-australia.jpg?1715558458",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/melbourne-australia.jpg?1722124820",
       "country": "Australia",
       "country_code": "AU",
       "country_slug": "australia",
@@ -2971,13 +2971,13 @@
     "luxembourg-luxembourg": 3,
     "richmond-va-united-states": 3,
     "nice-france": 3,
+    "helsinki-finland": 3,
     "queenstown-new-zealand": 2,
     "sandpoint-id-united-states": 2,
     "missoula-mt-united-states": 2,
     "christchurch-new-zealand": 1,
     "paris-france": 1,
     "strasbourg-france": 1,
-    "bern-switzerland": 1,
-    "helsinki-finland": 0
+    "bern-switzerland": 1
   }
 }
