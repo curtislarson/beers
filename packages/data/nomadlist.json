@@ -23,9 +23,9 @@
       "latitude": 59.4369608,
       "longitude": 24.7535746,
       "epoch_start": 1723075200,
-      "epoch_end": 1723680000,
+      "epoch_end": 1723507200,
       "date_start": "2024-08-08",
-      "date_end": "2024-08-15",
+      "date_end": "2024-08-13",
       "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/tallinn-estonia.jpg?1722038420"
     },
     "previous": {
@@ -53,12 +53,31 @@
   "map": "https://nomadlist.com/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2024-07",
   "trips": [
     {
-      "epoch_start": 1723075200,
-      "epoch_end": 1723680000,
-      "date_start": "2024-08-08",
-      "date_end": "2024-08-15",
+      "epoch_start": 1723507200,
+      "epoch_end": 1724112000,
+      "date_start": "2024-08-13",
+      "date_end": "2024-08-20",
       "length": "7 days",
       "epoch_duration": 604800,
+      "place": "Riga",
+      "place_slug": "riga",
+      "place_long_slug": "riga-latvia",
+      "place_url": "https://nomadlist.com/riga-latvia",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/riga-latvia.jpg?1705450103",
+      "country": "Latvia",
+      "country_code": "LV",
+      "country_slug": "latvia",
+      "latitude": 56.9707259,
+      "longitude": 24.1298491,
+      "trip_id": "1722331703be21cdca6d08b1eaab48e90243e2cdd24b1c50c8"
+    },
+    {
+      "epoch_start": 1723075200,
+      "epoch_end": 1723507200,
+      "date_start": "2024-08-08",
+      "date_end": "2024-08-13",
+      "length": "5 days",
+      "epoch_duration": 432000,
       "place": "Tallinn",
       "place_slug": "tallinn",
       "place_long_slug": "tallinn-estonia",
@@ -69,7 +88,7 @@
       "country_slug": "estonia",
       "latitude": 59.4369608,
       "longitude": 24.7535746,
-      "trip_id": "1721056205427f2d80677024488ff6ccdc48e8d805bab02fbe"
+      "trip_id": "17223316881e5a4c2f150d015db9ee616daa472285794605cc"
     },
     {
       "epoch_start": 1721865600,
@@ -2957,6 +2976,7 @@
     "seattle-wa-united-states": 7,
     "denver-co-united-states": 6,
     "taipei-taiwan": 6,
+    "helsinki-finland": 6,
     "grand-junction-co-united-states": 5,
     "sofia-bulgaria": 5,
     "dublin-ireland": 4,
@@ -2971,7 +2991,6 @@
     "luxembourg-luxembourg": 3,
     "richmond-va-united-states": 3,
     "nice-france": 3,
-    "helsinki-finland": 3,
     "queenstown-new-zealand": 2,
     "sandpoint-id-united-states": 2,
     "missoula-mt-united-states": 2,
