@@ -50,15 +50,15 @@
     "countries_visited_percentage": 0.20207253886010362,
     "cities_visited_percentage": 0.06758720930232558
   },
-  "map": "https://nomadlist.com/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2024-07",
+  "map": "https://nomadlist.com/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2024-08",
   "trips": [
     {
       "epoch_start": 1723507200,
-      "epoch_end": 1724112000,
+      "epoch_end": 1724716800,
       "date_start": "2024-08-13",
-      "date_end": "2024-08-20",
-      "length": "7 days",
-      "epoch_duration": 604800,
+      "date_end": "2024-08-27",
+      "length": "14 days",
+      "epoch_duration": 1209600,
       "place": "Riga",
       "place_slug": "riga",
       "place_long_slug": "riga-latvia",
@@ -69,7 +69,7 @@
       "country_slug": "latvia",
       "latitude": 56.9707259,
       "longitude": 24.1298491,
-      "trip_id": "1722331703be21cdca6d08b1eaab48e90243e2cdd24b1c50c8"
+      "trip_id": "17225315787156bd9bed9eae372b2edd8a99895427c69f585e"
     },
     {
       "epoch_start": 1723075200,
@@ -2963,6 +2963,7 @@
     "antwerp-belgium": 11,
     "oslo-norway": 9,
     "park-city-ut-united-states": 8,
+    "helsinki-finland": 8,
     "berlin-germany": 7,
     "antalya-turkey": 7,
     "rapid-city-sd-united-states": 7,
@@ -2976,7 +2977,6 @@
     "seattle-wa-united-states": 7,
     "denver-co-united-states": 6,
     "taipei-taiwan": 6,
-    "helsinki-finland": 6,
     "grand-junction-co-united-states": 5,
     "sofia-bulgaria": 5,
     "dublin-ireland": 4,
