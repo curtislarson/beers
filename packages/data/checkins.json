@@ -65726,5 +65726,29 @@
     "venue_lat": 34.2346611,
     "venue_lng": -77.9482117,
     "venue_img": "https://assets.untappd.com/venuelogos/venue_9917985_b3a5d245_bg_176.png?v=1"
+  },
+  {
+    "checkin_id": 1405713099,
+    "checkin_comment": "",
+    "rating_score": 3.2,
+    "created_at": "Sun, 04 Aug 2024 17:27:05 +0000",
+    "beer_id": 3106351,
+    "beer_name": "Lahden Erikois NEIPA",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-3106351_d1954_sm.jpeg",
+    "beer_style": "IPA - New England / Hazy",
+    "beer_abv": 5.5,
+    "brewery_id": 3264,
+    "brewery_name": "Hartwall",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-3264_f7ef1.jpeg",
+    "brewery_country": "Finland",
+    "brewery_city": "Lahti",
+    "brewery_state": "Päijät-Häme",
+    "venue_name": "Aussie Bar",
+    "venue_city": "Helsinki",
+    "venue_country": "Suomi",
+    "venue_state": "Uusimaa",
+    "venue_lat": 60.1700706,
+    "venue_lng": 24.9328613,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
   }
 ]
