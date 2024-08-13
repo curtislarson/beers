@@ -5,18 +5,6 @@
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "Tallinn",
-      "country": "Estonia",
-      "country_code": "EE",
-      "latitude": 59.4369608,
-      "longitude": 24.7535746,
-      "epoch_start": 1723075200,
-      "epoch_end": 1723507200,
-      "date_start": "2024-08-08",
-      "date_end": "2024-08-13",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/tallinn-estonia.jpg?1722038420"
-    },
-    "next": {
       "city": "Riga",
       "country": "Latvia",
       "country_code": "LV",
@@ -28,27 +16,28 @@
       "date_end": "2024-08-27",
       "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/riga-latvia.jpg?1705450103"
     },
+    "next": [],
     "previous": {
-      "city": "Helsinki",
-      "country": "Finland",
-      "country_code": "FI",
-      "latitude": 60.1733244,
-      "longitude": 24.9410248,
-      "epoch_start": 1721865600,
-      "epoch_end": 1723075200,
-      "date_start": "2024-07-25",
-      "date_end": "2024-08-08"
+      "city": "Tallinn",
+      "country": "Estonia",
+      "country_code": "EE",
+      "latitude": 59.4369608,
+      "longitude": 24.7535746,
+      "epoch_start": 1723075200,
+      "epoch_end": 1723507200,
+      "date_start": "2024-08-08",
+      "date_end": "2024-08-13"
     }
   },
   "stats": {
-    "cities": 94,
-    "countries": 40,
+    "cities": 95,
+    "countries": 41,
     "followers": 2,
     "following": 1,
-    "distance_traveled_km": 299476,
-    "distance_traveled_miles": 186086,
-    "countries_visited_percentage": 0.20725388601036268,
-    "cities_visited_percentage": 0.06831395348837209
+    "distance_traveled_km": 299753,
+    "distance_traveled_miles": 186258,
+    "countries_visited_percentage": 0.21243523316062177,
+    "cities_visited_percentage": 0.06899055918663761
   },
   "map": "https://nomadlist.com/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2024-08",
   "trips": [
@@ -2931,7 +2920,8 @@
     "singapore-singapore": 1,
     "seattle-wa-united-states": 1,
     "helsinki-finland": 1,
-    "tallinn-estonia": 1
+    "tallinn-estonia": 1,
+    "riga-latvia": 1
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 582,
@@ -2980,6 +2970,7 @@
     "taipei-taiwan": 6,
     "grand-junction-co-united-states": 5,
     "sofia-bulgaria": 5,
+    "tallinn-estonia": 5,
     "dublin-ireland": 4,
     "venice-italy": 4,
     "granada-spain": 4,
@@ -2992,13 +2983,13 @@
     "luxembourg-luxembourg": 3,
     "richmond-va-united-states": 3,
     "nice-france": 3,
-    "tallinn-estonia": 3,
     "queenstown-new-zealand": 2,
     "sandpoint-id-united-states": 2,
     "missoula-mt-united-states": 2,
     "christchurch-new-zealand": 1,
     "paris-france": 1,
     "strasbourg-france": 1,
-    "bern-switzerland": 1
+    "bern-switzerland": 1,
+    "riga-latvia": 0
   }
 }
