@@ -16,7 +16,18 @@
       "date_end": "2024-08-27",
       "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/riga-latvia.jpg?1705450103"
     },
-    "next": [],
+    "next": {
+      "city": "Vilnius",
+      "country": "Lithuania",
+      "country_code": "LT",
+      "latitude": 54.6871555,
+      "longitude": 25.2796514,
+      "epoch_start": 1724716800,
+      "epoch_end": 1725926400,
+      "date_start": "2024-08-27",
+      "date_end": "2024-09-10",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/vilnius-lithuania.jpg?1705709013"
+    },
     "previous": {
       "city": "Tallinn",
       "country": "Estonia",
@@ -41,6 +52,25 @@
   },
   "map": "https://nomadlist.com/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2024-08",
   "trips": [
+    {
+      "epoch_start": 1724716800,
+      "epoch_end": 1725926400,
+      "date_start": "2024-08-27",
+      "date_end": "2024-09-10",
+      "length": "14 days",
+      "epoch_duration": 1209600,
+      "place": "Vilnius",
+      "place_slug": "vilnius",
+      "place_long_slug": "vilnius-lithuania",
+      "place_url": "https://nomadlist.com/vilnius-lithuania",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/vilnius-lithuania.jpg?1705709013",
+      "country": "Lithuania",
+      "country_code": "LT",
+      "country_slug": "lithuania",
+      "latitude": 54.6871555,
+      "longitude": 25.2796514,
+      "trip_id": "1723641562a92fe4ac9b59b2cccc1078b67b5dd402e205894f"
+    },
     {
       "epoch_start": 1723507200,
       "epoch_end": 1724716800,
@@ -2986,10 +3016,10 @@
     "queenstown-new-zealand": 2,
     "sandpoint-id-united-states": 2,
     "missoula-mt-united-states": 2,
+    "riga-latvia": 2,
     "christchurch-new-zealand": 1,
     "paris-france": 1,
     "strasbourg-france": 1,
-    "bern-switzerland": 1,
-    "riga-latvia": 0
+    "bern-switzerland": 1
   }
 }
