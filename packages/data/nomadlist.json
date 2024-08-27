@@ -5,18 +5,6 @@
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "Riga",
-      "country": "Latvia",
-      "country_code": "LV",
-      "latitude": 56.9707259,
-      "longitude": 24.1298491,
-      "epoch_start": 1723507200,
-      "epoch_end": 1724716800,
-      "date_start": "2024-08-13",
-      "date_end": "2024-08-27",
-      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/riga-latvia.jpg?1705450103"
-    },
-    "next": {
       "city": "Vilnius",
       "country": "Lithuania",
       "country_code": "LT",
@@ -28,27 +16,39 @@
       "date_end": "2024-09-10",
       "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/vilnius-lithuania.jpg?1705709013"
     },
+    "next": {
+      "city": "Warsaw",
+      "country": "Poland",
+      "country_code": "PL",
+      "latitude": 52.2296756,
+      "longitude": 21.0122287,
+      "epoch_start": 1725926400,
+      "epoch_end": 1727136000,
+      "date_start": "2024-09-10",
+      "date_end": "2024-09-24",
+      "place_photo": "https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomadlist.com/assets/img/places/warsaw-poland.jpg?1705708829"
+    },
     "previous": {
-      "city": "Tallinn",
-      "country": "Estonia",
-      "country_code": "EE",
-      "latitude": 59.4369608,
-      "longitude": 24.7535746,
-      "epoch_start": 1723075200,
-      "epoch_end": 1723507200,
-      "date_start": "2024-08-08",
-      "date_end": "2024-08-13"
+      "city": "Riga",
+      "country": "Latvia",
+      "country_code": "LV",
+      "latitude": 56.9707259,
+      "longitude": 24.1298491,
+      "epoch_start": 1723507200,
+      "epoch_end": 1724716800,
+      "date_start": "2024-08-13",
+      "date_end": "2024-08-27"
     }
   },
   "stats": {
-    "cities": 95,
-    "countries": 41,
+    "cities": 96,
+    "countries": 42,
     "followers": 2,
     "following": 1,
-    "distance_traveled_km": 299753,
-    "distance_traveled_miles": 186258,
-    "countries_visited_percentage": 0.21243523316062177,
-    "cities_visited_percentage": 0.06899055918663761
+    "distance_traveled_km": 300017,
+    "distance_traveled_miles": 186422,
+    "countries_visited_percentage": 0.21761658031088082,
+    "cities_visited_percentage": 0.06966618287373004
   },
   "map": "https://nomadlist.com/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2024-08",
   "trips": [
@@ -2970,7 +2970,8 @@
     "seattle-wa-united-states": 1,
     "helsinki-finland": 1,
     "tallinn-estonia": 1,
-    "riga-latvia": 1
+    "riga-latvia": 1,
+    "vilnius-lithuania": 1
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 582,
@@ -3000,8 +3001,8 @@
     "copenhagen-denmark": 14,
     "prague-czechia": 14,
     "helsinki-finland": 14,
+    "riga-latvia": 14,
     "salt-lake-city-ut-united-states": 13,
-    "riga-latvia": 12,
     "antwerp-belgium": 11,
     "oslo-norway": 9,
     "park-city-ut-united-states": 8,
@@ -3039,6 +3040,7 @@
     "christchurch-new-zealand": 1,
     "paris-france": 1,
     "strasbourg-france": 1,
-    "bern-switzerland": 1
+    "bern-switzerland": 1,
+    "vilnius-lithuania": 0
   }
 }
