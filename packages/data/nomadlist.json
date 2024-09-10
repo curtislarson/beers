@@ -5,18 +5,6 @@
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "Vilnius",
-      "country": "Lithuania",
-      "country_code": "LT",
-      "latitude": 54.6871555,
-      "longitude": 25.2796514,
-      "epoch_start": 1724716800,
-      "epoch_end": 1725926400,
-      "date_start": "2024-08-27",
-      "date_end": "2024-09-10",
-      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/vilnius-lithuania.jpg?1705709013"
-    },
-    "next": {
       "city": "Warsaw",
       "country": "Poland",
       "country_code": "PL",
@@ -28,27 +16,28 @@
       "date_end": "2024-09-24",
       "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/warsaw-poland.jpg?1705708829"
     },
+    "next": [],
     "previous": {
-      "city": "Riga",
-      "country": "Latvia",
-      "country_code": "LV",
-      "latitude": 56.9707259,
-      "longitude": 24.1298491,
-      "epoch_start": 1723507200,
-      "epoch_end": 1724716800,
-      "date_start": "2024-08-13",
-      "date_end": "2024-08-27"
+      "city": "Vilnius",
+      "country": "Lithuania",
+      "country_code": "LT",
+      "latitude": 54.6871555,
+      "longitude": 25.2796514,
+      "epoch_start": 1724716800,
+      "epoch_end": 1725926400,
+      "date_start": "2024-08-27",
+      "date_end": "2024-09-10"
     }
   },
   "stats": {
-    "cities": 96,
-    "countries": 42,
+    "cities": 97,
+    "countries": 43,
     "followers": 2,
     "following": 1,
-    "distance_traveled_km": 300017,
-    "distance_traveled_miles": 186422,
-    "countries_visited_percentage": 0.21761658031088082,
-    "cities_visited_percentage": 0.06966618287373004
+    "distance_traveled_km": 300410,
+    "distance_traveled_miles": 186666,
+    "countries_visited_percentage": 0.22279792746113988,
+    "cities_visited_percentage": 0.07039187227866474
   },
   "map": "/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2024-09",
   "trips": [
@@ -2971,7 +2960,8 @@
     "helsinki-finland": 1,
     "tallinn-estonia": 1,
     "riga-latvia": 1,
-    "vilnius-lithuania": 1
+    "vilnius-lithuania": 1,
+    "warsaw-poland": 1
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 582,
@@ -3002,8 +2992,8 @@
     "prague-czechia": 14,
     "helsinki-finland": 14,
     "riga-latvia": 14,
+    "vilnius-lithuania": 14,
     "salt-lake-city-ut-united-states": 13,
-    "vilnius-lithuania": 12,
     "antwerp-belgium": 11,
     "oslo-norway": 9,
     "park-city-ut-united-states": 8,
@@ -3041,6 +3031,7 @@
     "christchurch-new-zealand": 1,
     "paris-france": 1,
     "strasbourg-france": 1,
-    "bern-switzerland": 1
+    "bern-switzerland": 1,
+    "warsaw-poland": 0
   }
 }
