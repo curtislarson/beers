@@ -16,7 +16,18 @@
       "date_end": "2024-09-24",
       "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/warsaw-poland.jpg?1705708829"
     },
-    "next": [],
+    "next": {
+      "city": "Bangkok",
+      "country": "Thailand",
+      "country_code": "TH",
+      "latitude": 13.7566968,
+      "longitude": 100.5019493,
+      "epoch_start": 1727136000,
+      "epoch_end": 1729555200,
+      "date_start": "2024-09-24",
+      "date_end": "2024-10-22",
+      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/bangkok-thailand.jpg?1705449619"
+    },
     "previous": {
       "city": "Vilnius",
       "country": "Lithuania",
@@ -37,10 +48,29 @@
     "distance_traveled_km": 300410,
     "distance_traveled_miles": 186666,
     "countries_visited_percentage": 0.22279792746113988,
-    "cities_visited_percentage": 0.07039187227866474
+    "cities_visited_percentage": 0.07044299201161947
   },
   "map": "/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2024-09",
   "trips": [
+    {
+      "epoch_start": 1727136000,
+      "epoch_end": 1729555200,
+      "date_start": "2024-09-24",
+      "date_end": "2024-10-22",
+      "length": "28 days",
+      "epoch_duration": 2419200,
+      "place": "Bangkok",
+      "place_slug": "bangkok",
+      "place_long_slug": "bangkok-thailand",
+      "place_url": "/bangkok-thailand",
+      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/thailand.jpg?1705709732",
+      "country": "Thailand",
+      "country_code": "TH",
+      "country_slug": "thailand",
+      "latitude": 13.7566968,
+      "longitude": 100.5019493,
+      "trip_id": "1726000325c9c8d502058f8671c0ba9ba5abb6cf72947f339a"
+    },
     {
       "epoch_start": 1725926400,
       "epoch_end": 1727136000,
@@ -3032,6 +3062,6 @@
     "paris-france": 1,
     "strasbourg-france": 1,
     "bern-switzerland": 1,
-    "warsaw-poland": 0
+    "warsaw-poland": 1
   }
 }
