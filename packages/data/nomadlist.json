@@ -22,10 +22,10 @@
       "country_code": "TH",
       "latitude": 13.7566968,
       "longitude": 100.5019493,
-      "epoch_start": 1727136000,
-      "epoch_end": 1729555200,
-      "date_start": "2024-09-24",
-      "date_end": "2024-10-22",
+      "epoch_start": 1727222400,
+      "epoch_end": 1729728000,
+      "date_start": "2024-09-25",
+      "date_end": "2024-10-24",
       "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/bangkok-thailand.jpg?1705449619"
     },
     "previous": {
@@ -53,12 +53,12 @@
   "map": "/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2024-09",
   "trips": [
     {
-      "epoch_start": 1727136000,
-      "epoch_end": 1729555200,
-      "date_start": "2024-09-24",
-      "date_end": "2024-10-22",
-      "length": "28 days",
-      "epoch_duration": 2419200,
+      "epoch_start": 1727222400,
+      "epoch_end": 1729728000,
+      "date_start": "2024-09-25",
+      "date_end": "2024-10-24",
+      "length": "29 days",
+      "epoch_duration": 2505600,
       "place": "Bangkok",
       "place_slug": "bangkok",
       "place_long_slug": "bangkok-thailand",
@@ -69,7 +69,7 @@
       "country_slug": "thailand",
       "latitude": 13.7566968,
       "longitude": 100.5019493,
-      "trip_id": "1726000325c9c8d502058f8671c0ba9ba5abb6cf72947f339a"
+      "trip_id": "1726221282add2f976fdaaea00fb3021a79d5b0d94557d77e1"
     },
     {
       "epoch_start": 1725926400,
@@ -3050,6 +3050,7 @@
     "phuket-thailand": 4,
     "cody-wy-united-states": 4,
     "singapore-singapore": 4,
+    "warsaw-poland": 4,
     "dubrovnik-croatia": 3,
     "brussels-belgium": 3,
     "luxembourg-luxembourg": 3,
@@ -3058,7 +3059,6 @@
     "queenstown-new-zealand": 2,
     "sandpoint-id-united-states": 2,
     "missoula-mt-united-states": 2,
-    "warsaw-poland": 2,
     "christchurch-new-zealand": 1,
     "paris-france": 1,
     "strasbourg-france": 1,
