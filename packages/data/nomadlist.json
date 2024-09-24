@@ -4,18 +4,7 @@
   "photo": "/cdn-cgi/image/format=auto,fit=cover,width=500,height=500/assets/img/users/878e76f55c16be3b4b9c2fcaa2b50d74.jpg?1619384585",
   "username": "@curtis",
   "location": {
-    "now": {
-      "city": "Warsaw",
-      "country": "Poland",
-      "country_code": "PL",
-      "latitude": 52.2296756,
-      "longitude": 21.0122287,
-      "epoch_start": 1725926400,
-      "epoch_end": 1727136000,
-      "date_start": "2024-09-10",
-      "date_end": "2024-09-24",
-      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/warsaw-poland.jpg?1705708829"
-    },
+    "now": [],
     "next": {
       "city": "Bangkok",
       "country": "Thailand",
@@ -28,17 +17,7 @@
       "date_end": "2024-11-24",
       "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/bangkok-thailand.jpg?1705449619"
     },
-    "previous": {
-      "city": "Vilnius",
-      "country": "Lithuania",
-      "country_code": "LT",
-      "latitude": 54.6871555,
-      "longitude": 25.2796514,
-      "epoch_start": 1724716800,
-      "epoch_end": 1725926400,
-      "date_start": "2024-08-27",
-      "date_end": "2024-09-10"
-    }
+    "previous": []
   },
   "stats": {
     "cities": 97,
@@ -3023,8 +3002,8 @@
     "helsinki-finland": 14,
     "riga-latvia": 14,
     "vilnius-lithuania": 14,
+    "warsaw-poland": 14,
     "salt-lake-city-ut-united-states": 13,
-    "warsaw-poland": 12,
     "antwerp-belgium": 11,
     "oslo-norway": 9,
     "park-city-ut-united-states": 8,
