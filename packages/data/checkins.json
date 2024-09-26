@@ -67574,5 +67574,29 @@
     "venue_lat": 52.237812,
     "venue_lng": 20.9954491,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_bg_512.png"
+  },
+  {
+    "checkin_id": 1420113230,
+    "checkin_comment": "",
+    "rating_score": 2.6,
+    "created_at": "Tue, 24 Sep 2024 14:06:00 +0000",
+    "beer_id": 10519,
+    "beer_name": "Żywiec",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-10519_19e15_sm.jpeg",
+    "beer_style": "Lager - Pale",
+    "beer_abv": 5.5,
+    "brewery_id": 309,
+    "brewery_name": "Grupa Żywiec",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-309_5958b.jpeg",
+    "brewery_country": "Poland",
+    "brewery_city": "Żywiec",
+    "brewery_state": "Województwo Śląskie",
+    "venue_name": "Etiuda Executive Lounge",
+    "venue_city": "Warszawa",
+    "venue_country": "Polska",
+    "venue_state": "Województwo mazowieckie",
+    "venue_lat": 52.1734962,
+    "venue_lng": 20.9694118,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/default_bg_512.png"
   }
 ]
