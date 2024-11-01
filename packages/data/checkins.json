@@ -67670,5 +67670,29 @@
     "venue_lat": 13.7124147,
     "venue_lng": 100.5934753,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
+  },
+  {
+    "checkin_id": 1429769253,
+    "checkin_comment": "",
+    "rating_score": 3.3,
+    "created_at": "Thu, 31 Oct 2024 15:09:44 +0000",
+    "beer_id": 3264338,
+    "beer_name": "Nelmo",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-3264338_12f14_sm.jpeg",
+    "beer_style": "IPA - New England / Hazy",
+    "beer_abv": 7.5,
+    "brewery_id": 355283,
+    "brewery_name": "Hop Hog",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-355283_e9224.jpeg",
+    "brewery_country": "Thailand",
+    "brewery_city": "Bangkok",
+    "brewery_state": "กรุงเทพมหานคร",
+    "venue_name": "Arcadia Barcade",
+    "venue_city": "พระนคร",
+    "venue_country": "ประเทศไทย",
+    "venue_state": "กรุงเทพมหานคร",
+    "venue_lat": 13.7124147,
+    "venue_lng": 100.5934753,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
   }
 ]
