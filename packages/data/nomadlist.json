@@ -16,7 +16,18 @@
       "date_end": "2024-11-23",
       "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/bangkok-thailand.jpg?1705449619"
     },
-    "next": [],
+    "next": {
+      "city": "Phnom Penh",
+      "country": "Cambodia",
+      "country_code": "KH",
+      "latitude": 11.5448729,
+      "longitude": 104.8921668,
+      "epoch_start": 1732320000,
+      "epoch_end": 1733529600,
+      "date_start": "2024-11-23",
+      "date_end": "2024-12-07",
+      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/phnom-penh-cambodia.jpg?1710979248"
+    },
     "previous": {
       "city": "Warsaw",
       "country": "Poland",
@@ -41,6 +52,25 @@
   },
   "map": "/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2024-11",
   "trips": [
+    {
+      "epoch_start": 1732320000,
+      "epoch_end": 1733529600,
+      "date_start": "2024-11-23",
+      "date_end": "2024-12-07",
+      "length": "14 days",
+      "epoch_duration": 1209600,
+      "place": "Phnom Penh",
+      "place_slug": "phnom-penh",
+      "place_long_slug": "phnom-penh-cambodia",
+      "place_url": "/phnom-penh-cambodia",
+      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/cambodia.jpg?1705796202",
+      "country": "Cambodia",
+      "country_code": "KH",
+      "country_slug": "cambodia",
+      "latitude": 11.5448729,
+      "longitude": 104.8921668,
+      "trip_id": "17307756271442908a490b6700738e7e61a571464cc4f3dcab"
+    },
     {
       "epoch_start": 1727222400,
       "epoch_end": 1732320000,
@@ -2984,7 +3014,7 @@
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 582,
-    "bangkok-thailand": 243,
+    "bangkok-thailand": 246,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
     "london-united-kingdom": 46,
