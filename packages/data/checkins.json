@@ -67694,5 +67694,29 @@
     "venue_lat": 13.7124147,
     "venue_lng": 100.5934753,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
+  },
+  {
+    "checkin_id": 1433090528,
+    "checkin_comment": "",
+    "rating_score": 3.5,
+    "created_at": "Tue, 12 Nov 2024 14:31:39 +0000",
+    "beer_id": 2023258,
+    "beer_name": "Pale Ale",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-2023258_04023_sm.jpeg",
+    "beer_style": "Pale Ale - Other",
+    "beer_abv": 5.2,
+    "brewery_id": 191203,
+    "brewery_name": "Yaksa",
+    "brewery_label": "https://assets.untappd.com/site/assets/images/temp/badge-brewery-default.png",
+    "brewery_country": "Thailand",
+    "brewery_city": "",
+    "brewery_state": "",
+    "venue_name": "Arcadia Barcade",
+    "venue_city": "พระนคร",
+    "venue_country": "ประเทศไทย",
+    "venue_state": "กรุงเทพมหานคร",
+    "venue_lat": 13.7124147,
+    "venue_lng": 100.5934753,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
   }
 ]
