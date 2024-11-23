@@ -5,18 +5,6 @@
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "Bangkok",
-      "country": "Thailand",
-      "country_code": "TH",
-      "latitude": 13.7566968,
-      "longitude": 100.5019493,
-      "epoch_start": 1727222400,
-      "epoch_end": 1732320000,
-      "date_start": "2024-09-25",
-      "date_end": "2024-11-23",
-      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/bangkok-thailand.jpg?1705449619"
-    },
-    "next": {
       "city": "Phnom Penh",
       "country": "Cambodia",
       "country_code": "KH",
@@ -28,16 +16,17 @@
       "date_end": "2024-12-07",
       "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/phnom-penh-cambodia.jpg?1710979248"
     },
+    "next": [],
     "previous": {
-      "city": "Warsaw",
-      "country": "Poland",
-      "country_code": "PL",
-      "latitude": 52.2296756,
-      "longitude": 21.0122287,
-      "epoch_start": 1725926400,
-      "epoch_end": 1727136000,
-      "date_start": "2024-09-10",
-      "date_end": "2024-09-24"
+      "city": "Bangkok",
+      "country": "Thailand",
+      "country_code": "TH",
+      "latitude": 13.7566968,
+      "longitude": 100.5019493,
+      "epoch_start": 1727222400,
+      "epoch_end": 1732320000,
+      "date_start": "2024-09-25",
+      "date_end": "2024-11-23"
     }
   },
   "stats": {
@@ -45,8 +34,8 @@
     "countries": 43,
     "followers": 2,
     "following": 1,
-    "distance_traveled_km": 308498,
-    "distance_traveled_miles": 191692,
+    "distance_traveled_km": 309034,
+    "distance_traveled_miles": 192025,
     "countries_visited_percentage": 0.22279792746113988,
     "cities_visited_percentage": 0.07044299201161947
   },
@@ -2955,6 +2944,7 @@
     "salt-lake-city-ut-united-states": 2,
     "antwerp-belgium": 2,
     "istanbul-turkey": 2,
+    "phnom-penh-cambodia": 2,
     "dublin-ireland": 1,
     "dubrovnik-croatia": 1,
     "venice-italy": 1,
@@ -3002,7 +2992,6 @@
     "bordeaux-france": 1,
     "da-nang-vietnam": 1,
     "taipei-taiwan": 1,
-    "phnom-penh-cambodia": 1,
     "kuala-lumpur-malaysia": 1,
     "singapore-singapore": 1,
     "seattle-wa-united-states": 1,
@@ -3014,7 +3003,7 @@
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 582,
-    "bangkok-thailand": 260,
+    "bangkok-thailand": 263,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
     "london-united-kingdom": 46,
@@ -3056,8 +3045,8 @@
     "rome-italy": 7,
     "geneva-switzerland": 7,
     "bordeaux-france": 7,
-    "phnom-penh-cambodia": 7,
     "seattle-wa-united-states": 7,
+    "phnom-penh-cambodia": 7,
     "denver-co-united-states": 6,
     "taipei-taiwan": 6,
     "grand-junction-co-united-states": 5,
