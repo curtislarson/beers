@@ -67718,5 +67718,29 @@
     "venue_lat": 13.7124147,
     "venue_lng": 100.5934753,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
+  },
+  {
+    "checkin_id": 1435623633,
+    "checkin_comment": "",
+    "rating_score": 3.3,
+    "created_at": "Sat, 23 Nov 2024 13:45:19 +0000",
+    "beer_id": 2438682,
+    "beer_name": "Khmer Honey Blonde",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-2438682_46455_sm.jpeg",
+    "beer_style": "Belgian Blonde",
+    "beer_abv": 4.5,
+    "brewery_id": 174722,
+    "brewery_name": "Botanico Brewing Co.",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-174722_9d226.jpeg",
+    "brewery_country": "Cambodia",
+    "brewery_city": "Phnom Penh",
+    "brewery_state": "Phnom Penh",
+    "venue_name": "Botanico Wine & Beer Garden",
+    "venue_city": "Phnum Pénh",
+    "venue_country": "កម្ពុជា",
+    "venue_state": "Phnom Penh",
+    "venue_lat": 11.5546074,
+    "venue_lng": 104.9295731,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_512.png"
   }
 ]
