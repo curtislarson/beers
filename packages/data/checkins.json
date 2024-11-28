@@ -67790,5 +67790,29 @@
     "venue_lat": 11.5539875,
     "venue_lng": 104.9319153,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/travel/hotel_bg_512.png"
+  },
+  {
+    "checkin_id": 1436423847,
+    "checkin_comment": "",
+    "rating_score": 3.2,
+    "created_at": "Tue, 26 Nov 2024 13:07:31 +0000",
+    "beer_id": 5512889,
+    "beer_name": "Wings",
+    "beer_label": "https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png",
+    "beer_style": "IPA - Session",
+    "beer_abv": 4.8,
+    "brewery_id": 524991,
+    "brewery_name": "Brew Khnear, Siem Reap",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-524991_170d7.jpeg",
+    "brewery_country": "Cambodia",
+    "brewery_city": "",
+    "brewery_state": "",
+    "venue_name": "ឌឹ បក់ អូហ្វីស(The Box Office)",
+    "venue_city": "Phnum Pénh",
+    "venue_country": "កម្ពុជា",
+    "venue_state": "Phnom Penh",
+    "venue_lat": 11.5596466,
+    "venue_lng": 104.9340057,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
   }
 ]
