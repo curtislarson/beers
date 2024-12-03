@@ -39,7 +39,7 @@
     "countries_visited_percentage": 0.22279792746113988,
     "cities_visited_percentage": 0.07044299201161947
   },
-  "map": "/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2024-11",
+  "map": "/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2024-12",
   "trips": [
     {
       "epoch_start": 1732320000,
@@ -3023,6 +3023,7 @@
     "split-croatia": 15,
     "auckland-new-zealand": 15,
     "boston-ma-united-states": 15,
+    "phnom-penh-cambodia": 15,
     "hong-kong-hong-kong": 14,
     "toronto-canada": 14,
     "budapest-hungary": 14,
@@ -3033,7 +3034,6 @@
     "vilnius-lithuania": 14,
     "warsaw-poland": 14,
     "salt-lake-city-ut-united-states": 13,
-    "phnom-penh-cambodia": 12,
     "antwerp-belgium": 11,
     "oslo-norway": 9,
     "park-city-ut-united-states": 8,
