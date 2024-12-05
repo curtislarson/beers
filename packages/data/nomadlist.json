@@ -16,7 +16,18 @@
       "date_end": "2024-12-07",
       "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/phnom-penh-cambodia.jpg?1710979248"
     },
-    "next": [],
+    "next": {
+      "city": "Bangkok",
+      "country": "Thailand",
+      "country_code": "TH",
+      "latitude": 13.7566968,
+      "longitude": 100.5019493,
+      "epoch_start": 1733529600,
+      "epoch_end": 1749168000,
+      "date_start": "2024-12-07",
+      "date_end": "2025-06-06",
+      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/bangkok-thailand.jpg?1705449619"
+    },
     "previous": {
       "city": "Bangkok",
       "country": "Thailand",
@@ -41,6 +52,25 @@
   },
   "map": "/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2024-12",
   "trips": [
+    {
+      "epoch_start": 1733529600,
+      "epoch_end": 1749168000,
+      "date_start": "2024-12-07",
+      "date_end": "2025-06-06",
+      "length": "6 months",
+      "epoch_duration": 15638400,
+      "place": "Bangkok",
+      "place_slug": "bangkok",
+      "place_long_slug": null,
+      "place_url": "/bangkok-thailand",
+      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/thailand.jpg?1705709732",
+      "country": "Thailand",
+      "country_code": "TH",
+      "country_slug": "thailand",
+      "latitude": 13.7566968,
+      "longitude": 100.5019493,
+      "trip_id": "1733309222a3b5e71b164e66fe8e17ac01b071583034d80be4"
+    },
     {
       "epoch_start": 1732320000,
       "epoch_end": 1733529600,
@@ -3019,8 +3049,8 @@
     "cluj-romania": 20,
     "puerto-vallarta-mexico": 20,
     "da-nang-vietnam": 20,
+    "phnom-penh-cambodia": 19,
     "tel-aviv-israel": 18,
-    "phnom-penh-cambodia": 18,
     "split-croatia": 15,
     "auckland-new-zealand": 15,
     "boston-ma-united-states": 15,
