@@ -67814,5 +67814,29 @@
     "venue_lat": 11.5596466,
     "venue_lng": 104.9340057,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
+  },
+  {
+    "checkin_id": 1439305104,
+    "checkin_comment": "",
+    "rating_score": 3.4,
+    "created_at": "Sat, 07 Dec 2024 15:50:13 +0000",
+    "beer_id": 5712266,
+    "beer_name": "Centennial Crush",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-5712266_d7b26_sm.jpeg",
+    "beer_style": "IPA - American",
+    "beer_abv": 6.6,
+    "brewery_id": 355283,
+    "brewery_name": "Hop Hog",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-355283_e9224.jpeg",
+    "brewery_country": "Thailand",
+    "brewery_city": "Bangkok",
+    "brewery_state": "กรุงเทพมหานคร",
+    "venue_name": "Arcadia Barcade",
+    "venue_city": "พระนคร",
+    "venue_country": "ประเทศไทย",
+    "venue_state": "กรุงเทพมหานคร",
+    "venue_lat": 13.7124147,
+    "venue_lng": 100.5934753,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
   }
 ]
