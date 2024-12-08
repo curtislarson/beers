@@ -5,18 +5,6 @@
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "Phnom Penh",
-      "country": "Cambodia",
-      "country_code": "KH",
-      "latitude": 11.5448729,
-      "longitude": 104.8921668,
-      "epoch_start": 1732320000,
-      "epoch_end": 1733529600,
-      "date_start": "2024-11-23",
-      "date_end": "2024-12-07",
-      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/phnom-penh-cambodia.jpg?1710979248"
-    },
-    "next": {
       "city": "Bangkok",
       "country": "Thailand",
       "country_code": "TH",
@@ -28,16 +16,17 @@
       "date_end": "2025-06-06",
       "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/bangkok-thailand.jpg?1705449619"
     },
+    "next": [],
     "previous": {
-      "city": "Bangkok",
-      "country": "Thailand",
-      "country_code": "TH",
-      "latitude": 13.7566968,
-      "longitude": 100.5019493,
-      "epoch_start": 1727222400,
-      "epoch_end": 1732320000,
-      "date_start": "2024-09-25",
-      "date_end": "2024-11-23"
+      "city": "Phnom Penh",
+      "country": "Cambodia",
+      "country_code": "KH",
+      "latitude": 11.5448729,
+      "longitude": 104.8921668,
+      "epoch_start": 1732320000,
+      "epoch_end": 1733529600,
+      "date_start": "2024-11-23",
+      "date_end": "2024-12-07"
     }
   },
   "stats": {
@@ -45,8 +34,8 @@
     "countries": 43,
     "followers": 2,
     "following": 1,
-    "distance_traveled_km": 309034,
-    "distance_traveled_miles": 192025,
+    "distance_traveled_km": 309570,
+    "distance_traveled_miles": 192358,
     "countries_visited_percentage": 0.22279792746113988,
     "cities_visited_percentage": 0.07044299201161947
   },
@@ -2962,7 +2951,7 @@
   ],
   "frequent_visits": {
     "new-york-city-ny-united-states": 11,
-    "bangkok-thailand": 10,
+    "bangkok-thailand": 11,
     "boston-ma-united-states": 5,
     "los-angeles-ca-united-states": 4,
     "london-united-kingdom": 4,
@@ -3033,7 +3022,7 @@
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 582,
-    "bangkok-thailand": 263,
+    "bangkok-thailand": 264,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
     "london-united-kingdom": 46,
@@ -3046,10 +3035,10 @@
     "los-angeles-ca-united-states": 23,
     "amsterdam-netherlands": 23,
     "stockholm-sweden": 21,
+    "phnom-penh-cambodia": 21,
     "cluj-romania": 20,
     "puerto-vallarta-mexico": 20,
     "da-nang-vietnam": 20,
-    "phnom-penh-cambodia": 19,
     "tel-aviv-israel": 18,
     "split-croatia": 15,
     "auckland-new-zealand": 15,
