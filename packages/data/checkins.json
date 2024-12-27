@@ -67862,5 +67862,29 @@
     "venue_lat": 13.7124147,
     "venue_lng": 100.5934753,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
+  },
+  {
+    "checkin_id": 1444415722,
+    "checkin_comment": "",
+    "rating_score": 3.8,
+    "created_at": "Wed, 25 Dec 2024 12:18:47 +0000",
+    "beer_id": 5579354,
+    "beer_name": "Thongpradit IPA",
+    "beer_label": "https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png",
+    "beer_style": "IPA - American",
+    "beer_abv": 6.9,
+    "brewery_id": 373060,
+    "brewery_name": "The Brewing Project",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-373060_02746.jpeg",
+    "brewery_country": "Thailand",
+    "brewery_city": "",
+    "brewery_state": "",
+    "venue_name": "Arcadia Barcade",
+    "venue_city": "พระนคร",
+    "venue_country": "ประเทศไทย",
+    "venue_state": "กรุงเทพมหานคร",
+    "venue_lat": 13.7124147,
+    "venue_lng": 100.5934753,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
   }
 ]
