@@ -67958,5 +67958,29 @@
     "venue_lat": 13.7241497,
     "venue_lng": 100.5783081,
     "venue_img": "https://images.untp.beer/resize?width=176&height=176&background=255,255,255&extend=white&stripmeta=true&url=https://utfb-images.untappd.com/qcnozwdlrz0pw8ox93qy8t1zgmp7?auto=compress"
+  },
+  {
+    "checkin_id": 1450335065,
+    "checkin_comment": "",
+    "rating_score": 3,
+    "created_at": "Fri, 17 Jan 2025 13:23:35 +0000",
+    "beer_id": 7482,
+    "beer_name": "Original",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-7482_5a103_sm.jpeg",
+    "beer_style": "Lager - Pale",
+    "beer_abv": 4.5,
+    "brewery_id": 1955,
+    "brewery_name": "G. Menabrea & Figli",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-1955_7ab39.jpeg",
+    "brewery_country": "Italy",
+    "brewery_city": "Biella",
+    "brewery_state": "Piemonte",
+    "venue_name": "Aesops Greek Restaurant & Rooftop",
+    "venue_city": "คลองเตย",
+    "venue_country": "ประเทศไทย",
+    "venue_state": "กรุงเทพมหานคร",
+    "venue_lat": 13.733037,
+    "venue_lng": 100.560257,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/food/greek_bg_512.png"
   }
 ]
