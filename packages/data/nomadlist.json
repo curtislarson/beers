@@ -11,9 +11,9 @@
       "latitude": 13.7566968,
       "longitude": 100.5019493,
       "epoch_start": 1733529600,
-      "epoch_end": 1749168000,
+      "epoch_end": 1739145600,
       "date_start": "2024-12-07",
-      "date_end": "2025-06-06",
+      "date_end": "2025-02-10",
       "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/bangkok-thailand.jpg?1705449619"
     },
     "next": [],
@@ -43,11 +43,11 @@
   "trips": [
     {
       "epoch_start": 1733529600,
-      "epoch_end": 1749168000,
+      "epoch_end": 1739145600,
       "date_start": "2024-12-07",
-      "date_end": "2025-06-06",
-      "length": "6 months",
-      "epoch_duration": 15638400,
+      "date_end": "2025-02-10",
+      "length": "2 months",
+      "epoch_duration": 5616000,
       "place": "Bangkok",
       "place_slug": "bangkok",
       "place_long_slug": null,
@@ -58,7 +58,7 @@
       "country_slug": "thailand",
       "latitude": 13.7566968,
       "longitude": 100.5019493,
-      "trip_id": "1733309222a3b5e71b164e66fe8e17ac01b071583034d80be4"
+      "trip_id": "1736769302ebb395adf2f114e9475a72807e773ba4945fbd59"
     },
     {
       "epoch_start": 1732320000,
@@ -3022,7 +3022,7 @@
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 582,
-    "bangkok-thailand": 299,
+    "bangkok-thailand": 306,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
     "london-united-kingdom": 46,
