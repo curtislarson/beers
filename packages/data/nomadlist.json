@@ -11,12 +11,23 @@
       "latitude": 13.7566968,
       "longitude": 100.5019493,
       "epoch_start": 1733529600,
-      "epoch_end": 1739145600,
+      "epoch_end": 1739059200,
       "date_start": "2024-12-07",
-      "date_end": "2025-02-10",
+      "date_end": "2025-02-09",
       "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/bangkok-thailand.jpg?1705449619"
     },
-    "next": [],
+    "next": {
+      "city": "Luang Prabang",
+      "country": "Laos",
+      "country_code": "LA",
+      "latitude": 19.8836124,
+      "longitude": 102.1339096,
+      "epoch_start": 1739059200,
+      "epoch_end": 1739404800,
+      "date_start": "2025-02-09",
+      "date_end": "2025-02-13",
+      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/luang-prabang-laos.jpg?1705449771"
+    },
     "previous": {
       "city": "Phnom Penh",
       "country": "Cambodia",
@@ -42,12 +53,31 @@
   "map": "/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2025-01",
   "trips": [
     {
+      "epoch_start": 1739059200,
+      "epoch_end": 1739404800,
+      "date_start": "2025-02-09",
+      "date_end": "2025-02-13",
+      "length": "4 days",
+      "epoch_duration": 345600,
+      "place": "Luang Prabang",
+      "place_slug": "luang-prabang",
+      "place_long_slug": null,
+      "place_url": "/luang-prabang-laos",
+      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/laos.jpg?1704500595",
+      "country": "Laos",
+      "country_code": "LA",
+      "country_slug": "laos",
+      "latitude": 19.8836124,
+      "longitude": 102.1339096,
+      "trip_id": "1737906288d073ea849aee144d645b3aff9f4c193c086ec3a6"
+    },
+    {
       "epoch_start": 1733529600,
-      "epoch_end": 1739145600,
+      "epoch_end": 1739059200,
       "date_start": "2024-12-07",
-      "date_end": "2025-02-10",
+      "date_end": "2025-02-09",
       "length": "2 months",
-      "epoch_duration": 5616000,
+      "epoch_duration": 5529600,
       "place": "Bangkok",
       "place_slug": "bangkok",
       "place_long_slug": null,
@@ -58,7 +88,7 @@
       "country_slug": "thailand",
       "latitude": 13.7566968,
       "longitude": 100.5019493,
-      "trip_id": "1736769302ebb395adf2f114e9475a72807e773ba4945fbd59"
+      "trip_id": "1737906272e40a8fe8b3cf506c1a1b817b784ec0da99acb764"
     },
     {
       "epoch_start": 1732320000,
@@ -3022,7 +3052,7 @@
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 582,
-    "bangkok-thailand": 306,
+    "bangkok-thailand": 314,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
     "london-united-kingdom": 46,
