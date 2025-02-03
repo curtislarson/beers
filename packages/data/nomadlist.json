@@ -50,7 +50,7 @@
     "countries_visited_percentage": 0.22279792746113988,
     "cities_visited_percentage": 0.07044299201161947
   },
-  "map": "/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2025-01",
+  "map": "/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2025-02",
   "trips": [
     {
       "epoch_start": 1739059200,
@@ -3052,7 +3052,7 @@
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 582,
-    "bangkok-thailand": 314,
+    "bangkok-thailand": 320,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
     "london-united-kingdom": 46,
