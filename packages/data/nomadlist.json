@@ -5,18 +5,6 @@
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "Bangkok",
-      "country": "Thailand",
-      "country_code": "TH",
-      "latitude": 13.7566968,
-      "longitude": 100.5019493,
-      "epoch_start": 1733529600,
-      "epoch_end": 1739059200,
-      "date_start": "2024-12-07",
-      "date_end": "2025-02-09",
-      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/bangkok-thailand.jpg?1705449619"
-    },
-    "next": {
       "city": "Luang Prabang",
       "country": "Laos",
       "country_code": "LA",
@@ -28,27 +16,39 @@
       "date_end": "2025-02-13",
       "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/luang-prabang-laos.jpg?1705449771"
     },
+    "next": {
+      "city": "Bangkok",
+      "country": "Thailand",
+      "country_code": "TH",
+      "latitude": 13.7566968,
+      "longitude": 100.5019493,
+      "epoch_start": 1739404800,
+      "epoch_end": 1744675200,
+      "date_start": "2025-02-13",
+      "date_end": "2025-04-15",
+      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/bangkok-thailand.jpg?1705449619"
+    },
     "previous": {
-      "city": "Phnom Penh",
-      "country": "Cambodia",
-      "country_code": "KH",
-      "latitude": 11.5448729,
-      "longitude": 104.8921668,
-      "epoch_start": 1732320000,
-      "epoch_end": 1733529600,
-      "date_start": "2024-11-23",
-      "date_end": "2024-12-07"
+      "city": "Bangkok",
+      "country": "Thailand",
+      "country_code": "TH",
+      "latitude": 13.7566968,
+      "longitude": 100.5019493,
+      "epoch_start": 1733529600,
+      "epoch_end": 1739059200,
+      "date_start": "2024-12-07",
+      "date_end": "2025-02-09"
     }
   },
   "stats": {
-    "cities": 97,
-    "countries": 43,
+    "cities": 98,
+    "countries": 44,
     "followers": 3,
     "following": 1,
-    "distance_traveled_km": 309570,
-    "distance_traveled_miles": 192358,
-    "countries_visited_percentage": 0.22279792746113988,
-    "cities_visited_percentage": 0.07044299201161947
+    "distance_traveled_km": 310273,
+    "distance_traveled_miles": 192795,
+    "countries_visited_percentage": 0.22797927461139897,
+    "cities_visited_percentage": 0.07116920842411038
   },
   "map": "/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2025-02",
   "trips": [
@@ -3067,11 +3067,12 @@
     "tallinn-estonia": 1,
     "riga-latvia": 1,
     "vilnius-lithuania": 1,
-    "warsaw-poland": 1
+    "warsaw-poland": 1,
+    "luang-prabang-laos": 1
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 582,
-    "bangkok-thailand": 322,
+    "bangkok-thailand": 327,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
     "london-united-kingdom": 46,
@@ -3138,6 +3139,7 @@
     "christchurch-new-zealand": 1,
     "paris-france": 1,
     "strasbourg-france": 1,
-    "bern-switzerland": 1
+    "bern-switzerland": 1,
+    "luang-prabang-laos": 0
   }
 }
