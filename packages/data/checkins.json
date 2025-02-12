@@ -67982,5 +67982,29 @@
     "venue_lat": 13.733037,
     "venue_lng": 100.560257,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/food/greek_bg_512.png"
+  },
+  {
+    "checkin_id": 1455999828,
+    "checkin_comment": "A break from all the beerlao",
+    "rating_score": 3.2,
+    "created_at": "Tue, 11 Feb 2025 06:35:37 +0000",
+    "beer_id": 76983,
+    "beer_name": "Sint Gummarus Tripel",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-76983_2f3ab_sm.jpeg",
+    "beer_style": "Belgian Tripel",
+    "beer_abv": 8.3,
+    "brewery_id": 254053,
+    "brewery_name": "Brouwerij Cornelissen",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-254053_2d941.jpeg",
+    "brewery_country": "Belgium",
+    "brewery_city": "Bree",
+    "brewery_state": "Vlaams Gewest",
+    "venue_name": "Maolin Tavern",
+    "venue_city": "ຫລວງພະບາງ",
+    "venue_country": "ລາວ",
+    "venue_state": "Luang Prabang",
+    "venue_lat": 19.8929901,
+    "venue_lng": 102.1386642,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
   }
 ]
