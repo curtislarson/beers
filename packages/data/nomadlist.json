@@ -5,18 +5,6 @@
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "Luang Prabang",
-      "country": "Laos",
-      "country_code": "LA",
-      "latitude": 19.8836124,
-      "longitude": 102.1339096,
-      "epoch_start": 1739059200,
-      "epoch_end": 1739404800,
-      "date_start": "2025-02-09",
-      "date_end": "2025-02-13",
-      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/luang-prabang-laos.jpg?1705449771"
-    },
-    "next": {
       "city": "Bangkok",
       "country": "Thailand",
       "country_code": "TH",
@@ -28,16 +16,17 @@
       "date_end": "2025-04-15",
       "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/bangkok-thailand.jpg?1705449619"
     },
+    "next": [],
     "previous": {
-      "city": "Bangkok",
-      "country": "Thailand",
-      "country_code": "TH",
-      "latitude": 13.7566968,
-      "longitude": 100.5019493,
-      "epoch_start": 1733529600,
-      "epoch_end": 1739059200,
-      "date_start": "2024-12-07",
-      "date_end": "2025-02-09"
+      "city": "Luang Prabang",
+      "country": "Laos",
+      "country_code": "LA",
+      "latitude": 19.8836124,
+      "longitude": 102.1339096,
+      "epoch_start": 1739059200,
+      "epoch_end": 1739404800,
+      "date_start": "2025-02-09",
+      "date_end": "2025-02-13"
     }
   },
   "stats": {
@@ -45,8 +34,8 @@
     "countries": 44,
     "followers": 3,
     "following": 1,
-    "distance_traveled_km": 310273,
-    "distance_traveled_miles": 192795,
+    "distance_traveled_km": 310976,
+    "distance_traveled_miles": 193232,
     "countries_visited_percentage": 0.22797927461139897,
     "cities_visited_percentage": 0.07116920842411038
   },
@@ -2999,8 +2988,8 @@
     }
   ],
   "frequent_visits": {
+    "bangkok-thailand": 12,
     "new-york-city-ny-united-states": 11,
-    "bangkok-thailand": 11,
     "boston-ma-united-states": 5,
     "los-angeles-ca-united-states": 4,
     "london-united-kingdom": 4,
@@ -3072,7 +3061,7 @@
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 582,
-    "bangkok-thailand": 327,
+    "bangkok-thailand": 330,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
     "london-united-kingdom": 46,
@@ -3128,6 +3117,7 @@
     "phuket-thailand": 4,
     "cody-wy-united-states": 4,
     "singapore-singapore": 4,
+    "luang-prabang-laos": 4,
     "dubrovnik-croatia": 3,
     "brussels-belgium": 3,
     "luxembourg-luxembourg": 3,
@@ -3139,7 +3129,6 @@
     "christchurch-new-zealand": 1,
     "paris-france": 1,
     "strasbourg-france": 1,
-    "bern-switzerland": 1,
-    "luang-prabang-laos": 0
+    "bern-switzerland": 1
   }
 }
