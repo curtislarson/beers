@@ -37,7 +37,7 @@
     "distance_traveled_km": 310976,
     "distance_traveled_miles": 193232,
     "countries_visited_percentage": 0.22797927461139897,
-    "cities_visited_percentage": 0.07116920842411038
+    "cities_visited_percentage": 0.07106598984771574
   },
   "map": "/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2025-03",
   "trips": [
@@ -3061,7 +3061,7 @@
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 582,
-    "bangkok-thailand": 365,
+    "bangkok-thailand": 372,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
     "london-united-kingdom": 46,
