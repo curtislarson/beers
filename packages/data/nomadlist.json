@@ -11,12 +11,23 @@
       "latitude": 13.7566968,
       "longitude": 100.5019493,
       "epoch_start": 1739404800,
-      "epoch_end": 1744675200,
+      "epoch_end": 1747008000,
       "date_start": "2025-02-13",
-      "date_end": "2025-04-15",
+      "date_end": "2025-05-12",
       "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/bangkok-thailand.jpg?1705449619"
     },
-    "next": [],
+    "next": {
+      "city": "Osaka-shi",
+      "country": "Japan",
+      "country_code": "JP",
+      "latitude": 34.683595,
+      "longitude": 135.500784,
+      "epoch_start": 1747008000,
+      "epoch_end": 1747440000,
+      "date_start": "2025-05-12",
+      "date_end": "2025-05-17",
+      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/https://nomadlist.com/cdn-cgi/image/format=auto,fit=cover,width=600,height=300,quality=25/assets/img/places/japan.jpg?1705623290.jpg?"
+    },
     "previous": {
       "city": "Luang Prabang",
       "country": "Laos",
@@ -39,15 +50,34 @@
     "countries_visited_percentage": 0.22797927461139897,
     "cities_visited_percentage": 0.07106598984771574
   },
-  "map": "/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2025-03",
+  "map": "/screenshot?url=%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2025-04",
   "trips": [
     {
+      "epoch_start": 1747008000,
+      "epoch_end": 1747440000,
+      "date_start": "2025-05-12",
+      "date_end": "2025-05-17",
+      "length": "5 days",
+      "epoch_duration": 432000,
+      "place": "Osaka-shi",
+      "place_slug": null,
+      "place_long_slug": null,
+      "place_url": null,
+      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/japan.jpg?1705623290",
+      "country": "Japan",
+      "country_code": "JP",
+      "country_slug": "japan",
+      "latitude": 34.683595,
+      "longitude": 135.500784,
+      "trip_id": "17448141670c14fb7670dbf2880d65d0d7ca7d0ee385cd3ece"
+    },
+    {
       "epoch_start": 1739404800,
-      "epoch_end": 1744675200,
+      "epoch_end": 1747008000,
       "date_start": "2025-02-13",
-      "date_end": "2025-04-15",
-      "length": "2 months",
-      "epoch_duration": 5270400,
+      "date_end": "2025-05-12",
+      "length": "3 months",
+      "epoch_duration": 7603200,
       "place": "Bangkok",
       "place_slug": "bangkok",
       "place_long_slug": null,
@@ -58,7 +88,7 @@
       "country_slug": "thailand",
       "latitude": 13.7566968,
       "longitude": 100.5019493,
-      "trip_id": "17385647298ea5661d3e1bfe3754b312b1112f2dc06e1e2ec4"
+      "trip_id": "17448141605188bec1f1535fe8fa199fccdb9a3539a84503e5"
     },
     {
       "epoch_start": 1739059200,
@@ -3061,7 +3091,7 @@
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 582,
-    "bangkok-thailand": 372,
+    "bangkok-thailand": 390,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
     "london-united-kingdom": 46,
