@@ -1,7 +1,7 @@
 {
   "success": "true",
   "legal": "By using this data, you agree to the terms at /legal. Mostly don't use it for commercial purposes without permission and always link back please!",
-  "photo": "https://nomads.com/cdn-cgi/image/format=auto,fit=cover,width=500,height=500/assets/img/users/878e76f55c16be3b4b9c2fcaa2b50d74.jpg?1619384585",
+  "photo": "https://nomads.com/cdn-cgi/image/format=auto,fit=cover,width=500,height=500https://r2.nomads.com/profile_photos/878e76f55c16be3b4b9c2fcaa2b50d74.jpg?",
   "username": "@curtis",
   "location": {
     "now": {
@@ -48,9 +48,9 @@
     "distance_traveled_km": 310976,
     "distance_traveled_miles": 193232,
     "countries_visited_percentage": 0.22797927461139897,
-    "cities_visited_percentage": 0.07101449275362319
+    "cities_visited_percentage": 0.07106598984771574
   },
-  "map": "https://url2og.com/?url=https%3A%2F%2Fnomads.com%2F%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2025-04",
+  "map": "https://url2og.com/?url=https%3A%2F%2Fnomads.com%2F%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2025-05",
   "trips": [
     {
       "epoch_start": 1747008000,
@@ -3091,7 +3091,7 @@
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 582,
-    "bangkok-thailand": 400,
+    "bangkok-thailand": 407,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
     "london-united-kingdom": 46,
