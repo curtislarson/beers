@@ -1,7 +1,7 @@
 {
   "success": "true",
   "legal": "By using this data, you agree to the terms at /legal. Mostly don't use it for commercial purposes without permission and always link back please!",
-  "photo": "https://nomads.com/cdn-cgi/image/format=auto,fit=cover,width=500,height=500https://r2.nomads.com/profile_photos/878e76f55c16be3b4b9c2fcaa2b50d74.jpg?",
+  "photo": "https://nomads.com/cdn-cgi/image/format=auto,fit=cover,width=500,height=500https://r2.nomads.com/profile_photos/878e76f55c16be3b4b9c2fcaa2b50d74.jpg",
   "username": "@curtis",
   "location": {
     "now": {
@@ -3091,7 +3091,7 @@
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 582,
-    "bangkok-thailand": 407,
+    "bangkok-thailand": 412,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
     "london-united-kingdom": 46,
