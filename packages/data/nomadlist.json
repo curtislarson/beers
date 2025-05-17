@@ -4,30 +4,9 @@
   "photo": "https://nomads.com/cdn-cgi/image/format=auto,fit=cover,width=500,height=500https://r2.nomads.com/profile_photos/878e76f55c16be3b4b9c2fcaa2b50d74.jpg",
   "username": "@curtis",
   "location": {
-    "now": {
-      "city": "Osaka-shi",
-      "country": "Japan",
-      "country_code": "JP",
-      "latitude": 34.683595,
-      "longitude": 135.500784,
-      "epoch_start": 1747008000,
-      "epoch_end": 1747440000,
-      "date_start": "2025-05-12",
-      "date_end": "2025-05-17",
-      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/https://nomads.com/cdn-cgi/image/format=auto,fit=cover,width=600,height=300,quality=25/assets/img/places/japan.jpg?1705623290.jpg?"
-    },
+    "now": [],
     "next": [],
-    "previous": {
-      "city": "Bangkok",
-      "country": "Thailand",
-      "country_code": "TH",
-      "latitude": 13.7566968,
-      "longitude": 100.5019493,
-      "epoch_start": 1739404800,
-      "epoch_end": 1747008000,
-      "date_start": "2025-02-13",
-      "date_end": "2025-05-12"
-    }
+    "previous": []
   },
   "stats": {
     "cities": 99,
