@@ -68438,5 +68438,29 @@
     "venue_lat": 35.005394,
     "venue_lng": 135.7649078,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_512.png"
+  },
+  {
+    "checkin_id": 1481088604,
+    "checkin_comment": "",
+    "rating_score": 3.2,
+    "created_at": "Fri, 23 May 2025 13:31:54 +0000",
+    "beer_id": 5951300,
+    "beer_name": "Sunset Mirage",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-5951300_61b66_sm.jpeg",
+    "beer_style": "IPA - New England / Hazy",
+    "beer_abv": 6.5,
+    "brewery_id": 355283,
+    "brewery_name": "Hop Hog",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-355283_e9224.jpeg",
+    "brewery_country": "Thailand",
+    "brewery_city": "Bangkok",
+    "brewery_state": "กรุงเทพมหานคร",
+    "venue_name": "Arcadia Barcade",
+    "venue_city": "พระนคร",
+    "venue_country": "ประเทศไทย",
+    "venue_state": "กรุงเทพมหานคร",
+    "venue_lat": 13.7124147,
+    "venue_lng": 100.5934753,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
   }
 ]
