@@ -4,22 +4,92 @@
   "photo": "https://nomads.com/cdn-cgi/image/format=auto,fit=cover,width=500,height=500https://r2.nomads.com/profile_photos/878e76f55c16be3b4b9c2fcaa2b50d74.jpg",
   "username": "@curtis",
   "location": {
-    "now": [],
-    "next": [],
-    "previous": []
+    "now": {
+      "city": "Bangkok",
+      "country": "Thailand",
+      "country_code": "TH",
+      "latitude": 13.7566968,
+      "longitude": 100.5019493,
+      "epoch_start": 1747440000,
+      "epoch_end": 1750896000,
+      "date_start": "2025-05-17",
+      "date_end": "2025-06-26",
+      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/bangkok-thailand.jpg?1705449619"
+    },
+    "next": {
+      "city": "New York City",
+      "country": "United States",
+      "country_code": "US",
+      "latitude": 40.7127837,
+      "longitude": -74.0059413,
+      "epoch_start": 1750896000,
+      "epoch_end": 1751155200,
+      "date_start": "2025-06-26",
+      "date_end": "2025-06-29",
+      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/new-york-city-ny-united-states.jpg?1734566523"
+    },
+    "previous": {
+      "city": "Osaka-shi",
+      "country": "Japan",
+      "country_code": "JP",
+      "latitude": 34.683595,
+      "longitude": 135.500784,
+      "epoch_start": 1747008000,
+      "epoch_end": 1747440000,
+      "date_start": "2025-05-12",
+      "date_end": "2025-05-17"
+    }
   },
   "stats": {
     "cities": 99,
     "countries": 44,
     "followers": 3,
     "following": 1,
-    "distance_traveled_km": 315184,
-    "distance_traveled_miles": 195846,
+    "distance_traveled_km": 319393,
+    "distance_traveled_miles": 198461,
     "countries_visited_percentage": 0.22797927461139897,
     "cities_visited_percentage": 0.07179115300942712
   },
-  "map": "https://url2og.com/?url=https%3A%2F%2Fnomads.com%2F%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2025-05",
+  "map": "https://url2og.com/?url=https%3A%2F%2Fnomads.com%2F%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2025-06",
   "trips": [
+    {
+      "epoch_start": 1750896000,
+      "epoch_end": 1751155200,
+      "date_start": "2025-06-26",
+      "date_end": "2025-06-29",
+      "length": "3 days",
+      "epoch_duration": 259200,
+      "place": "New York City",
+      "place_slug": "new-york-city",
+      "place_long_slug": null,
+      "place_url": "/new-york-city-ny-united-states",
+      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/united-states.jpg?1705709744",
+      "country": "United States",
+      "country_code": "US",
+      "country_slug": "united-states",
+      "latitude": 40.7127837,
+      "longitude": -74.0059413,
+      "trip_id": "1748345885e789ef08955742124b8c10b3464946811cf1f195"
+    },
+    {
+      "epoch_start": 1747440000,
+      "epoch_end": 1750896000,
+      "date_start": "2025-05-17",
+      "date_end": "2025-06-26",
+      "length": "1 month",
+      "epoch_duration": 3456000,
+      "place": "Bangkok",
+      "place_slug": "bangkok",
+      "place_long_slug": null,
+      "place_url": "/bangkok-thailand",
+      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/thailand.jpg?1705709732",
+      "country": "Thailand",
+      "country_code": "TH",
+      "country_slug": "thailand",
+      "latitude": 13.7566968,
+      "longitude": 100.5019493,
+      "trip_id": "1748345860897455123f707ee326fce2d8356cefa49071e3fb"
+    },
     {
       "epoch_start": 1747008000,
       "epoch_end": 1747440000,
@@ -2986,7 +3056,7 @@
     }
   ],
   "frequent_visits": {
-    "bangkok-thailand": 12,
+    "bangkok-thailand": 13,
     "new-york-city-ny-united-states": 11,
     "boston-ma-united-states": 5,
     "los-angeles-ca-united-states": 4,
@@ -3059,7 +3129,7 @@
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 582,
-    "bangkok-thailand": 415,
+    "bangkok-thailand": 430,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
     "london-united-kingdom": 46,
