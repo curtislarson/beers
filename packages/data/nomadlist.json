@@ -23,9 +23,9 @@
       "latitude": 40.7127837,
       "longitude": -74.0059413,
       "epoch_start": 1750896000,
-      "epoch_end": 1751155200,
+      "epoch_end": 1751241600,
       "date_start": "2025-06-26",
-      "date_end": "2025-06-29",
+      "date_end": "2025-06-30",
       "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/new-york-city-ny-united-states.jpg?1734566523"
     },
     "previous": {
@@ -53,12 +53,31 @@
   "map": "https://url2og.com/?url=https%3A%2F%2Fnomads.com%2F%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2025-06",
   "trips": [
     {
+      "epoch_start": 1751241600,
+      "epoch_end": 1753315200,
+      "date_start": "2025-06-30",
+      "date_end": "2025-07-24",
+      "length": "24 days",
+      "epoch_duration": 2073600,
+      "place": "Maryland",
+      "place_slug": null,
+      "place_long_slug": null,
+      "place_url": null,
+      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/united-states.jpg?1705709744",
+      "country": "United States",
+      "country_code": "US",
+      "country_slug": "united-states",
+      "latitude": 39.478064,
+      "longitude": -76.853637,
+      "trip_id": "17490921592b9a558c7cb3e97c9a47c442d95ee9ea74df161c"
+    },
+    {
       "epoch_start": 1750896000,
-      "epoch_end": 1751155200,
+      "epoch_end": 1751241600,
       "date_start": "2025-06-26",
-      "date_end": "2025-06-29",
-      "length": "3 days",
-      "epoch_duration": 259200,
+      "date_end": "2025-06-30",
+      "length": "4 days",
+      "epoch_duration": 345600,
       "place": "New York City",
       "place_slug": "new-york-city",
       "place_long_slug": null,
@@ -69,7 +88,7 @@
       "country_slug": "united-states",
       "latitude": 40.7127837,
       "longitude": -74.0059413,
-      "trip_id": "1748345885e789ef08955742124b8c10b3464946811cf1f195"
+      "trip_id": "1749092142457e43b1c7e7219e095dbc64eb96b60ec97d2e47"
     },
     {
       "epoch_start": 1747440000,
@@ -3129,7 +3148,7 @@
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 582,
-    "bangkok-thailand": 430,
+    "bangkok-thailand": 437,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
     "london-united-kingdom": 46,
