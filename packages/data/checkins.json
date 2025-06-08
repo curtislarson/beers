@@ -68462,5 +68462,29 @@
     "venue_lat": 13.7124147,
     "venue_lng": 100.5934753,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
+  },
+  {
+    "checkin_id": 1485483383,
+    "checkin_comment": "",
+    "rating_score": 3.2,
+    "created_at": "Sat, 07 Jun 2025 04:58:57 +0000",
+    "beer_id": 5182881,
+    "beer_name": "Peach",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-5182881_0fd19_sm.jpeg",
+    "beer_style": "Hard Seltzer",
+    "beer_abv": 5,
+    "brewery_id": 402800,
+    "brewery_name": "White Claw Seltzer Works",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-402800_22629.jpeg",
+    "brewery_country": "United States",
+    "brewery_city": "Chicago",
+    "brewery_state": "IL",
+    "venue_name": "Arcadia Barcade",
+    "venue_city": "พระนคร",
+    "venue_country": "ประเทศไทย",
+    "venue_state": "กรุงเทพมหานคร",
+    "venue_lat": 13.7124147,
+    "venue_lng": 100.5934753,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
   }
 ]
