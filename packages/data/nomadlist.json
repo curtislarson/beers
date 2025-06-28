@@ -5,18 +5,6 @@
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "Bangkok",
-      "country": "Thailand",
-      "country_code": "TH",
-      "latitude": 13.7566968,
-      "longitude": 100.5019493,
-      "epoch_start": 1747440000,
-      "epoch_end": 1750896000,
-      "date_start": "2025-05-17",
-      "date_end": "2025-06-26",
-      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/bangkok-thailand.jpg?1705449619"
-    },
-    "next": {
       "city": "New York City",
       "country": "United States",
       "country_code": "US",
@@ -28,16 +16,28 @@
       "date_end": "2025-06-30",
       "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/new-york-city-ny-united-states.jpg?1734566523"
     },
+    "next": {
+      "city": "Maryland",
+      "country": "United States",
+      "country_code": "US",
+      "latitude": 39.478064,
+      "longitude": -76.853637,
+      "epoch_start": 1751241600,
+      "epoch_end": 1753142400,
+      "date_start": "2025-06-30",
+      "date_end": "2025-07-22",
+      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/https://nomads.com/cdn-cgi/image/format=auto,fit=cover,width=600,height=300,quality=25/assets/img/places/united-states.jpg?1705709744.jpg?"
+    },
     "previous": {
-      "city": "Osaka-shi",
-      "country": "Japan",
-      "country_code": "JP",
-      "latitude": 34.683595,
-      "longitude": 135.500784,
-      "epoch_start": 1747008000,
-      "epoch_end": 1747440000,
-      "date_start": "2025-05-12",
-      "date_end": "2025-05-17"
+      "city": "Bangkok",
+      "country": "Thailand",
+      "country_code": "TH",
+      "latitude": 13.7566968,
+      "longitude": 100.5019493,
+      "epoch_start": 1747440000,
+      "epoch_end": 1750896000,
+      "date_start": "2025-05-17",
+      "date_end": "2025-06-26"
     }
   },
   "stats": {
@@ -45,8 +45,8 @@
     "countries": 44,
     "followers": 3,
     "following": 1,
-    "distance_traveled_km": 319393,
-    "distance_traveled_miles": 198461,
+    "distance_traveled_km": 333323,
+    "distance_traveled_miles": 207117,
     "countries_visited_percentage": 0.22797927461139897,
     "cities_visited_percentage": 0.07179115300942712
   },
@@ -3114,7 +3114,7 @@
   ],
   "frequent_visits": {
     "bangkok-thailand": 13,
-    "new-york-city-ny-united-states": 11,
+    "new-york-city-ny-united-states": 12,
     "boston-ma-united-states": 5,
     "los-angeles-ca-united-states": 4,
     "london-united-kingdom": 4,
@@ -3186,7 +3186,7 @@
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 582,
-    "bangkok-thailand": 447,
+    "bangkok-thailand": 455,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
     "london-united-kingdom": 46,
