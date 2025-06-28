@@ -68486,5 +68486,29 @@
     "venue_lat": 13.7124147,
     "venue_lng": 100.5934753,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
+  },
+  {
+    "checkin_id": 1491300316,
+    "checkin_comment": "",
+    "rating_score": 3.5,
+    "created_at": "Fri, 27 Jun 2025 21:28:55 +0000",
+    "beer_id": 783545,
+    "beer_name": "Ball Lightning Pilsner",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-783545_60990_sm.jpeg",
+    "beer_style": "Pilsner - Czech / Bohemian",
+    "beer_abv": 5,
+    "brewery_id": 151358,
+    "brewery_name": "Catskill Brewery",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-151358_d7a50.jpeg",
+    "brewery_country": "United States",
+    "brewery_city": "Livingston Manor",
+    "brewery_state": "NY",
+    "venue_name": "12th Street Ale House",
+    "venue_city": "New York",
+    "venue_country": "United States",
+    "venue_state": "NY",
+    "venue_lat": 40.7310257,
+    "venue_lng": -73.9855728,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
   }
 ]
