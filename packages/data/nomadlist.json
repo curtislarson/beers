@@ -1,23 +1,24 @@
 {
   "success": "true",
   "legal": "By using this data, you agree to the terms at /legal. Mostly don't use it for commercial purposes without permission and always link back please!",
-  "photo": "https://nomads.com/cdn-cgi/image/format=auto,fit=cover,width=500,height=500https://r2.nomads.com/profile_photos/878e76f55c16be3b4b9c2fcaa2b50d74.jpg",
+  "photo": "https://resizeapi.com/resize-cgi/image/format=auto,fit=cover,width=500,height=500https://r2.nomads.com/profile_photos/878e76f55c16be3b4b9c2fcaa2b50d74.jpg",
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "Maryland",
-      "country": "United States",
-      "country_code": "US",
-      "latitude": 39.478064,
-      "longitude": -76.853637,
-      "epoch_start": 1751241600,
-      "epoch_end": 1753142400,
-      "date_start": "2025-06-30",
-      "date_end": "2025-07-22",
-      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/https://nomads.com/cdn-cgi/image/format=auto,fit=cover,width=600,height=300,quality=25/assets/img/places/united-states.jpg?1705709744.jpg?"
+      "city": "Bangkok",
+      "country": "Thailand",
+      "country_code": "TH",
+      "latitude": 13.7566968,
+      "longitude": 100.5019493,
+      "epoch_start": 1753401600,
+      "epoch_end": 1758067200,
+      "date_start": "2025-07-25",
+      "date_end": "2025-09-17",
+      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/bangkok-thailand.jpg?1705449619"
     },
-    "next": {
-      "city": "Milwaukee",
+    "next": [],
+    "previous": {
+      "city": "Milwaukee, WI",
       "country": "United States",
       "country_code": "US",
       "latitude": 43.0389025,
@@ -25,30 +26,18 @@
       "epoch_start": 1753142400,
       "epoch_end": 1753315200,
       "date_start": "2025-07-22",
-      "date_end": "2025-07-24",
-      "place_photo": "/cdn-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/milwaukee-wi-united-states.jpg?1705536563"
-    },
-    "previous": {
-      "city": "New York City, NY",
-      "country": "United States",
-      "country_code": "US",
-      "latitude": 40.7127837,
-      "longitude": -74.0059413,
-      "epoch_start": 1750896000,
-      "epoch_end": 1751241600,
-      "date_start": "2025-06-26",
-      "date_end": "2025-06-30"
+      "date_end": "2025-07-24"
     }
   },
   "stats": {
-    "cities": 99,
+    "cities": 100,
     "countries": 44,
     "followers": 3,
     "following": 1,
-    "distance_traveled_km": 333601,
-    "distance_traveled_miles": 207290,
+    "distance_traveled_km": 348245,
+    "distance_traveled_miles": 216389,
     "countries_visited_percentage": 0.22797927461139897,
-    "cities_visited_percentage": 0.07179115300942712
+    "cities_visited_percentage": 0.0725163161711385
   },
   "map": "https://url2og.com/?url=https%3A%2F%2Fnomads.com%2F%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2025-07",
   "trips": [
@@ -3113,7 +3102,7 @@
     }
   ],
   "frequent_visits": {
-    "bangkok-thailand": 13,
+    "bangkok-thailand": 14,
     "new-york-city-ny-united-states": 12,
     "boston-ma-united-states": 5,
     "los-angeles-ca-united-states": 4,
@@ -3182,7 +3171,8 @@
     "riga-latvia": 1,
     "vilnius-lithuania": 1,
     "warsaw-poland": 1,
-    "luang-prabang-laos": 1
+    "luang-prabang-laos": 1,
+    "milwaukee-wi-united-states": 1
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 586,
@@ -3251,6 +3241,7 @@
     "queenstown-new-zealand": 2,
     "sandpoint-id-united-states": 2,
     "missoula-mt-united-states": 2,
+    "milwaukee-wi-united-states": 2,
     "christchurch-new-zealand": 1,
     "paris-france": 1,
     "strasbourg-france": 1,
