@@ -5,18 +5,6 @@
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "Bangkok",
-      "country": "Thailand",
-      "country_code": "TH",
-      "latitude": 13.7566968,
-      "longitude": 100.5019493,
-      "epoch_start": 1753401600,
-      "epoch_end": 1759536000,
-      "date_start": "2025-07-25",
-      "date_end": "2025-10-04",
-      "place_photo": "https://resizeapi.com/resize-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/bangkok-thailand.jpg?1705449619"
-    },
-    "next": {
       "city": "Ho Chi Minh City",
       "country": "Vietnam",
       "country_code": "VN",
@@ -28,29 +16,30 @@
       "date_end": "2025-10-10",
       "place_photo": "https://resizeapi.com/resize-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/ho-chi-minh-city-vietnam.jpg?1705536111"
     },
+    "next": [],
     "previous": {
-      "city": "Milwaukee, WI",
-      "country": "United States",
-      "country_code": "US",
-      "latitude": 43.0389025,
-      "longitude": -87.9064736,
-      "epoch_start": 1753142400,
-      "epoch_end": 1753315200,
-      "date_start": "2025-07-22",
-      "date_end": "2025-07-24"
+      "city": "Bangkok",
+      "country": "Thailand",
+      "country_code": "TH",
+      "latitude": 13.7566968,
+      "longitude": 100.5019493,
+      "epoch_start": 1753401600,
+      "epoch_end": 1759536000,
+      "date_start": "2025-07-25",
+      "date_end": "2025-10-04"
     }
   },
   "stats": {
-    "cities": 100,
+    "cities": 101,
     "countries": 44,
     "followers": 4,
     "following": 1,
-    "distance_traveled_km": 348245,
-    "distance_traveled_miles": 216389,
+    "distance_traveled_km": 348995,
+    "distance_traveled_miles": 216855,
     "countries_visited_percentage": 0.22797927461139897,
-    "cities_visited_percentage": 0.0725163161711385
+    "cities_visited_percentage": 0.07324147933284988
   },
-  "map": "https://url2og.com/?url=https%3A%2F%2Fnomads.com%2F%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2025-09",
+  "map": "https://url2og.com/?url=https%3A%2F%2Fnomads.com%2F%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2025-10",
   "trips": [
     {
       "epoch_start": 1759536000,
@@ -3202,11 +3191,12 @@
     "vilnius-lithuania": 1,
     "warsaw-poland": 1,
     "luang-prabang-laos": 1,
-    "milwaukee-wi-united-states": 1
+    "milwaukee-wi-united-states": 1,
+    "ho-chi-minh-city-vietnam": 1
   },
   "longest_stays": {
     "new-york-city-ny-united-states": 586,
-    "bangkok-thailand": 520,
+    "bangkok-thailand": 526,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
     "london-united-kingdom": 46,
@@ -3275,6 +3265,7 @@
     "christchurch-new-zealand": 1,
     "paris-france": 1,
     "strasbourg-france": 1,
-    "bern-switzerland": 1
+    "bern-switzerland": 1,
+    "ho-chi-minh-city-vietnam": 1
   }
 }
