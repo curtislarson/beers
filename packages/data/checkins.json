@@ -69542,5 +69542,29 @@
     "venue_lat": 10.7802773,
     "venue_lng": 106.7045441,
     "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_512.png"
+  },
+  {
+    "checkin_id": 1519722837,
+    "checkin_comment": "",
+    "rating_score": 2,
+    "created_at": "Fri, 10 Oct 2025 07:26:03 +0000",
+    "beer_id": 24194,
+    "beer_name": "333 Premium Export",
+    "beer_label": "https://assets.untappd.com/site/beer_logos/beer-333PremiumExportBeer_24194.jpeg",
+    "beer_style": "Lager - Pale",
+    "beer_abv": 5.3,
+    "brewery_id": 4640,
+    "brewery_name": "Sabeco",
+    "brewery_label": "https://assets.untappd.com/site/brewery_logos/brewery-4640_e7320.jpeg",
+    "brewery_country": "Vietnam",
+    "brewery_city": "Ho Chi Minh City",
+    "brewery_state": "Thành phố Hồ Chí Minh",
+    "venue_name": "Rose CIP Lounge",
+    "venue_city": "Tân Bình",
+    "venue_country": "Việt Nam",
+    "venue_state": "Tỉnh Tiền Giang",
+    "venue_lat": 10.8165264,
+    "venue_lng": 106.6620941,
+    "venue_img": "https://ss3.4sqi.net/img/categories_v2/nightlife/default_bg_512.png"
   }
 ]
