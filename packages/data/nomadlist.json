@@ -39,7 +39,7 @@
     "countries_visited_percentage": 0.22797927461139897,
     "cities_visited_percentage": 0.07324147933284988
   },
-  "map": "https://url2og.com/?url=https%3A%2F%2Fnomads.com%2F%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2026-01",
+  "map": "https://url2og.com/?url=https%3A%2F%2Fnomads.com%2F%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2026-02",
   "trips": [
     {
       "epoch_start": 1767225600,
@@ -2560,7 +2560,7 @@
       "place_slug": "tel-aviv",
       "place_long_slug": null,
       "place_url": "/tel-aviv-israel",
-      "place_photo": "https://resizeapi.com/resize-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/israel.jpg?1769213268",
+      "place_photo": "https://resizeapi.com/resize-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/israel.jpg?1769904449",
       "country": "Israel",
       "country_code": "IL",
       "country_slug": "israel",
@@ -3252,7 +3252,7 @@
     "ho-chi-minh-city-vietnam": 1
   },
   "longest_stays": {
-    "bangkok-thailand": 624,
+    "bangkok-thailand": 631,
     "new-york-city-ny-united-states": 586,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
