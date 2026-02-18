@@ -3149,7 +3149,7 @@
       "place_slug": null,
       "place_long_slug": null,
       "place_url": null,
-      "place_photo": "https://resizeapi.com/resize-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/british-virgin-islands.jpg?1770336445",
+      "place_photo": "https://resizeapi.com/resize-cgi/image/format=auto,fit=cover,width=100,height=100/assets/img/places/british-virgin-islands.jpg?1770854821",
       "country": "British Virgin Islands",
       "country_code": "VG",
       "country_slug": "british-virgin-islands",
@@ -3252,7 +3252,7 @@
     "ho-chi-minh-city-vietnam": 1
   },
   "longest_stays": {
-    "bangkok-thailand": 638,
+    "bangkok-thailand": 645,
     "new-york-city-ny-united-states": 586,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
