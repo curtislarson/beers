@@ -5,8 +5,22 @@
   "username": "@curtis",
   "location": {
     "now": {
-      "city": "Cebu",
+      "city": "Bangkok",
       "state": "",
+      "country": "Thailand",
+      "country_code": "TH",
+      "latitude": 13.7566968,
+      "longitude": 100.5019493,
+      "epoch_start": 1774396800,
+      "epoch_end": 1778112000,
+      "date_start": "2026-03-25",
+      "date_end": "2026-05-07",
+      "place_photo": "https://resizeapi.com/resize-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomads.com/assets/img/places/bangkok-thailand.jpg?1705449619"
+    },
+    "next": [],
+    "previous": {
+      "city": "Cebu",
+      "state": null,
       "country": "Philippines",
       "country_code": "PH",
       "latitude": 10.293106,
@@ -14,21 +28,7 @@
       "epoch_start": 1773792000,
       "epoch_end": 1774396800,
       "date_start": "2026-03-18",
-      "date_end": "2026-03-25",
-      "place_photo": "https://resizeapi.com/resize-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomads.com/assets/img/places/cebu-philippines.jpg?1705622429"
-    },
-    "next": [],
-    "previous": {
-      "city": "Bangkok",
-      "state": null,
-      "country": "Thailand",
-      "country_code": "TH",
-      "latitude": 13.7566968,
-      "longitude": 100.5019493,
-      "epoch_start": 1767225600,
-      "epoch_end": 1773792000,
-      "date_start": "2026-01-01",
-      "date_end": "2026-03-18"
+      "date_end": "2026-03-25"
     }
   },
   "stats": {
@@ -36,13 +36,33 @@
     "countries": 45,
     "followers": 4,
     "following": 1,
-    "distance_traveled_km": 379329,
-    "distance_traveled_miles": 235704,
+    "distance_traveled_km": 381901,
+    "distance_traveled_miles": 237302,
     "countries_visited_percentage": 0.23316062176165803,
     "cities_visited_percentage": 0.07396664249456128
   },
   "map": "https://url2og.com/?url=https%3A%2F%2Fnomads.com%2F%40curtis%3Fmap_only%3Dtrue%26key%3D6115f22057432ec465ddd76ff3f243ad&width=1200&height=600&wait_until_dom=true&cachebuster=2026-03",
   "trips": [
+    {
+      "epoch_start": 1774396800,
+      "epoch_end": 1778112000,
+      "date_start": "2026-03-25",
+      "date_end": "2026-05-07",
+      "length": "1 month",
+      "epoch_duration": 3715200,
+      "place": "Bangkok",
+      "place_slug": "bangkok",
+      "place_long_slug": null,
+      "place_url": "/bangkok-thailand",
+      "place_photo": "https://resizeapi.com/resize-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomads.com/assets/img/places/thailand.jpg?1705709732",
+      "state": "",
+      "country": "Thailand",
+      "country_code": "TH",
+      "country_slug": "thailand",
+      "latitude": 13.7566968,
+      "longitude": 100.5019493,
+      "trip_id": "17744563552a1afa732d1b3dab67f04a0c717e5f6ea2591c36"
+    },
     {
       "epoch_start": 1773792000,
       "epoch_end": 1774396800,
@@ -1694,7 +1714,7 @@
       "place_slug": "tromso",
       "place_long_slug": null,
       "place_url": "/tromso-norway",
-      "place_photo": "https://resizeapi.com/resize-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomads.com/assets/img/places/norway.jpg?1773706032",
+      "place_photo": "https://resizeapi.com/resize-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomads.com/assets/img/places/norway.jpg?1774483601",
       "state": "",
       "country": "Norway",
       "country_code": "NO",
@@ -1714,7 +1734,7 @@
       "place_slug": "oslo",
       "place_long_slug": null,
       "place_url": "/oslo-norway",
-      "place_photo": "https://resizeapi.com/resize-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomads.com/assets/img/places/norway.jpg?1773706032",
+      "place_photo": "https://resizeapi.com/resize-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomads.com/assets/img/places/norway.jpg?1774483601",
       "state": "",
       "country": "Norway",
       "country_code": "NO",
@@ -2994,7 +3014,7 @@
       "place_slug": null,
       "place_long_slug": null,
       "place_url": null,
-      "place_photo": "https://resizeapi.com/resize-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomads.com/assets/img/places/sweden.jpg?1768608442",
+      "place_photo": "https://resizeapi.com/resize-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomads.com/assets/img/places/sweden.jpg?1774310851",
       "state": null,
       "country": "Sweden",
       "country_code": "SE",
@@ -3014,7 +3034,7 @@
       "place_slug": "stockholm",
       "place_long_slug": null,
       "place_url": "/stockholm-sweden",
-      "place_photo": "https://resizeapi.com/resize-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomads.com/assets/img/places/sweden.jpg?1768608442",
+      "place_photo": "https://resizeapi.com/resize-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomads.com/assets/img/places/sweden.jpg?1774310851",
       "state": "",
       "country": "Sweden",
       "country_code": "SE",
@@ -3365,7 +3385,7 @@
     }
   ],
   "frequent_visits": {
-    "bangkok-thailand": 16,
+    "bangkok-thailand": 17,
     "new-york-city-ny-united-states": 12,
     "boston-ma-united-states": 5,
     "los-angeles-ca-united-states": 4,
@@ -3440,7 +3460,7 @@
     "cebu-philippines": 1
   },
   "longest_stays": {
-    "bangkok-thailand": 676,
+    "bangkok-thailand": 677,
     "new-york-city-ny-united-states": 586,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
@@ -3486,6 +3506,7 @@
     "geneva-switzerland": 7,
     "bordeaux-france": 7,
     "seattle-wa-united-states": 7,
+    "cebu-philippines": 7,
     "taipei-taiwan": 6,
     "ho-chi-minh-city-vietnam": 6,
     "grand-junction-co-united-states": 5,
@@ -3499,7 +3520,6 @@
     "cody-wy-united-states": 4,
     "singapore-singapore": 4,
     "luang-prabang-laos": 4,
-    "cebu-philippines": 4,
     "dubrovnik-croatia": 3,
     "brussels-belgium": 3,
     "luxembourg-luxembourg": 3,
