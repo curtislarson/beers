@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 2
       - name: Install Deno
@@ -38,7 +38,7 @@ jobs:
         run: deno task update-nomadlist-trips
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v4
+        uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.BEERS_CR_PAT }}
           commit-message: |
