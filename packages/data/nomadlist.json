@@ -12,12 +12,24 @@
       "latitude": 13.7566968,
       "longitude": 100.5019493,
       "epoch_start": 1790726400,
-      "epoch_end": 1797465600,
+      "epoch_end": 1797897600,
       "date_start": "2026-09-30",
-      "date_end": "2026-12-17",
+      "date_end": "2026-12-22",
       "place_photo": "https://resizeapi.com/resize-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomads.com/assets/img/places/bangkok-thailand.jpg?1705449619"
     },
-    "next": [],
+    "next": {
+      "city": "Las Vegas",
+      "state": "NV",
+      "country": "United States",
+      "country_code": "US",
+      "latitude": 36.1699412,
+      "longitude": -115.1398296,
+      "epoch_start": 1797897600,
+      "epoch_end": 1798329600,
+      "date_start": "2026-12-22",
+      "date_end": "2026-12-27",
+      "place_photo": "https://resizeapi.com/resize-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomads.com/assets/img/places/las-vegas-nv-united-states.jpg?1705968289"
+    },
     "previous": {
       "city": "Osaka",
       "state": null,
@@ -41,15 +53,35 @@
     "countries_visited_percentage": 0.23834196891191708,
     "cities_visited_percentage": 0.07658959537572255
   },
-  "map": "https://url2og.com/?url=https%3A%2F%2Fnomads.com%2F%40curtis%3Fmap_only%3Dtrue&width=1200&height=600&wait_until_dom=true&cachebuster=dark1-2026-10",
+  "map": "https://url2og.com/?url=https%3A%2F%2Fnomads.com%2F%40curtis%3Fmap_only%3Dtrue&width=1200&height=600&wait_until_dom=true&cachebuster=dark1-2026-11",
   "trips": [
     {
+      "epoch_start": 1797897600,
+      "epoch_end": 1798329600,
+      "date_start": "2026-12-22",
+      "date_end": "2026-12-27",
+      "length": "5 days",
+      "epoch_duration": 432000,
+      "place": "Las Vegas",
+      "place_slug": "las-vegas",
+      "place_long_slug": null,
+      "place_url": "/las-vegas-nv-united-states",
+      "place_photo": "https://resizeapi.com/resize-cgi/image/format=auto,fit=cover,width=100,height=100/https://nomads.com/assets/img/places/las-vegas-nv-united-states.jpg?1705968289",
+      "state": "NV",
+      "country": "United States",
+      "country_code": "US",
+      "country_slug": "united-states",
+      "latitude": 36.1699412,
+      "longitude": -115.1398296,
+      "trip_id": "17934453792f7e04e19692ab07b5ab866e04af37b925bc94c4"
+    },
+    {
       "epoch_start": 1790726400,
-      "epoch_end": 1797465600,
+      "epoch_end": 1797897600,
       "date_start": "2026-09-30",
-      "date_end": "2026-12-17",
+      "date_end": "2026-12-22",
       "length": "3 months",
-      "epoch_duration": 6739200,
+      "epoch_duration": 7171200,
       "place": "Bangkok",
       "place_slug": "bangkok",
       "place_long_slug": null,
@@ -61,7 +93,7 @@
       "country_slug": "thailand",
       "latitude": 13.7566968,
       "longitude": 100.5019493,
-      "trip_id": "17889518962391b0b3576e66295a15ac4f97f6b3509fa5f322"
+      "trip_id": "1793445365360e2c31bcb24e8a7cadde2f336b274f4a8cb8ca"
     },
     {
       "epoch_start": 1790640000,
@@ -3683,7 +3715,7 @@
     "osaka-japan": 1
   },
   "longest_stays": {
-    "bangkok-thailand": 858,
+    "bangkok-thailand": 865,
     "new-york-city-ny-united-states": 586,
     "vancouver-canada": 85,
     "playa-del-carmen-mexico": 79,
